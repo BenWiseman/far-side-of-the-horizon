@@ -23,7 +23,7 @@ From the release root, acquire and verify the two files:
 mkdir -p data/pantheon_plus
 curl --fail --location 'https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/c447f0fea703fcd0fff57de5000947b5ca81286b/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES.dat' -o data/pantheon_plus/PantheonPlusSH0ES.dat
 curl --fail --location 'https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/c447f0fea703fcd0fff57de5000947b5ca81286b/Pantheon%2B_Data/4_DISTANCES_AND_COVAR/Pantheon%2BSH0ES_STAT%2BSYS.cov' -o 'data/pantheon_plus/PantheonPlusSH0ES_STAT+SYS.cov'
-python data/check_inputs.py
+python3 data/check_inputs.py
 ```
 
 An existing copy can stay outside the release. Set `PAPER2_PANTHEON_DIR` to its

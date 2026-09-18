@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "created_date": "2026-09-18",
-  "scope": "Release bibliography metadata provenance index; not a scientific review or publication gate",
+  "scope": "Release bibliography metadata provenance index; not a scientific review",
   "manuscript": {
     "file": "PAPER2_v3.md",
-    "sha256": "c043a77dcaaad17798bf46f669cdb47420466f408690a70ab1fee3c9ded4f590",
+    "sha256": "94b23b8459d55aeef673024643770a7b8594186570fb31a47c7391bc5c3b06c1",
     "bibliography_heading_line": 965,
     "reference_count": 82,
     "metadata_coverage_statement_line": 967
@@ -40,12 +40,12 @@
     "identity_matching": "Exact arXiv identifier, or exact title after case/punctuation/diacritic/markup normalization. Explicitly identified review and composite-part title mappings are separately labelled. Candidate position and old bibliography numbering are not identity evidence.",
     "json_pointer_format": "RFC 6901; ~1 encodes a slash within an arXiv-key token.",
     "source_read_vs_metadata": "A metadata lookup match establishes only an identity link to a historical record. It does not establish source reading, correctness of every citation field, or validation of any manuscript claim.",
-    "fresh_checks": "Current primary metadata-check receipts supplied by the parent session: arXiv abstract pages for references 81 and 82, and three INSPIRE API records (18221, 444838, 445039) to resolve references 2 and 12. No bulk external re-verification was performed by this indexer.",
+    "fresh_checks": "Current primary metadata checks (2026-09-18): arXiv abstract pages for references 81 and 82, and three INSPIRE API records (18221, 444838, 445039) to resolve references 2 and 12. No bulk external re-verification of other entries was performed.",
     "historical_status": "VERIFIED, CANDIDATES and UNVERIFIED are original historical lookup labels, not verdicts assigned to present manuscript claims."
   },
   "limitations": [
     "The five supplied logs are historical and include records unrelated to the current bibliography. Only matched rows are assigned here.",
-    "Coverage is limited to the supplied records: eight current entries have no matching historical row; reference 1 has only related review/catalogue records; references 81–82 rely on separate current arXiv metadata checks. Current INSPIRE receipts resolve the historic logging discrepancy for reference 2 and the former identifier discrepancy for reference 12. The manuscript now describes this limited metadata coverage explicitly.",
+    "Coverage is limited to the supplied records: eight current entries have no matching historical row; reference 1 has only related review/catalogue records; references 81–82 rely on separate current arXiv metadata checks. Current INSPIRE API checks resolve the historic logging discrepancy for reference 2 and the former identifier discrepancy for reference 12. The manuscript now describes this limited metadata coverage explicitly.",
     "Absence of a historical match does not mean a citation is false, and lack of an arXiv identifier is not itself a deficiency.",
     "No per-claim source validation, journal-page/DOI re-verification, or proof of source reading is asserted. Known source-access limitations are retained from the manuscript."
   ],
@@ -251,13 +251,13 @@
         "year": 1986,
         "historical_artid": "86800220",
         "checked_date": "2026-09-18",
-        "provenance": "Primary INSPIRE API metadata check via urllib supplied by parent in current task message",
+        "provenance": "Primary INSPIRE API metadata check (2026-09-18)",
         "scope": "Confirms citation page metadata only; no claim validation"
       },
       "source_read_status": "not_established_by_metadata_logs_or_this_index",
       "claim_validation_status": "not_assessed_by_this_index",
       "notes": [
-        "Historical title/DOI identity matches. The old log journal field wrongly used artid 86800220 as a page. A current primary INSPIRE API check supplied by the parent returns page_start 497 and page_end 508, volume 271, year 1986; this confirms the current manuscript first page 497. This is a historical logging discrepancy, not a current citation error."
+        "Historical title/DOI identity matches. The old log journal field wrongly used artid 86800220 as a page. A current primary INSPIRE API check returns page_start 497 and page_end 508, volume 271, year 1986; this confirms the current manuscript first page 497. This is a historical logging discrepancy, not a current citation error."
       ]
     },
     {
@@ -818,16 +818,16 @@
           "inspire_id": 445039,
           "arxiv": "hep-th/9706225",
           "topic": "Euclidean SYM",
-          "reason": "Different source; former staged citation identifier corrected"
+          "reason": "Different source; the manuscript's former citation identifier has been corrected"
         },
         "checked_date": "2026-09-18",
-        "provenance": "Two primary INSPIRE API metadata checks via urllib supplied by parent in current task message",
+        "provenance": "Two primary INSPIRE API metadata checks (2026-09-18)",
         "scope": "Confirms citation identity metadata only; no claim validation"
       },
       "source_read_status": "not_established_by_metadata_logs_or_this_index",
       "claim_validation_status": "not_assessed_by_this_index",
       "notes": [
-        "Current manuscript INSPIRE record 444838 agrees with the historical exact-arXiv match and the current primary API check. The former identifier 445039 has been corrected by the parent in the staged manuscript; the API identifies it as a different hep-th/9706225 Euclidean SYM work. The historical title is longer than the manuscript title. The current metadata receipt reports no journal."
+        "Current manuscript INSPIRE record 444838 agrees with the historical exact-arXiv match and the current primary API check. The manuscript's former identifier 445039 has been corrected; the API identifies it as a different hep-th/9706225 Euclidean SYM work. The historical title is longer than the manuscript title. The current metadata check reports no journal."
       ]
     },
     {
@@ -4366,12 +4366,12 @@
         ],
         "journal": "JHEP 05 (2009) 030",
         "checked_date": "2026-09-18",
-        "provenance": "Primary arXiv abstract-page metadata check supplied by parent in current task instruction"
+        "provenance": "Primary arXiv abstract-page metadata check (2026-09-18)"
       },
       "source_read_status": "not_established_by_metadata_logs_or_this_index",
       "claim_validation_status": "not_assessed_by_this_index",
       "notes": [
-        "Not present in the supplied historical logs. Primary arXiv abstract-page metadata was checked in the current parent session, as explicitly supplied for this indexing task; this records that metadata receipt, not a new source-read or claim-validation audit."
+        "Not present in the supplied historical logs. Primary arXiv abstract-page metadata was checked on 2026-09-18; this records metadata only, not a source-read or claim-validation audit."
       ]
     },
     {
@@ -4390,12 +4390,12 @@
         "authors": "P. Ciafaloni et al.",
         "journal": "JCAP 03 (2011) 019",
         "checked_date": "2026-09-18",
-        "provenance": "Primary arXiv abstract-page metadata check supplied by parent in current task instruction"
+        "provenance": "Primary arXiv abstract-page metadata check (2026-09-18)"
       },
       "source_read_status": "not_established_by_metadata_logs_or_this_index",
       "claim_validation_status": "not_assessed_by_this_index",
       "notes": [
-        "Not present in the supplied historical logs. Primary arXiv abstract-page metadata was checked in the current parent session, as explicitly supplied for this indexing task; this records that metadata receipt, not a new source-read or claim-validation audit."
+        "Not present in the supplied historical logs. Primary arXiv abstract-page metadata was checked on 2026-09-18; this records metadata only, not a source-read or claim-validation audit."
       ]
     }
   ],

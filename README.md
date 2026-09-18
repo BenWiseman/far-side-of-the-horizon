@@ -2,10 +2,10 @@
 
 **A geometric fold for CPT-related copies of spacetime**
 
-B. H. Wiseman · Version 3.0.0 · 18 September 2026
+B. H. Wiseman · Version 3.0.1 · 18 September 2026
 
 Repository: <https://github.com/BenWiseman/far-side-of-the-horizon>
-Release: <https://github.com/BenWiseman/far-side-of-the-horizon/releases/tag/v3.0.0>
+Release: <https://github.com/BenWiseman/far-side-of-the-horizon/releases/tag/v3.0.1>
 
 This repository holds the manuscript, supplement, figures and checking code for the
 paper. The paper proposes a geometric restriction of the Schwinger-Keldysh closed time
@@ -16,7 +16,7 @@ and does not change, and tests several specified states and responses against it
 ## Citation
 
 > B. H. Wiseman, *The Far Side of the Horizon: a geometric fold for CPT-related copies of
-> spacetime*, version 3.0.0 (2026), https://github.com/BenWiseman/far-side-of-the-horizon
+> spacetime*, version 3.0.1 (2026), https://github.com/BenWiseman/far-side-of-the-horizon
 
 Machine-readable metadata is in `CITATION.cff`. A dated preview of the paper and
 supplement PDFs, without code, is at https://doi.org/10.5281/zenodo.22811618.
@@ -27,7 +27,7 @@ supplement PDFs, without code, is at https://doi.org/10.5281/zenodo.22811618.
 |---|---|
 | `pub/paper2/PAPER2_v3.md` | Main manuscript (Markdown source) |
 | `pub/paper2/SUPPLEMENT_v3.md` | Supplement, sections S1 to S13 |
-| `pub/paper2/arxiv_src_v3/` | Generated LaTeX sources and figure PDFs, as submitted to arXiv |
+| `pub/paper2/arxiv_src_v3/` | Generated LaTeX sources and figure PDFs, prepared for arXiv |
 | `output/pdf/` | Built PDFs: browser route and XeLaTeX route, main and supplement |
 | `pub/paper2/fig*.{svg,pdf,png}`, `graphical_abstract_v3.*` | Figure masters and renders |
 | `pub/paper2/figure_authoring_r/` | R scripts that edit the SVG masters and render the figures |
@@ -61,13 +61,13 @@ The Python calculations need Python 3.12 or later and the packages in
 `calc/requirements.txt` (NumPy, SciPy, SymPy, mpmath):
 
 ```bash
-python -m venv .venv && . .venv/bin/activate
+python3 -m venv .venv && . .venv/bin/activate
 pip install -r calc/requirements.txt
-python beyond/push/P2_NUR_DM/bft_reproduce.py          # BFT occupation integral and mass
-python calc/free_tt_controls.py                        # free-graviton construction controls
-python calc/weak_yukawa_benchmark.py                   # Supplement S13 decay benchmark
-python beyond/main/fold_dynamics/half_advanced.py      # time-symmetric response controls
-python calc/tangents/greybody/echo_damping_from_barrier.py
+python3 beyond/push/P2_NUR_DM/bft_reproduce.py          # BFT occupation integral and mass
+python3 calc/free_tt_controls.py                        # free-graviton construction controls
+python3 calc/weak_yukawa_benchmark.py                   # Supplement S13 decay benchmark
+python3 beyond/main/fold_dynamics/half_advanced.py      # time-symmetric response controls
+python3 calc/tangents/greybody/echo_damping_from_barrier.py
 ```
 
 `WORKING_CALCULATIONS.md` describes each calculation, its inputs and its limits,
@@ -77,14 +77,14 @@ including the slower Kerr barrier sweep and the geometry-only neutrino-mass fits
 
 The geometry-only fits use the Pantheon+ distance table and covariance, which are not
 redistributed here. `data/README.md` gives the upstream commit, download commands and
-SHA-256 of both files; `python data/check_inputs.py` verifies them. Set
+SHA-256 of both files; `python3 data/check_inputs.py` verifies them. Set
 `PAPER2_PANTHEON_DIR` to use an existing copy. The DESI DR2 BAO table is built into
 `calc/desi_dr2_geometry.py`.
 
 ## Building the PDFs
 
 ```bash
-python build_pdfs.py
+python3 build_pdfs.py
 ```
 
 This needs R with the `rmarkdown` package, pandoc 3, XeLaTeX with DejaVu fonts, and

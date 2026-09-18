@@ -1,10 +1,10 @@
 # Paper 2 v3 reference index
 
-This index maps all 82 current bibliography entries to the five supplied historical metadata logs. It is a release documentation record, not a science gate. A matched lookup record is **not evidence that the source was read or that a manuscript claim was validated**. The logs are historical; their original `VERIFIED` labels refer to metadata lookup and are not renewed here.
+This index maps all 82 current bibliography entries to the five supplied historical metadata logs. It documents bibliographic metadata provenance; it is not a scientific review. A matched lookup record is **not evidence that the source was read or that a manuscript claim was validated**. The logs are historical; their original `VERIFIED` labels refer to metadata lookup and are not renewed here.
 
-The indexed [manuscript](PAPER2_v3.md) has SHA-256 `c043a77dcaaad17798bf46f669cdb47420466f408690a70ab1fee3c9ded4f590`; references occupy lines 969–1131. The machine-readable companion is [refs_v3_index.json](refs_v3_index.json), which preserves every citation, source line, matching record, exact JSON pointer and input hash.
+The indexed [manuscript](PAPER2_v3.md) has SHA-256 `94b23b8459d55aeef673024643770a7b8594186570fb31a47c7391bc5c3b06c1`; references occupy lines 969–1131. The machine-readable companion is [refs_v3_index.json](refs_v3_index.json), which preserves every citation, source line, matching record, exact JSON pointer and input hash.
 
-Coverage: 2 current arxiv metadata, 53 historical arxiv match, 1 review/catalogue only, 18 historical title match, 8 no historical match. The eight unmatched entries are **49, 58–60 and 77–80**. References 81–82 were absent from the historical logs and use the current primary arXiv metadata-check receipts recorded for this release. Three additional current INSPIRE API checks resolve the metadata for references 2 and 12. All five current receipts were supplied by the parent session on 2026-09-18; this indexer performed no bulk browsing.
+Coverage: 2 current arxiv metadata, 53 historical arxiv match, 1 review/catalogue only, 18 historical title match, 8 no historical match. The eight unmatched entries are **49, 58–60 and 77–80**. References 81–82 were absent from the historical logs and use current primary arXiv metadata checks. Three additional current INSPIRE API checks resolve the metadata for references 2 and 12. All five current checks were made on 2026-09-18; no bulk re-verification of other entries was performed.
 
 The bibliography’s line-967 statement now directs readers to this index and explicitly separates metadata matching from support for manuscript claims. Missing historical coverage is a documentation gap, not a finding that a reference is invalid. Journal-only references can have valid metadata matches. Source reading and claim validation remain unassessed by this index; the explicit source-access limits for references 64 and 73 remain visible.
 
@@ -26,19 +26,19 @@ Pointers below follow RFC 6901: `~1` represents a slash inside a key, as in `hep
 
 - **1:** The supplied Crossref records describe reviews or journal catalogue-style entries related to *Expanding Universes*. They do not supply a direct Cambridge University Press book record. The historical INSPIRE lookup was empty.
 - **2:** The historical log wrongly used artid `86800220` as a page. The current primary [INSPIRE record 18221](https://inspirehep.net/api/literature/18221) check returns volume 271 (1986), pages 497–508, confirming the manuscript first page. This is a historical logging difference, not a current citation error.
-- **12:** The current manuscript cites [INSPIRE 444838](https://inspirehep.net/api/literature/444838), agreeing with both the historical log and the current primary check for Moretti, `hep-th/9706191`, with no journal listed. A separate primary check identifies [INSPIRE 445039](https://inspirehep.net/api/literature/445039) as a different Euclidean SYM work, `hep-th/9706225`. The parent corrected that former staged identifier before this index was finalized.
+- **12:** The current manuscript cites [INSPIRE 444838](https://inspirehep.net/api/literature/444838), agreeing with both the historical log and the current primary check for Moretti, `hep-th/9706191`, with no journal listed. A separate primary check identifies [INSPIRE 445039](https://inspirehep.net/api/literature/445039) as a different Euclidean SYM work, `hep-th/9706225`. The manuscript's former citation of that identifier has been corrected.
 - **18:** Two Penrose title records have different years (1980 and 1979) and no book/chapter venue. The 1979 record matches the manuscript year; full chapter metadata remains incomplete.
 - **22:** The composite entry maps part I (page 473) and part II (page 493) separately. The logged part-II titles are truncated; journal, author, year, page and DOI identify the second part.
 - **64, 73:** The manuscript respectively reports an unfetchable article and an article not read at source. Matching metadata does not remove these limits.
 - **72:** The historical DOI `10.1142/9789811279461_0007` has book-chapter form. It is not established here as a DOI for the original 1964/1965 journal article.
 - **79:** Neither the Nature article nor its erratum has a matching historical row. The quoted event energies are not checked by this index.
-- **81–82:** Current primary abstract-page checks identify Atre et al., [arXiv:0901.3589](https://arxiv.org/abs/0901.3589), JHEP 05 (2009) 030, and Ciafaloni et al., [arXiv:1009.0224](https://arxiv.org/abs/1009.0224), JCAP 03 (2011) 019. These checks were supplied by the parent session on 2026-09-18 and are recorded as metadata receipts, not source-read or claim-validation certificates.
+- **81–82:** Current primary abstract-page checks identify Atre et al., [arXiv:0901.3589](https://arxiv.org/abs/0901.3589), JHEP 05 (2009) 030, and Ciafaloni et al., [arXiv:1009.0224](https://arxiv.org/abs/1009.0224), JCAP 03 (2011) 019. These checks were made on 2026-09-18 and record metadata only; they do not certify that the sources were read or that manuscript claims were validated.
 
 ## All current entries
 
 Every status in this table concerns metadata provenance only. The JSON supplies the full citation and explicit source-read/claim-validation fields for every entry.
 
-| Ref. | Current title and identifier | Metadata coverage | Historical location or current receipt |
+| Ref. | Current title and identifier | Metadata coverage | Historical location or current check |
 | --- | --- | --- | --- |
 | 1 | Expanding Universes — book | Review/catalogue only | L3 `/schrodinger_cr/0`<br>L3 `/schrodinger_cr/1`<br>L3 `/schrodinger_cr/2`<br>L3 `/schrodinger_cr/3` |
 | 2 | The elliptic interpretation of black holes and quantum mechanics — journal only in manuscript | Historical title match | L2 `/gibbons1986/candidates/0`<br>[Current INSPIRE metadata](https://inspirehep.net/api/literature/18221) |
@@ -120,5 +120,5 @@ Every status in this table concerns metadata provenance only. The JSON supplies 
 | 78 | Tests of general relativity with GWTC-3 — `2112.06861` | No historical match | None in the five supplied logs |
 | 79 | Observation of an ultra-high-energy cosmic neutrino with KM3NeT — journal only in manuscript | No historical match | None in the five supplied logs |
 | 80 | Low Energy States and CPT invariance at the Big Bang — `2302.08812` | No historical match | None in the five supplied logs |
-| 81 | The Search for Heavy Majorana Neutrinos — `0901.3589` | Current arXiv metadata | [arXiv abstract](https://arxiv.org/abs/0901.3589); current-session metadata receipt |
-| 82 | Weak Corrections are Relevant for Dark Matter Indirect Detection — `1009.0224` | Current arXiv metadata | [arXiv abstract](https://arxiv.org/abs/1009.0224); current-session metadata receipt |
+| 81 | The Search for Heavy Majorana Neutrinos — `0901.3589` | Current arXiv metadata | [arXiv abstract](https://arxiv.org/abs/0901.3589); current metadata check (2026-09-18) |
+| 82 | Weak Corrections are Relevant for Dark Matter Indirect Detection — `1009.0224` | Current arXiv metadata | [arXiv abstract](https://arxiv.org/abs/1009.0224); current metadata check (2026-09-18) |

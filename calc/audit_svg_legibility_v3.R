@@ -51,7 +51,7 @@ out <- do.call(rbind, lapply(files, extract_one))
 print(out, row.names = FALSE, digits = 3)
 
 # Eight points is the absolute floor. Axes, annotations and legends should be >=9 pt;
-# this mechanical gate cannot distinguish an essential label from secondary furniture.
+# this mechanical check cannot distinguish an essential label from secondary furniture.
 if (any(out$final_min_pt < 8)) {
   stop("FAIL: at least one SVG contains text below the 8 pt absolute floor at final width")
 }

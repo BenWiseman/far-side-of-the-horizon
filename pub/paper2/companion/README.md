@@ -138,7 +138,7 @@ to print PASS.
 | 7 | η(RP⁴) | `eta_rp4.R` | `beyond/main/spin_z4/SPIN_Z4.md` sec 2.1 | 1/4 exactly | 0.25 | 1e-8% rel | PASS | Yes |
 | 7 | phase table, N_W=45 and 48 | `eta_rp4.R` | sec 2.2 | (tabulated) | (tabulated) | ±1e-5 abs | PASS | Yes** |
 | 8 | ϑ = α_Y Σ_W Y² at H=1e-5 M_P | `crease_helicity.R` | `beyond/main/crease_helicity/CREASE_HELICITY.md` sec 1 | 0.1434 (paper: "14%") | 0.14337 | 0.1% rel | PASS | Yes |
-| 9 | ΛCDM / toy / w₀wₐ Σm_ν bounds, Δχ² | `numass_geometric.py` | `calc/tangents/numass_mirror/NUMASS_MIRROR.md` | 54.5 / 47.0 / 92.8 meV; Δχ²=3.01 | **not reproduced — pointer only, by instruction** | n/a | N/A (not attempted) | n/a |
+| 9 | ΛCDM / toy / w₀wₐ Σm_ν bounds, Δχ² | `numass_geometric.py` | `calc/tangents/numass_mirror/NUMASS_MIRROR.md` | 54.5 / 47.0 / 92.8 meV; Δχ²=3.01 | **not reproduced — pointer only; the fit is not rerun here** | n/a | N/A (not attempted) | n/a |
 
 \* This row compares two *percentages* (the source's claimed "0.07%" agreement against
 the 0.0657% actually computed), so "0.5% of 0.07 percentage-points" is not a meaningful

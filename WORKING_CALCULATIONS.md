@@ -15,7 +15,7 @@ absolute path from another directory.
 ## Adopted BFT abundance calibration
 
 ```bash
-python beyond/push/P2_NUR_DM/bft_reproduce.py
+python3 beyond/push/P2_NUR_DM/bft_reproduce.py
 ```
 
 This reproduces the occupation integral and abundance calibration adopted from
@@ -31,8 +31,8 @@ mass. The geometric fold alone does not select the BFT state or these inputs.
 ## Geometry-only neutrino-mass profiles
 
 ```bash
-python data/check_inputs.py
-python calc/tangents/numass_mirror/numass_mirror.py
+python3 data/check_inputs.py
+python3 calc/tangents/numass_mirror/numass_mirror.py
 ```
 
 Acquire the two Pantheon+ inputs as described in `data/README.md`, or set
@@ -64,7 +64,7 @@ this source. This document provides the public description in their place.
 ## Exploratory dark-energy fit
 
 ```bash
-python calc/tangents/mirror_repulsion_combined.py
+python3 calc/tangents/mirror_repulsion_combined.py
 ```
 
 This compares the same phenomenological dark-energy forms with DESI DR2 and
@@ -79,8 +79,8 @@ already reports and corrects that old diagnostic error.
 ## Kerr barrier and conditional echo damping
 
 ```bash
-python calc/tangents/greybody/barrier_at_ringdown.py
-python calc/tangents/greybody/echo_damping_from_barrier.py
+python3 calc/tangents/greybody/barrier_at_ringdown.py
+python3 calc/tangents/greybody/echo_damping_from_barrier.py
 ```
 
 The first command solves the angular problem and invokes `_kerr_runner.py` with
@@ -99,7 +99,7 @@ amplitudes; the barrier driver does not use those amplitudes.
 ## Time-symmetric response controls
 
 ```bash
-python beyond/main/fold_dynamics/half_advanced.py
+python3 beyond/main/fold_dynamics/half_advanced.py
 ```
 
 This computes finite-difference and Fourier controls for prescribed retarded,
@@ -113,7 +113,7 @@ binary-pulsar comparison is conditional on imposing that zero-work response.
 
 ## Release portability changes
 
-The staged files replace private absolute paths with file-relative resolution,
+The released files replace private absolute paths with file-relative resolution,
 support `PAPER2_PANTHEON_DIR`, and use `sys.executable` for the Kerr subprocess.
 The DESI extraction preserves its table and array builder. The BFT source's old
 statement that antipodal/CPT invariance alone fixes its occupation has been
@@ -122,7 +122,7 @@ interpretation and the diagnostic sign are described above. The retained output
 is unchanged. External Pantheon+ files are omitted; hashes and pinned upstream
 URLs are supplied in `data/pantheon_inputs.json` and `data/README.md`.
 
-`calc/SOURCE_PROVENANCE.json` records original and staged source hashes. These are
+`calc/SOURCE_PROVENANCE.json` records original and released source hashes. These are
 curated calculation sources, not byte-identical historical copies, except where
 the manifest states that no change was made. The echo print label now says
 "no real-axis pole" in place of "no resonance": a leaky cavity can still have
