@@ -2,7 +2,7 @@
 
 This index maps all 82 current bibliography entries to the five supplied historical metadata logs. It documents bibliographic metadata provenance; it is not a scientific review. A matched lookup record is **not evidence that the source was read or that a manuscript claim was validated**. The logs are historical; their original `VERIFIED` labels refer to metadata lookup and are not renewed here.
 
-The indexed [manuscript](PAPER2_v3.md) has SHA-256 `94b23b8459d55aeef673024643770a7b8594186570fb31a47c7391bc5c3b06c1`; references occupy lines 969–1131. The machine-readable companion is [refs_v3_index.json](refs_v3_index.json), which preserves every citation, source line, matching record, exact JSON pointer and input hash.
+The indexed [manuscript](PAPER2_v3.md) has SHA-256 `0c384c55d72851aca52516c329ea64e9f33008fd4032ab21e5548b8adde14164`; references occupy lines 969–1131. The machine-readable companion is [refs_v3_index.json](refs_v3_index.json), which preserves every citation, source line, matching record, exact JSON pointer and input hash.
 
 Coverage: 2 current arxiv metadata, 53 historical arxiv match, 1 review/catalogue only, 18 historical title match, 8 no historical match. The eight unmatched entries are **49, 58–60 and 77–80**. References 81–82 were absent from the historical logs and use current primary arXiv metadata checks. Three additional current INSPIRE API checks resolve the metadata for references 2 and 12. All five current checks were made on 2026-09-18; no bulk re-verification of other entries was performed.
 

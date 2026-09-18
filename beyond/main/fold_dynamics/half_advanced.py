@@ -11,7 +11,7 @@ These controls do not derive a dynamical gravity theory or exclude all possible
 fold implementations. Historical interpretations extending beyond that scope
 have been removed; the numerical expressions and input values are retained.
 See WORKING_CALCULATIONS.md for the limited role of this source in V3.
-Run: python beyond/main/fold_dynamics/half_advanced.py
+Run: python3 beyond/main/fold_dynamics/half_advanced.py
 """
 
 import numpy as np

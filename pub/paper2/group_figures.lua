@@ -30,7 +30,7 @@ function Pandoc(doc)
       -- Figure 5 has a deliberately detailed evidentiary caption.  At full
       -- line width the vector image plus caption exceeds a letter-size text
       -- block.  This LaTeX-only scale keeps the smallest 10 pt figure label
-      -- just above 8 pt in the submitted PDF and keeps the complete float on
+      -- just above 8 pt in the XeLaTeX PDF and keeps the complete float on
       -- one page.  HTML continues to use the full-width responsive image.
       if number == "5" and FORMAT:match("latex") then
         image.attributes["width"] = "86.5%"

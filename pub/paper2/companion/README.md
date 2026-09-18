@@ -63,7 +63,7 @@ script-chosen tolerance is not the same as passing the unloosened default.
 | `neutrino_masses.R` | item 3 |
 | `dm_bounds.R` | item 4 |
 | `lz_expected.R` | item 4b — expected count of the fold's particle in LZ's 2.84 t yr exposure (added 2026-09-12) |
-| `graviton_whichpath.R` | item 10 — graviton which-path decoherence exponent for the Bose et al. design; reproduces the an independent check spectral constant (added 2026-09-12) |
+| `graviton_whichpath.R` | item 10 — graviton which-path decoherence exponent for the Bose et al. design; reproduces an independently checked spectral constant (added 2026-09-12) |
 | `dp_design.R` | item 11 — sphere-smeared Diósi–Penrose collapse time at 100 nm and at the design separation (added 2026-09-12) |
 | `aic_table.R` | item 12 — AIC accounting of the framework against ΛCDM and w₀wₐCDM from the record's geometry-only profiles (added 2026-09-12) |
 | `bmv_phase.R` | item 13 — the ordinary gravitational entangling phase for the Bose et al. design (added 2026-09-12); the classical-channel visibility e^(−Δφ) at the Kafri–Taylor–Milburn minimum-noise point (added 2026-09-14) |

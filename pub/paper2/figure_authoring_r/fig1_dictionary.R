@@ -33,7 +33,7 @@ edits <- list(
             exact = TRUE),
   text_edit("second sheet is the J-image", y = 497, exact = TRUE),
 
-  # Kimi design consult, 2026-09-17. Column 1 is centred on x = 78 but its
+  # Column 1 is centred on x = 78 but its
   # header hung left-anchored at x = 30, off the column's optical axis.
   text_edit("fixed set", x = 78, anchor = "middle", exact = TRUE),
 
@@ -45,7 +45,7 @@ edits <- list(
   text_edit("codimension 1", weight = 500, fill = "#1a1a1a", exact = TRUE, occurrence = 2),
   text_edit("two copies", weight = 500, fill = "#1a1a1a", exact = TRUE),
 
-  # Icons now end at T+56, so captions drop to Kimi's budget baseline T+74.
+  # Icons now end at T+56, so captions drop to the baseline T+74.
   # Gap icon-to-cap-top is 9px, clearance to the row rule below is 11px.
   text_edit("no crease", y = 162, exact = TRUE),
   text_edit("codimension 1", y = 250, exact = TRUE, occurrence = 1),
