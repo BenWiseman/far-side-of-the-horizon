@@ -554,7 +554,7 @@ displacement in $\sigma$.
 
 The example in §5.2 retains a fixed rank-two tree-level seesaw from two heavier, nondegenerate sterile neutrinos and adds only the small column $y_\alpha$ of $N_1$. Its free lifetime and flavor direction are not selected by geometry. All formulas below are at leading seesaw and decay order, with $H^0=(v+h+iG^0)/\sqrt2$, $v=246.22$ GeV and $q=y^\dagger y$.
 
-For $r_b=m_b^2/M_1^2$, define $f_V(r)=(1-r)^2(1+2r)$ and $f_h(r)=(1-r)^2$. Summing the two Majorana helicities or charge-conjugate final states gives [81]
+For $r_b=m_b^2/M_1^2$, define $f_V(r)=(1-r)^2(1+2r)$ and $f_h(r)=(1-r)^2$. Averaging over the $N_1$ spin and summing over both light-neutrino helicities in the neutral channels and both charges in the $W\ell$ channel gives [81]
 
 $$
 \Gamma_0=\frac{qM_1}{32\pi}\{2f_V(r_W)+f_V(r_Z)+f_h(r_h)\}
@@ -572,7 +572,7 @@ $$
 
 Choosing $y=\sqrt q\,u_0^*$ attains this bound while leaving the two nonzero masses unchanged at this order. Choosing $u_0^Ty=0$ leaves a zero at this order. Thus the bound is not a flavor-independent nonzero prediction. Baseline radiative masses, running and matching corrections are outside this tree-level bound.
 
-For $M_1=4.848\times10^8$ GeV and the illustrative $\tau=10^{28}$ s, $q\simeq3.4\times10^{-60}$. In standard radiation domination with $g_*=g_{*s}=106.75$, conserved entropy and no other portal, $H(T=M_1)\simeq0.33$ GeV and $\Gamma_0/H(T=M_1)\simeq2.0\times10^{-52}$. A perturbative relativistic scattering rate $CqT$ obeys $\Gamma_{\rm sc}/H\simeq5.0\times10^{-51}C$ at $T=M_1$ and falls as $1/T$ at higher temperatures. Its integral over $T\geq M_1$ is bounded by this value for bounded $C$; no ultraviolet power enhancement occurs in this renormalizable interaction.
+For $M_1=4.848\times10^8$ GeV and the illustrative $\tau=10^{28}$ s, $q\simeq3.4\times10^{-60}$. In standard radiation domination with $g_*=g_{*s}=106.75$, conserved entropy and no other portal, $H(T=M_1)\simeq0.33$ GeV and $\Gamma_0/H(T=M_1)\simeq2.0\times10^{-52}$. A perturbative relativistic scattering rate $CqT$ obeys $\Gamma_{\rm sc}/H\simeq5.0\times10^{-51}C$ at $T=M_1$ and falls as $1/T$ at higher temperatures. The integrated probability $\int_{T\geq M_1}(\Gamma_{\rm sc}/H)\,d\ln T$ is at most this value for bounded $C$; no ultraviolet power enhancement occurs in this renormalizable interaction.
 
 An inverse-decay abundance check is stronger than nonthermalisation alone. In the Maxwell-Boltzmann approximation with $x=M_1/T$ and $g_N=2$,
 

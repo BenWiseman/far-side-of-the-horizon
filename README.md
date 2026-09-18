@@ -2,10 +2,10 @@
 
 **A geometric fold for CPT-related copies of spacetime**
 
-B. H. Wiseman · Version 3.0.5 · 18 September 2026
+B. H. Wiseman · Version 3.0.6 · 18 September 2026
 
 Repository: <https://github.com/BenWiseman/far-side-of-the-horizon>
-Release: <https://github.com/BenWiseman/far-side-of-the-horizon/releases/tag/v3.0.5>
+Release: <https://github.com/BenWiseman/far-side-of-the-horizon/releases/tag/v3.0.6>
 
 This repository holds the manuscript, supplement, figures and checking code for the
 paper. The paper proposes a geometric restriction of the Schwinger-Keldysh closed time
@@ -16,7 +16,7 @@ and does not change, and tests several specified states and responses against it
 ## Citation
 
 > B. H. Wiseman, *The Far Side of the Horizon: a geometric fold for CPT-related copies of
-> spacetime*, version 3.0.5 (2026), https://github.com/BenWiseman/far-side-of-the-horizon
+> spacetime*, version 3.0.6 (2026), https://github.com/BenWiseman/far-side-of-the-horizon
 
 Machine-readable metadata is in `CITATION.cff`. A dated preview of the paper and
 supplement PDFs, without code, is at https://doi.org/10.5281/zenodo.22811618.

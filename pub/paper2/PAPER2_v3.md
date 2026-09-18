@@ -38,7 +38,7 @@ The time directions can also be compared quantitatively. A real no-boundary wave
 
 The cosmological application adds independently specified commitments that can be tested. We adopt Boyle, Finn and Turok's particle content, state-selection prescription and sterile-species stabilising rule [26,34]. If that rule is exact, the chosen sterile neutrino cannot decay and one light neutrino is massless in the stated seesaw approximation. In normal ordering, the oscillation inputs used here give a mass sum of 58.8 meV. In the adopted small-Weyl-coupling branch, the dark-matter abundance fixes the heavy mass at about 480 PeV (484.8 PeV as a computational benchmark, §5.2). A small added Yukawa column supplies a concrete weakly broken example with a hard two-body neutrino energy near half that mass. Its lifetime and flavor direction are additional inputs. Section 5.2 checks that the induced light-neutrino mass and abundance change can be negligible, and distinguishes this kinematic scale from an observable spectrum. The KM3NeT event is observational context, not evidence for this particle [79].
 
-The numerical commitments below have different inferential roles. In the exact-stabilisation sector, a massless light neutrino and the measured oscillation splittings give the 58.8 meV normal-ordering sum without fitting to an absolute-mass measurement. The heavy mass of about 480 PeV is instead inferred by matching the observed dark-matter abundance in the adopted BFT state and branch. The line near 240 PeV is a kinematic consequence conditional on that inferred mass, a specified decay channel and a weak violation of the stabilising rule. The null commitments belong to the specified minimal implementation. Section 5 lists the origin, inputs and possible falsifier for each result; none is presented as assumption-free.
+The numerical commitments below have different inferential roles. In the exact-stabilisation sector, a massless light neutrino and the measured oscillation splittings give the 58.8 meV normal-ordering sum without fitting to an absolute-mass measurement. The heavy mass of about 480 PeV is instead inferred by matching the observed dark-matter abundance in the adopted BFT state and branch. The hard neutrino energy near 240 PeV is a kinematic consequence conditional on that inferred mass and a weak violation of the stabilising rule. The null commitments belong to the specified minimal implementation. Section 5 lists the origin, inputs and possible falsifier for each result; none is presented as assumption-free.
 
 The partner is not reached by following the CPT map as a trajectory. The black-hole implementation retains the non-traversable geometry and supplies no interaction that opens a route between the exteriors. It therefore supplies no route for a visitor to arrive in our past. Sarah Connor can relax.
 
@@ -55,7 +55,7 @@ The same notation appears in different physical settings. The table states which
 | **Horizon test: CONDITIONAL implementation** | Ordinary absorbing Kerr perturbation dynamics with no added seam interaction | No additional horizon reflection or fold-induced shift of the Kerr spectrum at the order treated. A dynamical selector for a general seam has not been derived. |
 | **De Sitter clock: PROVEN overlap calculation** | Closed de Sitter, the no-boundary branch states and the specified free nonconformal environment | The exact mode sum sets a threshold of order $H^{-1}$. Its numerical value depends on the environment and the chosen overlap threshold. |
 | **Radiation-bang clock: CONDITIONAL calculation** | The adopted radiation background, BFT particle state, massive sterile sector and the stated phase averaging and counting convention | The averaged overlap exponent is proportional to the produced particle number. This is a separate clock from the de Sitter throat. |
-| **Neutrino and dark-matter values: CONDITIONAL cosmological application** | BFT state selection, radiation history, the chosen mass branch and sterile-species rule; normal ordering where specified | The abundance fixes the heavy mass. Exact stabilisation gives a rank-deficient light-neutrino mass matrix in the stated approximation. A decay line additionally needs rule violation and a specified channel. |
+| **Neutrino and dark-matter values: CONDITIONAL cosmological application** | BFT state selection, radiation history, the chosen mass branch and sterile-species rule; normal ordering where specified | The abundance fixes the heavy mass. Exact stabilisation gives a rank-deficient light-neutrino mass matrix in the stated approximation. A decay signal additionally needs a rule-violating coupling. |
 | **$RP^3$ and $RP^4$ comparisons: CONDITIONAL global choices** | A specified spatial quotient or imposed Euclidean boundary data | Harmonic selection and global invariants can change. Their transfer to a physical cover requires a separate continuation argument. |
 | **Universal horizon picture: READING** | Extension of the displayed constructions to horizons beyond the exact settings treated | A proposed common interpretation. No general dynamical-horizon theorem is asserted. |
 
@@ -517,8 +517,8 @@ This section adopts BFT's cosmology for comparison with observations. Its
 radiation history, production state, particle content and stabilising rule are
 additional inputs; the geometric construction in §2 does not derive them. We
 reproduce the abundance calculation and update the neutrino values from
-oscillation data. The conditional decay line and contact benchmark require
-further channel and coupling assumptions. Exact $\Lambda$ and ordinary Kerr
+oscillation data. The conditional decay-energy scale and contact benchmark require
+further coupling assumptions. Exact $\Lambda$ and ordinary Kerr
 absorption are separate commitments of the minimal implementation.
 
 ### 5.1 State selection and abundance
@@ -563,7 +563,7 @@ with higher terms fixed by the adiabatic expansion. The tested bang-adiabatic st
 
 CPT symmetry and the Hadamard condition still permit finite-momentum state freedom. A smooth change confined to a finite momentum band can preserve both the symmetry and every ultraviolet asymptotic coefficient. The explicit CPT-invariant families of Nadal-Gisbert, Navarro-Salas and Pla exhibit this freedom [80]. We therefore retain BFT's additional minimum-energy prescription to choose the state used in the abundance calculation [26,34]. In that state the production integral reproduces their result. The ultraviolet test strengthens the case against the particular sudden-start alternative; it does not select a unique member of the entire CPT-invariant Hadamard family.
 
-### 5.2 Matter rule, neutrino masses and the conditional line
+### 5.2 Matter rule, neutrino masses and the conditional decay scale
 
 We use BFT's gravitational-production state and radiation history [26,34]. In the adopted small-Weyl-coupling branch, matching the observed dark-matter abundance gives $M_1=4.848\times10^8$ GeV. This number is conditional on that production model and state selection.
 
@@ -1145,7 +1145,7 @@ tools, large language models among them.
 ## Code and data availability
 
 The V3 release accompanying this paper is public at
-<https://github.com/BenWiseman/far-side-of-the-horizon> (tag `v3.0.5`). It contains the
+<https://github.com/BenWiseman/far-side-of-the-horizon> (tag `v3.0.6`). It contains the
 manuscript and supplement sources, figure assets and drawing code, fifteen base-R arithmetic
 scripts, reference-lookup records, and the selected Python working calculations listed in its
 README, with a SHA-256 manifest. It is not the complete private development history. The
