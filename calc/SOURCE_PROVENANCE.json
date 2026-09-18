@@ -99,11 +99,11 @@
     },
     {
       "path": "data/README.md",
-      "sha256": "3469c4dd67a2db2e4a97f4a11b82a6c07c1232e3b7a9cf0926032b8786d516a2"
+      "sha256": "878b4e91b12a0e65c24ad60c2562778bc97ff8224f3749594545359e5aad0f82"
     },
     {
       "path": "WORKING_CALCULATIONS.md",
-      "sha256": "750a120c9e48f0c5a40b32ca54b3ddb9bacf1e80043ff1e819edbdac16ffa399"
+      "sha256": "b70032d6ff89649a88205fdaf80d1563f34ffd86ff7c478360f6b2ba1e25d579"
     }
   ]
 }
