@@ -751,7 +751,7 @@ G(*x*,*Ay*) anywhere, and constraining a single-patch observer's correlators not
 state on any global algebra of the quotient, because no such algebra exists (Kay's F-locality no-go);
 its content on the quotient is the *collection* of restrictions to a lifted atlas, which is why their
 extra atlas condition, that the closure of *U* ∪ *V* be time-orientable for every pair, is needed.
-Their own positivity failure, ρ′₁(IO) = 2*c*(*c*−1)/(1+$c^2$), is negative for every *c* < 1 with
+Their own positivity failure, ρ′₁(IO) = 2*c*(*c*−1)/(1+$c^2$), is negative for 0 < *c* < 1 with
 minimum −0.4142135624 at *c* = √2 − 1, and is created entirely by the antilinear identification, not
 by the state (12-level Fock truncation agreeing with
 the closed form to 2.2 × 10⁻¹⁶). *(ii) Dulac–Wei.* Their no-boundary density matrix on elliptic de
@@ -853,8 +853,8 @@ commutator ½*i*Δ mode by mode, which in the amplitudes is $A^2$ − $B^2$ ≥ 
 diagonalisation on a 301 × 601 grid in (ν,κ): 180901/180901, no mismatches). The Hadamard step is
 short-distance: the image term is regular as *Z* → 1; its only pole sits at *Z* = −1, which a pair
 of points reaches only on the horizon; so the whole coincidence singularity of *W* is *A* times the
-cover's, and fixing it to the cover's geometric value *is* *A* = 1, whence *B* = 0. The fold's own
-kernel, (*A*,*B*) = (1,1) or (ν,κ) = (0,−½), misses positivity by exactly ¼; it assigns zero
+cover's, and fixing it to the cover's geometric value *is* *A* = 1, whence *B* = 0. The tested projected image
+prescription, (*A*,*B*) = (1,1) or (ν,κ) = (0,−½), misses positivity by exactly ¼; it assigns zero
 variance to one quadrature, σ_x = 0, minimum eigenvalue −0.2071067812, and by Reeh–Schlieder the
 offending test function can be taken supported inside one static patch, so the failure is already
 local. The Mottola–Allen α-vacua give the positive comparison family,
@@ -1145,7 +1145,7 @@ tools, large language models among them.
 ## Code and data availability
 
 The V3 release accompanying this paper is public at
-<https://github.com/BenWiseman/far-side-of-the-horizon> (tag `v3.0.7`). It contains the
+<https://github.com/BenWiseman/far-side-of-the-horizon> (tag `v3.0.8`). It contains the
 manuscript and supplement sources, figure assets and drawing code, fifteen base-R arithmetic
 scripts, reference-lookup records, and the selected Python working calculations listed in its
 README, with a SHA-256 manifest. It is not the complete private development history. The

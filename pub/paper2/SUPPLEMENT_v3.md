@@ -73,10 +73,7 @@ standard cosmic-topology search, detectable only for Ω_tot > 1.166. The
 defended Lorentzian cover does not acquire this topology from the antilinear
 field relation alone.
 
-At the free level, 115 of
-the Standard Model's 118 degrees of freedom are conformal on the closed background and contribute
-exactly nothing to branch decoherence at the free level (interactions break conformal invariance
-through the running couplings, an uncomputed correction of order the β-functions); the tensor tower has *n* ≥ 3 with multiplicity 2($n^2$ − 4), so
+In the free, unbroken, massless Standard Model approximation, the 90 fermionic and 24 transverse gauge degrees of freedom are conformal and contribute zero to this branch-overlap exponent. The four real Higgs components require a separate curvature-coupling choice: massless conformal coupling gives zero, whereas minimal coupling gives four scalar contributions. Masses and interactions change that idealization and are not computed here; the tensor tower has *n* ≥ 3 with multiplicity 2($n^2$ − 4), so
 the graviton is not two scalar towers. The mass dependence is exact: $A_{dec}$(*m*/*H*) = 1.954, 1.960,
 2.011, 2.997, ∞, 3.291 at *m*/*H* = 0, 0.1, 0.3, 1, √2, 3; a minimally coupled scalar of mass² = 2$H^2$
 is the conformal scalar and makes no arrow at all. At large $A$, the massless-field decoherence law approaches
