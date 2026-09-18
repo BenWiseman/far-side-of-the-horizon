@@ -4,7 +4,7 @@
   "scope": "Release bibliography metadata provenance index; not a scientific review",
   "manuscript": {
     "file": "PAPER2_v3.md",
-    "sha256": "f6666c1e125590cfa001dffa252d87a9a0e8c19a5097dd35008f36ace0cb76a7",
+    "sha256": "8aa276291aee1f13c180da4d2f1392fcdb841174011f618e1af2faedf4a3c574",
     "bibliography_heading_line": 965,
     "reference_count": 82,
     "metadata_coverage_statement_line": 967
