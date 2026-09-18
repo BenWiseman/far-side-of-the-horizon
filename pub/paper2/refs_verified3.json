@@ -1,0 +1,351 @@
+{
+ "tod_isotropic": [
+  [
+   "Tod, K.P.",
+   2003,
+   "Isotropic cosmological singularities: Other matter models",
+   "Class.Quant.Grav. 20 (2003) 521",
+   "gr-qc/0209071",
+   "10.1088/0264-9381/20/3/309"
+  ],
+  [
+   "Anguige, K.",
+   1999,
+   "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+   "Annals Phys. 276 (1999) 257",
+   "gr-qc/9903008",
+   "10.1006/aphy.1999.5946"
+  ],
+  [
+   "Anguige, K.",
+   1999,
+   "Isotropic Cosmological Singularities: II. The Einstein\u2013Vlasov System",
+   "Annals Phys. 276 (1999) 294",
+   "gr-qc/9903009",
+   "10.1006/aphy.1999.5947"
+  ]
+ ],
+ "tod_isotropic_cr": [
+  [
+   "Anguige, K.",
+   1999,
+   "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+   "Annals of Physics",
+   "276",
+   "257-293",
+   "10.1006/aphy.1999.5946",
+   "journal-article"
+  ],
+  [
+   "Anguige, K.",
+   1997,
+   "Isotropic cosmological singularities and the einstein-vlasov equations",
+   "Nonlinear Analysis: Theory, Methods &amp; Applications",
+   "30",
+   "3599-3603",
+   "10.1016/s0362-546x(97)00177-6",
+   "journal-article"
+  ],
+  [
+   "Anguige, K.",
+   1999,
+   "Isotropic Cosmological Singularities: II. The Einstein\u2013Vlasov System",
+   "Annals of Physics",
+   "276",
+   "294-320",
+   "10.1006/aphy.1999.5947",
+   "journal-article"
+  ],
+  [
+   "Anguige, K.",
+   2000,
+   "Isotropic Cosmological Singularities. III. The Cauchy Problem for the Inhomogeneous Confor",
+   "Annals of Physics",
+   "282",
+   "395-419",
+   "10.1006/aphy.2000.6037",
+   "journal-article"
+  ]
+ ],
+ "newman_conformal": [
+  [
+   "Newman, Richard P.A.C.",
+   1993,
+   "On the Structure of conformal singularities in classical general relativity",
+   "Proc.Roy.Soc.Lond.A 443 (1993) 473",
+   null,
+   "10.1098/rspa.1993.0158"
+  ],
+  [
+   "Newman, Richard P.A.C.",
+   1993,
+   "On the Structure of conformal singularities in classical general relativity. 2. Evolution ",
+   "Proc.Roy.Soc.Lond.A 443 (1993) 493",
+   null,
+   "10.1098/rspa.1993.0159"
+  ]
+ ],
+ "newman_conformal_cr": [
+  [
+   "Newman, Richard P. A. C.",
+   1993,
+   "On the structure of conformal singularities in classical general relativity",
+   "Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences",
+   "443",
+   "473-492",
+   "10.1098/rspa.1993.0158",
+   "journal-article"
+  ],
+  [
+   "Newman, Richard P. A. C.",
+   1993,
+   "On the structure of conformal singularities in classical general relativity. II Evolution ",
+   "Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences",
+   "443",
+   "493-515",
+   "10.1098/rspa.1993.0159",
+   "journal-article"
+  ],
+  [
+   "Newman, Richard P.A.C",
+   1988,
+   "Constraints on the structure of naked singularities in classical general relativity",
+   "Annals of Physics",
+   "182",
+   "112-119",
+   "10.1016/0003-4916(88)90296-5",
+   "journal-article"
+  ],
+  [
+   "NEWMAN, E. T.",
+   1969,
+   "Motion and Structure of Singularities in General Relativity",
+   "Physical Review",
+   "187",
+   "1784-1791",
+   "10.1103/physrev.187.1784",
+   "journal-article"
+  ]
+ ],
+ "schrodinger_cr": [
+  [
+   "Yang, C. N.",
+   1956,
+   "<i>Expanding Universes</i>\n            . E. Schrodinger. Cambridge University Press, Cambr",
+   "Science",
+   "124",
+   "370-370",
+   "10.1126/science.124.3217.370.a",
+   "journal-article"
+  ],
+  [
+   "Yang, C. N.",
+   1956,
+   "<i>Expanding Universes</i>\n            . E. Schrodinger. Cambridge University Press, Cambr",
+   "Science",
+   "124",
+   "370-370",
+   "10.1126/science.124.3217.370-a",
+   "journal-article"
+  ],
+  [
+   "Schrodinger, E.",
+   1956,
+   "Expanding Universes",
+   "American Journal of Physics",
+   "24",
+   "472-473",
+   "10.1119/1.1934284",
+   "journal-article"
+  ],
+  [
+   "DAVIES, J. T.",
+   1957,
+   "<i>Expanding Universes</i>. By E. Schr\u00f6dinger. Cambridge University Press, London, 1956. P",
+   "The British Journal for the Philosophy of Science",
+   "8",
+   "78-79",
+   "10.1093/bjps/viii.29.78",
+   "journal-article"
+  ]
+ ],
+ "kirby_taylor_cr": [
+  [
+   "Kirby, R.C.",
+   1991,
+   "<i>Pin</i> structures on low-dimensional manifolds",
+   "Geometry of Low-Dimensional Manifolds",
+   null,
+   "177-242",
+   "10.1017/cbo9780511629341.015",
+   "book-chapter"
+  ],
+  [
+   "Degtyarev, A. I.",
+   1994,
+   "Generalized Pin-structures and some applications to low dimensional topology",
+   "ADVSOV",
+   null,
+   "55-85",
+   "10.1090/advsov/018/03",
+   "other"
+  ],
+  [
+   "Kirby, Robion",
+   1991,
+   "Evaluations of the 3-manifold invariants of Witten and Reshetikhin-Turaev for <i>sl</i>(2,",
+   "Geometry of Low-Dimensional Manifolds",
+   null,
+   "101-114",
+   "10.1017/cbo9780511629341.010",
+   "book-chapter"
+  ],
+  [
+   "Ue, Masaaki",
+   null,
+   "On the Deformations of the Geometric Structures on the Seifert 4-Manifolds",
+   "Advanced Studies in Pure Mathematics",
+   null,
+   "331-363",
+   "10.2969/aspm/02010331",
+   "proceedings-article"
+  ]
+ ],
+ "longo_cr": [
+  [
+   "Longo, Roberto",
+   2019,
+   "Entropy of coherent excitations",
+   "Letters in Mathematical Physics",
+   "109",
+   "2587-2600",
+   "10.1007/s11005-019-01196-6",
+   "journal-article"
+  ],
+  [
+   "Fr\u00f6hlich, H.",
+   1982,
+   "Conditions for coherent excitations in biological systems",
+   "Physics Letters A",
+   "93",
+   "105-106",
+   "10.1016/0375-9601(82)90228-6",
+   "journal-article"
+  ],
+  [
+   "Usenko, C.W.",
+   1990,
+   "Coherent excitations of a quantum nonlinear oscillator",
+   "Physics Letters A",
+   "144",
+   "376-378",
+   "10.1016/0375-9601(90)90144-d",
+   "journal-article"
+  ],
+  [
+   "Fr\u00f6hlich, H.",
+   1985,
+   "Further evidence for coherent excitations in biological systems",
+   "Physics Letters A",
+   "110",
+   "480-481",
+   "10.1016/0375-9601(85)90561-4",
+   "journal-article"
+  ]
+ ],
+ "longo_insp": [
+  [
+   "Ciolli, Fabio",
+   2022,
+   "Relative entropy and curved spacetimes",
+   "J.Geom.Phys. 172 (2022) 104416",
+   "2107.06787",
+   "10.1016/j.geomphys.2021.104416"
+  ],
+  [
+   "Longo, Roberto",
+   2023,
+   "A note on continuous entropy",
+   "Pure Appl.Math.Quart. 19 (2023) 2501",
+   "2202.03357",
+   "10.4310/PAMQ.2023.v19.n5.a5"
+  ],
+  [
+   "Longo, Roberto",
+   2018,
+   "Relative Entropy in CFT",
+   "Adv.Math. 337 (2018) 139",
+   "1712.07283",
+   "10.1016/j.aim.2018.08.015"
+  ],
+  [
+   "Longo, Roberto",
+   2019,
+   "Entropy of Coherent Excitations",
+   "Lett.Math.Phys. 109 (2019) 2587",
+   "1901.02366",
+   "10.1007/s11005-019-01196-6"
+  ]
+ ],
+ "padilla_insp": [],
+ "padilla_cr": [
+  [
+   "Niedermann, Florian",
+   2025,
+   "Higher codimension de Sitter branes",
+   "Physical Review D",
+   "112",
+   null,
+   "10.1103/9423-j3hl",
+   "journal-article"
+  ],
+  [
+   "Olasagasti, I.",
+   2003,
+   "Gravity in higher codimension de Sitter brane worlds",
+   "Physical Review D",
+   "68",
+   null,
+   "10.1103/physrevd.68.064016",
+   "journal-article"
+  ],
+  [
+   "Yadav, Gopal",
+   2024,
+   "Communicating multiverses in a holographic de Sitter braneworld",
+   "Physical Review D",
+   "110",
+   null,
+   "10.1103/physrevd.110.026028",
+   "journal-article"
+  ],
+  [
+   "HARI DASS, N. D.",
+   2002,
+   "A NO-GO THEOREM FOR de SITTER COMPACTIFICATIONS?",
+   "Modern Physics Letters A",
+   "17",
+   "1001-1011",
+   "10.1142/s0217732302007557",
+   "journal-article"
+  ]
+ ],
+ "anguige_tod_ii": [
+  [
+   "Anguige, K.",
+   1999,
+   "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+   "Annals Phys. 276 (1999) 257",
+   "gr-qc/9903008",
+   "10.1006/aphy.1999.5946"
+  ],
+  [
+   "Anguige, K.",
+   1999,
+   "Isotropic Cosmological Singularities: II. The Einstein\u2013Vlasov System",
+   "Annals Phys. 276 (1999) 294",
+   "gr-qc/9903009",
+   "10.1006/aphy.1999.5947"
+  ]
+ ]
+}

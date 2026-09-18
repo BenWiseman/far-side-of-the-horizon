@@ -1,0 +1,7 @@
+# Bounded calculation dependencies, not the complete manuscript build environment.
+# Tested: Python 3.12.13, NumPy 2.5.3, SciPy 1.18.1, SymPy 1.14.0, mpmath 1.3.0.
+# Geometry fits use scipy.integrate.cumulative_simpson.
+numpy>=1.26
+scipy>=1.12
+sympy>=1.12
+mpmath>=1.3

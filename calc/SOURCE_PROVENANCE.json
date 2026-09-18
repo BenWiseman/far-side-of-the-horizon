@@ -1,0 +1,109 @@
+{
+  "scope": "Selected, curated calculation source closure. Original/staged hashes identify portability and scope edits; the retained numass output is unchanged.",
+  "files": [
+    {
+      "path": "calc/tangents/numass_mirror/numass_mirror.py",
+      "original_sha256": "e978a8e0934046ee453589b2f1a20980d018650578d469986b4cb82c8ff75366",
+      "staged_sha256": "c2487c903199bcbad0ccd4b9a9a5fcc2bf32e03633b9b5445261269c476f1357",
+      "modified": true
+    },
+    {
+      "path": "calc/tangents/numass_mirror/numass_mirror_output.txt",
+      "original_sha256": "2e78f21a83119f66d49d7e0428d1488101eced740150b74343180c793b34d7d2",
+      "staged_sha256": "2e78f21a83119f66d49d7e0428d1488101eced740150b74343180c793b34d7d2",
+      "modified": false
+    },
+    {
+      "path": "calc/tangents/mirror_repulsion_combined.py",
+      "original_sha256": "97062412b6cc9f0be960874bf5aa7475f5909d51b89031558654bcdb3f6b2fbc",
+      "staged_sha256": "d8c2ca1f7481b00cad69cf178055b1471a0deb6ae367fa6460dcabdf461d43d6",
+      "modified": true
+    },
+    {
+      "path": "calc/tangents/greybody/barrier_at_ringdown.py",
+      "original_sha256": "5763950e5afa6173496e67f13cb0c1482f9076399aeec997c407271d834dcd12",
+      "staged_sha256": "64311f36ec7e03b190dc4fd3b95d7137a51779490687b4b8df9de5cab32541bf",
+      "modified": true
+    },
+    {
+      "path": "calc/tangents/greybody/_kerr_runner.py",
+      "original_sha256": "80416124cb3b704aec411414c0318e5f794c8bf349c8f882313605fad64e58d8",
+      "staged_sha256": "cbac0b11ad9be48c2c7da155aaf10264edfa9e572005986daaf50c35ad853a53",
+      "modified": true
+    },
+    {
+      "path": "calc/tangents/greybody/echo_damping_from_barrier.py",
+      "original_sha256": "5c4019f77d8099c12bdd5bf486b80a1c84da4b1e3c5fa787e1c9758c5c078dba",
+      "staged_sha256": "c93c15edec93932878d57777f5b685e7fe53768036de2da0f934a7c810efad2c",
+      "modified": true
+    },
+    {
+      "path": "calc/tangents/kerr_teukolsky/teukolsky_zin_tortoise.py",
+      "original_sha256": "2bdd2c0de5c1a229056f26c8ac41caa71d42457579fa3dd128c2a3a68005ff35",
+      "staged_sha256": "e42d0fc2de97c32918e48435678db10b8add13c29e1ea798b79b935de8d39982",
+      "modified": true
+    },
+    {
+      "path": "beyond/main/fold_dynamics/half_advanced.py",
+      "original_sha256": "b79227076f29e917e843aa42b8278fd814df45a7d68e170118f22919e149b9d1",
+      "staged_sha256": "7ebe17b1415aaa470355dcb32303bdbe5d903f5f7fbc5d30fbdce1e5a5eeefc3",
+      "modified": true
+    },
+    {
+      "path": "beyond/push/P2_NUR_DM/bft_reproduce.py",
+      "original_sha256": "e5b4218c3659b2f48dfd77de8ee5bec5a07c287f426eb9ef96fbce090b9bf14b",
+      "staged_sha256": "42debb9a3827c1df16ddd0b8cf19fd93fe49bf20767c505f5eb18616486e3d03",
+      "modified": true
+    }
+  ],
+  "desi_extraction": {
+    "original_path": "calc/boltzmann_twoply.py",
+    "original_sha256": "b1824a318227bfdafd1d78b80798409f5de9079793baddd5713979956850ba64",
+    "extracted_nodes": [
+      "DESI_DR2",
+      "_desi_vectors"
+    ],
+    "extracted_source_sha256": "6ed11419e62c0442ee1e7aa60740ed323d4f641c4d447dd5db224932cd45892f"
+  },
+  "change_summary": {
+    "numass_mirror.py": "File-relative imports, extracted DESI loader, env-based external data directory; scope description; numerical core unchanged.",
+    "mirror_repulsion_combined.py": "File-relative imports and data; diagnostic-only Omega_Lambda corrected to agree with E2. Likelihood unchanged.",
+    "barrier_at_ringdown.py": "sys.executable and file-relative child path/cwd.",
+    "_kerr_runner.py": "File-relative radial-source path; assert extraction markers.",
+    "teukolsky_zin_tortoise.py": "Curated prose and historical comparison labels; numerical core unchanged.",
+    "echo_damping_from_barrier.py": "Correct print label from no resonance to no real-axis pole; numerical arithmetic unchanged.",
+    "half_advanced.py": "Remove withdrawn general claims; retain prescribed-kernel controls and numerical core.",
+    "bft_reproduce.py": "State adopted BFT inputs and state explicitly; remove unsupported state-equivalence claim; numerical core unchanged.",
+    "WORKING_CALCULATIONS.md": "Final integration adds the bounded free-TT and weak-Yukawa control descriptions."
+  },
+  "new_support_files": [
+    {
+      "path": "calc/desi_dr2_geometry.py",
+      "sha256": "ba9407003d89574127879ac0b379dc5a9b315ec2bc10950d1737d23421eab40c"
+    },
+    {
+      "path": "calc/pantheon_data.py",
+      "sha256": "24b53a14e827ec0cec81c64443f7a3be5880634ae2b904a07b6eb5dd1e08f39d"
+    },
+    {
+      "path": "calc/requirements.txt",
+      "sha256": "ce79c60d53a51718a145aa17b3e9bdb68b4254e1d40ba06515412dc90ecce03b"
+    },
+    {
+      "path": "data/check_inputs.py",
+      "sha256": "c60b534b58d850dee6b6a4d3a42491df72c5755882bcae5152a92c8f1badde84"
+    },
+    {
+      "path": "data/pantheon_inputs.json",
+      "sha256": "2dba6a5742c37c6a47dbdcc1baa18ccdfa582aabc9b7dc10343c6a849b829307"
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "3469c4dd67a2db2e4a97f4a11b82a6c07c1232e3b7a9cf0926032b8786d516a2"
+    },
+    {
+      "path": "WORKING_CALCULATIONS.md",
+      "sha256": "750a120c9e48f0c5a40b32ca54b3ddb9bacf1e80043ff1e819edbdac16ffa399"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+          file viewbox_width source_min final_min_pt final_median_pt
+ fig5_data.svg           504         10         8.03            8.43
+ final_max_pt
+         8.84
+PASS: no SVG text below 8 pt at 5.6225 inch width

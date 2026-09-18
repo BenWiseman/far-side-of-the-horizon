@@ -1,0 +1,639 @@
+================================================================================
+Paper 2 reproducibility companion -- run_all.sh
+================================================================================
+R version 4.5.2 (2025-10-31) 
+base R only used (stats::integrate, stats::uniroot); no extra CRAN packages required by these scripts.
+
+--------------------------------------------------------------------------------
+Running firsttick.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+firsttick.R -- FIRST_TICK.md sec 2.4 closed form and A_dec roots
+==============================================================================
+
+Solving Gamma(A) := -log|D(A)| = 1 ("the overlap falls below e^-1"):
+
+  A_dec, N_f=1, unfolded (all n>=2)                          expected= 1.95376         reproduced=1.953765         err=0.000239%    tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 0.000239% relative]]
+      note: FIRST_TICK.md HEADLINE table, row 'one field'
+RESULT|A_dec, N_f=1, unfolded (all n>=2)| 1.95376|1.953765|0.000239%|rel<=0.01%|PASS|PASS
+  H*t_dec, N_f=1, unfolded (derived: Ht=acosh(A), FIRST_TICK.md sec 2.1) expected= 1.28984         reproduced=1.289843         err=0.0002114%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 0.0002114% relative]]
+RESULT|H*t_dec, N_f=1, unfolded (derived: Ht=acosh(A), FIRST_TICK.md sec 2.1)| 1.28984|1.289843|0.0002114%|rel<=0.01%|PASS|PASS
+  A_dec, N_f=1, folded RP^3 (odd n only)                     expected=  2.5954         reproduced=2.595397         err=0.0001202%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 0.0001202% relative]]
+      note: FIRST_TICK.md HEADLINE table, row 'one field, folded (RP3)'
+RESULT|A_dec, N_f=1, folded RP^3 (odd n only)|  2.5954|2.595397|0.0001202%|rel<=0.01%|PASS|PASS
+  H*t_dec, N_f=1, folded RP^3 (derived: Ht=acosh(A))         expected= 1.60752         reproduced=1.607518         err=0.0001275%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 0.0001275% relative]]
+RESULT|H*t_dec, N_f=1, folded RP^3 (derived: Ht=acosh(A))| 1.60752|1.607518|0.0001275%|rel<=0.01%|PASS|PASS
+  fold delay in A_dec (%) [text: 'delays its own first tick by 33%'] expected=      33         reproduced=32.84081         err=0.4824%      tol=rel<=3%      [PASS]  [[vs. plain 0.5% default: PASS, 0.4824% relative]]
+      note: sec 4c: 'the fold delays its own first tick by 33% in a'
+RESULT|fold delay in A_dec (%) [text: 'delays its own first tick by 33%']|      33|32.84081|0.4824%|rel<=3%|PASS|PASS
+
+Large-A asymptote check at A = 10, N_f = 1 (sec 2.4):
+
+  exact log-abs-D at A=10, N_f=1                             expected=-261.627         reproduced=-261.6274        err=0.0001687%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 0.0001687% relative]]
+RESULT|exact log-abs-D at A=10, N_f=1|-261.627|-261.6274|0.0001687%|rel<=0.01%|PASS|PASS
+  asymptote -(pi/12) N_f A^3 at A=10                         expected=-261.799         reproduced=-261.7994        err=0.0001481%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 0.0001481% relative]]
+RESULT|asymptote -(pi/12) N_f A^3 at A=10|-261.799|-261.7994|0.0001481%|rel<=0.01%|PASS|PASS
+  asymptote vs exact relative disagreement (%) [text: '0.07%'] expected=    0.07         reproduced=0.06572191       err=0.00428 (6.112% rel) tol=abs<=0.01    [PASS]  [[vs. plain 0.5% default: FAIL, 6.112% relative]]
+      note: abs tol in *percentage points*, since source quotes only 2 sig figs
+RESULT|asymptote vs exact relative disagreement (%) [text: '0.07%']|    0.07|0.06572191|0.00428 (6.112% rel)|abs<=0.01|PASS|FAIL
+
+Summary table (all from FIRST_TICK.md HEADLINE):
+  case                                      A_dec      H*t_dec
+  one field (unfolded)                    1.95376      1.28984
+  one field, folded (RP3)                 2.59540      1.60752
+
+--------------------------------------------------------------------------------
+Running clockweights.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+clockweights.R -- TANGENTS_20260908.md sec 22 graviton/fermion clock weights
+==============================================================================
+
+H0 = 2.184269e-18 s^-1  (from 67.4 km/s/Mpc)
+  lambda_H = c/H0 [m]                                        expected=1.37e+26         reproduced=1.372507e+26     err=0.183%       tol=rel<=0.5%    [PASS]
+      note: TANGENTS sec22: 'lambda_H = c/H0 = 1.37e26 m'
+RESULT|lambda_H = c/H0 [m]|1.37e+26|1.372507e+26|0.183%|rel<=0.5%|PASS|PASS
+
+Graviton clock weight w = (aH/k)^6 = (lambda/2*pi*lambda_H)^6, evaluated today (a=1,H=H0):
+
+  w(LIGO, 100 Hz)                                            expected=1.8e-123         reproduced=1.765054e-123    err=factor 1.02 (1.941% rel) tol=factor<=1.5  [PASS]  [[vs. plain 0.5% default: FAIL, 1.941% relative]]
+RESULT|w(LIGO, 100 Hz)|1.8e-123|1.765054e-123|factor 1.02 (1.941% rel)|factor<=1.5|PASS|FAIL
+  w(LISA, 1 mHz)                                             expected= 1.8e-93         reproduced=1.765054e-93     err=factor 1.02 (1.941% rel) tol=factor<=1.5  [PASS]  [[vs. plain 0.5% default: FAIL, 1.941% relative]]
+RESULT|w(LISA, 1 mHz)| 1.8e-93|1.765054e-93|factor 1.02 (1.941% rel)|factor<=1.5|PASS|FAIL
+  w(PTA, 3 nHz)                                              expected=   2e-60         reproduced=2.421199e-60     err=factor 1.21 (21.06% rel) tol=factor<=1.5  [PASS]  [[vs. plain 0.5% default: FAIL, 21.06% relative]]
+      note: largest quoted rounding of the five: 3 nHz is a nominal PTA frequency, and w~f^-6 amplifies it
+RESULT|w(PTA, 3 nHz)|   2e-60|2.421199e-60|factor 1.21 (21.06% rel)|factor<=1.5|PASS|FAIL
+
+Massive-fermion clock weight (m/H0)^2, via hbar*H0:
+
+  hbar*H0 [eV]                                               expected=1.44e-33         reproduced=1.437712e-33     err=0.1589%      tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1589% relative]]
+      note: TANGENTS sec22: 'hbar H0 = 1.44e-33 eV'
+RESULT|hbar*H0 [eV]|1.44e-33|1.437712e-33|0.1589%|rel<=1%|PASS|PASS
+  (m_e/H0)^2 [electron clock weight]                         expected= 1.3e+77         reproduced=1.26327e+77      err=factor 1.03 (2.825% rel) tol=factor<=1.5  [PASS]  [[vs. plain 0.5% default: FAIL, 2.825% relative]]
+RESULT|(m_e/H0)^2 [electron clock weight]| 1.3e+77|1.26327e+77|factor 1.03 (2.825% rel)|factor<=1.5|PASS|FAIL
+  (m_p/H0)^2 [proton clock weight]                           expected=   4e+83         reproduced=4.259059e+83     err=factor 1.06 (6.476% rel) tol=factor<=1.5  [PASS]  [[vs. plain 0.5% default: FAIL, 6.476% relative]]
+RESULT|(m_p/H0)^2 [proton clock weight]|   4e+83|4.259059e+83|factor 1.06 (6.476% rel)|factor<=1.5|PASS|FAIL
+
+Summary (all quoted to 1-2 sig figs in the source; 'oom' = order-of-magnitude,
+factor-based check, since w depends on the 6th power of frequency or 2nd power of
+mass, so 2-sig-fig input rounding is amplified far past 0.5%):
+  quantity                     expected     reproduced
+  w(LIGO)                      1.8e-123  1.765054e-123
+  w(LISA)                       1.8e-93   1.765054e-93
+  w(PTA)                          2e-60   2.421199e-60
+  (m_e/H0)^2                     1.3e77    1.26327e+77
+  (m_p/H0)^2                       4e83   4.259059e+83
+
+--------------------------------------------------------------------------------
+Running neutrino_masses.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+neutrino_masses.R -- fold_structure.py sec 4, one massless light neutrino
+==============================================================================
+
+Inputs (fold_structure.py, NuFIT-6.0-era central values):
+  dm21 = 7.490e-05 eV^2, |dm3l|(NO) = 2.513e-03, |dm3l|(IO) = 2.484e-03
+  sin^2(th12) = 0.308, sin^2(th13) = 0.02215 (NO), 0.02231 (IO)
+
+NORMAL ordering, m_lightest = 0:
+  m = (0, 8.65, 50.13) meV
+  Sum m_nu, normal ordering [meV]                            expected=    58.8         reproduced=58.78431         err=0.0157 (0.02668% rel) tol=abs<=0.05    [PASS]  [[vs. plain 0.5% default: PASS, 0.02668% relative]]
+RESULT|Sum m_nu, normal ordering [meV]|    58.8|58.78431|0.0157 (0.02668% rel)|abs<=0.05|PASS|PASS
+  m_betabeta lower bound, NO [meV]                           expected=     1.5         reproduced=1.496161         err=0.00384 (0.2559% rel) tol=abs<=0.05    [PASS]  [[vs. plain 0.5% default: PASS, 0.2559% relative]]
+RESULT|m_betabeta lower bound, NO [meV]|     1.5|1.496161|0.00384 (0.2559% rel)|abs<=0.05|PASS|PASS
+  m_betabeta upper bound, NO [meV]                           expected=     3.7         reproduced=3.716913         err=0.0169 (0.4571% rel) tol=abs<=0.05    [PASS]  [[vs. plain 0.5% default: PASS, 0.4571% relative]]
+RESULT|m_betabeta upper bound, NO [meV]|     3.7|3.716913|0.0169 (0.4571% rel)|abs<=0.05|PASS|PASS
+
+INVERTED ordering, m_lightest = 0:
+  m = (49.08, 49.84, 0) meV
+  Sum m_nu, inverted ordering [meV]                          expected=    98.9         reproduced=98.92233         err=0.0223 (0.02257% rel) tol=abs<=0.05    [PASS]  [[vs. plain 0.5% default: PASS, 0.02257% relative]]
+RESULT|Sum m_nu, inverted ordering [meV]|    98.9|98.92233|0.0223 (0.02257% rel)|abs<=0.05|PASS|PASS
+  m_betabeta lower bound, IO [meV]                           expected=    18.2         reproduced=18.19922         err=0.000783 (0.004301% rel) tol=abs<=0.05    [PASS]  [[vs. plain 0.5% default: PASS, 0.004301% relative]]
+RESULT|m_betabeta lower bound, IO [meV]|    18.2|18.19922|0.000783 (0.004301% rel)|abs<=0.05|PASS|PASS
+  m_betabeta upper bound, IO [meV]                           expected=    48.2         reproduced=48.21555         err=0.0156 (0.03227% rel) tol=abs<=0.05    [PASS]  [[vs. plain 0.5% default: PASS, 0.03227% relative]]
+RESULT|m_betabeta upper bound, IO [meV]|    48.2|48.21555|0.0156 (0.03227% rel)|abs<=0.05|PASS|PASS
+
+Cross-check against DESI DR2 BAO+CMB bound Sum m_nu < 64.2 meV (95%, [35] in PAPER2_v3.md):
+  NO: 58.78 meV < 64.2 meV -> ALIVE
+  IO: 98.92 meV < 64.2 meV -> EXCLUDED
+
+--------------------------------------------------------------------------------
+Running dm_bounds.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+dm_bounds.R -- TANGENTS_20260908.md sec 21 + addendum, sterile-nuR DM bounds
+==============================================================================
+
+Inputs: M1=4.848e+08 GeV, M_Pl=1.221e+19 GeV, rho_local=0.4 GeV/cm^3, v=220 km/s, g*=106.75
+  n_DM [cm^-3] (not itself a headline number, shown for the chain) expected= 8.3e-10         reproduced=8.250825e-10     err=factor 1.01 (0.5925% rel) tol=factor<=2    [PASS]  [[vs. plain 0.5% default: FAIL, 0.5925% relative]]
+RESULT|n_DM [cm^-3] (not itself a headline number, shown for the chain)| 8.3e-10|8.250825e-10|factor 1.01 (0.5925% rel)|factor<=2|PASS|FAIL
+  flux [cm^-2 s^-1]                                          expected=   0.018         reproduced=0.01815182       err=factor 1.01 (0.8434% rel) tol=factor<=2    [PASS]  [[vs. plain 0.5% default: FAIL, 0.8434% relative]]
+      note: actual agreement is tight: 0.84% relative error
+RESULT|flux [cm^-2 s^-1]|   0.018|0.01815182|factor 1.01 (0.8434% rel)|factor<=2|PASS|FAIL
+  b_90 [cm]                                                  expected= 1.1e-37         reproduced=1.191749e-37     err=factor 1.08 (8.341% rel) tol=factor<=2    [PASS]  [[vs. plain 0.5% default: FAIL, 8.341% relative]]
+      note: actual agreement: 8.3% relative error
+RESULT|b_90 [cm]| 1.1e-37|1.191749e-37|factor 1.08 (8.341% rel)|factor<=2|PASS|FAIL
+  sigma_grav = pi*b_90^2 [cm^2]                              expected=   4e-74         reproduced=4.461899e-74     err=factor 1.12 (11.55% rel) tol=factor<=2    [PASS]  [[vs. plain 0.5% default: FAIL, 11.55% relative]]
+RESULT|sigma_grav = pi*b_90^2 [cm^2]|   4e-74|4.461899e-74|factor 1.12 (11.55% rel)|factor<=2|PASS|FAIL
+  events / tonne-year                                        expected=   1e-38         reproduced=1.539199e-38     err=factor 1.54 (53.92% rel) tol=factor<=2    [PASS]  [[vs. plain 0.5% default: FAIL, 53.92% relative]]
+RESULT|events / tonne-year|   1e-38|1.539199e-38|factor 1.54 (53.92% rel)|factor<=2|PASS|FAIL
+
+sec 21 addendum -- non-thermalisation bound:
+  Lambda non-thermalisation bound [GeV]                      expected= 9.5e+10         reproduced=9.49006e+10      err=factor 1 (0.1046% rel) tol=factor<=2    [PASS]  [[vs. plain 0.5% default: PASS, 0.1046% relative]]
+      note: actual agreement is tight: 0.10% relative error
+RESULT|Lambda non-thermalisation bound [GeV]| 9.5e+10|9.49006e+10|factor 1 (0.1046% rel)|factor<=2|PASS|PASS
+  sigma_n bound [cm^2]                                       expected=   1e-72         reproduced=1.347057e-72     err=factor 1.35 (34.71% rel) tol=factor<=2    [PASS]  [[vs. plain 0.5% default: FAIL, 34.71% relative]]
+RESULT|sigma_n bound [cm^2]|   1e-72|1.347057e-72|factor 1.35 (34.71% rel)|factor<=2|PASS|FAIL
+
+Note on the source's b_90 formula: sec 21 writes 'b_90 = G M1 m_N / v^2', which is
+dimensionally inconsistent as a length once M1 and m_N are both taken as literal
+masses (units of cm*g, not cm) and numerically wrong by ~24 orders of magnitude if
+evaluated that way. The standard two-body Newtonian-scattering formula for a light
+target deflected by a much heavier source (M1 = 4.8e8 GeV >> m_N ~ 1 GeV) is
+b_90 = G*M_heavy/v^2, independent of the light mass; that reproduces the quoted
+1.1e-37 cm to 8%, so that is what is implemented above -- flagged, not silently fixed.
+
+--------------------------------------------------------------------------------
+Running lz_expected.R ...
+--------------------------------------------------------------------------------
+flux = 0.019 cm^-2 s^-1
+expected events in 2.84 t yr: incoherent 1.02e-36, SI point-nucleus coherent 2.27e-30
+orders of magnitude short of ONE event (SI q=0, unit efficiency): 29.6
+
+sec 5 table row:
+  expected LZ events (SI q=0, unit efficiency) [count]       expected= 2.3e-30         reproduced=2.266438e-30     err=1.459%       tol=rel<=5%      [PASS]  [[vs. plain 0.5% default: FAIL, 1.459% relative]]
+      note: SI zero-momentum benchmark, including the nuclear reduced-mass ratio
+RESULT|expected LZ events (SI q=0, unit efficiency) [count]| 2.3e-30|2.266438e-30|1.459%|rel<=5%|PASS|FAIL
+  orders short of one event                                  expected=    29.6         reproduced=29.64466         err=0.1509%      tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1509% relative]]
+      note: approximately thirty orders below one event in the stated idealized benchmark
+RESULT|orders short of one event|    29.6|29.64466|0.1509%|rel<=1%|PASS|PASS
+
+--------------------------------------------------------------------------------
+Running graviton_whichpath.R ...
+--------------------------------------------------------------------------------
+(A,B,C) for g = sin^4(pi t) on [0,1]: 11656.84357309 42092.91505332 16883.19030278
+Gamma leading = 8.1822158e-59 ; Gamma with the g^2 terms (ideal two-body, actuator-dependent) = 1.7045731e-58
+Delta_x/D = 0.556, so the nonlinear terms are not small; a separate analysis shows they depend on the actuator
+
+checks:
+  spectral constant A (independently derived)                expected=11656.84         reproduced=11656.84         err=3.505e-11%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 3.505e-11% relative]]
+      note: 2026-09-12 Gram constant A, sin^4 profile, T = 1
+RESULT|spectral constant A (independently derived)|11656.84|11656.84|3.505e-11%|rel<=0.01%|PASS|PASS
+  spectral constant B (independently derived)                expected=42092.92         reproduced=42092.92         err=2.985e-11%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 2.985e-11% relative]]
+RESULT|spectral constant B (independently derived)|42092.92|42092.92|2.985e-11%|rel<=0.01%|PASS|PASS
+  spectral constant C (independently derived)                expected=16883.19         reproduced=16883.19         err=1.493e-11%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 1.493e-11% relative]]
+RESULT|spectral constant C (independently derived)|16883.19|16883.19|1.493e-11%|rel<=0.01%|PASS|PASS
+  Gamma leading, Bose design, T = 1 s (paper sec 5)          expected= 8.2e-59         reproduced=8.182216e-59     err=0.2169%      tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.2169% relative]]
+      note: paper quotes 8e-59 (one figure); independent value 8.1822158e-59
+RESULT|Gamma leading, Bose design, T = 1 s (paper sec 5)| 8.2e-59|8.182216e-59|0.2169%|rel<=1%|PASS|PASS
+  Gamma ideal two-body                                       expected=1.704573e-58     reproduced=1.704573e-58     err=2.509e-06%   tol=rel<=0.01%   [PASS]  [[vs. plain 0.5% default: PASS, 2.509e-06% relative]]
+      note: actuator-dependent; not quoted in the paper as a value
+RESULT|Gamma ideal two-body|1.704573e-58|1.704573e-58|2.509e-06%|rel<=0.01%|PASS|PASS
+
+--------------------------------------------------------------------------------
+Running dp_design.R ...
+--------------------------------------------------------------------------------
+silica  R = 1.03 um: tau_DP(100 nm) = 1.780 s
+diamond R = 0.88 um: tau_DP(250 um, design separation) = 0.0058 s ; exponent per second = 172
+fold's leading which-path exponent for the same protocol (graviton_whichpath.R): 8.2e-59 ; log10 ratio = 60.3
+
+checks:
+  tau_DP, 10^-14 kg silica, 100 nm [s]                       expected=     1.8         reproduced=1.779631         err=1.132%       tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 1.132% relative]]
+      note: beyond/DECOHERENCE_FLOOR.md table: 1.8 s; paper sec 5: 1.8 s
+RESULT|tau_DP, 10^-14 kg silica, 100 nm [s]|     1.8|1.779631|1.132%|rel<=2%|PASS|FAIL
+  tau_DP, 10^-14 kg diamond, 250 um [s]                      expected=   0.006         reproduced=0.005812741      err=3.121%       tol=rel<=5%      [PASS]  [[vs. plain 0.5% default: FAIL, 3.121% relative]]
+      note: paper sec 5 quotes 6 ms (one figure)
+RESULT|tau_DP, 10^-14 kg diamond, 250 um [s]|   0.006|0.005812741|3.121%|rel<=5%|PASS|FAIL
+
+--------------------------------------------------------------------------------
+Running aic_table.R ...
+--------------------------------------------------------------------------------
+Delta AIC (framework structure vs LCDM, geometry-only)      = +1.01   [Dchi2 +3.012, Dk = -1]
+Delta AIC (w0waCDM vs LCDM, geometry-only)                  = -5.12   [Dchi2 -9.120, Dk = +2]
+Delta AIC (framework structure vs w0waCDM, geometry-only)   = +6.13
+cross-check at Sum m_nu fixed for both: w0wa vs framework   = -6.71   [line 111: -10.71, Dk = +2]
+Delta AIC (adding the tilt mechanism, n_s fixed; CMB tilt)  = +21.3   [4.83 sigma -> Dchi2 23.3, Dk = -1 more]
+
+BIC, n = 1595, ln n = 7.375 per parameter:
+Delta BIC (framework structure vs LCDM)   = -4.36
+Delta BIC (w0waCDM vs LCDM)               = +5.63
+Delta BIC (framework structure vs w0waCDM) = -9.99
+
+Published CMB-inclusive block:
+framework vs LCDM: Dchi2 = +7.2, Dk = -1 -> Delta AIC = +5.2 ; BIC prefers the framework iff n_eff > 1339
+w0waCDM vs LCDM, DESI+CMB               Dchi2 = -12.5, Dk = +2 -> Delta AIC = -8.5 ; BIC prefers w0wa iff n_eff < 518
+w0waCDM vs LCDM, DESI+CMB+Pantheon+     Dchi2 = -10.7, Dk = +2 -> Delta AIC = -6.7 ; BIC prefers w0wa iff n_eff < 211
+w0waCDM vs LCDM, DESI+CMB+Union3        Dchi2 = -17.4, Dk = +2 -> Delta AIC = -13.4 ; BIC prefers w0wa iff n_eff < 6003
+w0waCDM vs LCDM, DESI+CMB+DESY5         Dchi2 = -21.0, Dk = +2 -> Delta AIC = -17.0 ; BIC prefers w0wa iff n_eff < 36316
+
+checks:
+  Delta AIC framework vs LCDM (paper: 'a tie, +1')           expected=       1         reproduced=   1.012         err=1.2%         tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 1.2% relative]]
+      note: 3.012 - 2 = 1.012; paper quotes +1
+RESULT|Delta AIC framework vs LCDM (paper: 'a tie, +1')|       1|   1.012|1.2%|rel<=2%|PASS|FAIL
+  Delta AIC w0waCDM vs LCDM, geometry-only (paper: '-5')     expected=    -5.1         reproduced=   -5.12         err=0.3922%      tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.3922% relative]]
+      note: -9.12 + 4 = -5.12; DESI's own CMB-inclusive values are stronger (see THEORY_COMPARE note)
+RESULT|Delta AIC w0waCDM vs LCDM, geometry-only (paper: '-5')|    -5.1|   -5.12|0.3922%|rel<=1%|PASS|PASS
+  Delta AIC tilt mechanism vs LCDM (paper: '+21')            expected=    21.3         reproduced= 21.3289         err=0.1357%      tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1357% relative]]
+      note: 4.83^2 - 2 = 21.3
+RESULT|Delta AIC tilt mechanism vs LCDM (paper: '+21')|    21.3| 21.3289|0.1357%|rel<=1%|PASS|PASS
+  Delta BIC framework vs LCDM (paper: '-4.4')                expected=    -4.4         reproduced=-4.362629        err=0.8493%      tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 0.8493% relative]]
+      note: 3.012 - ln(1595)
+RESULT|Delta BIC framework vs LCDM (paper: '-4.4')|    -4.4|-4.362629|0.8493%|rel<=2%|PASS|FAIL
+  Delta BIC w0waCDM vs LCDM (paper: '+5.6')                  expected=     5.6         reproduced=5.629258         err=0.5225%      tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 0.5225% relative]]
+      note: -9.12 + 2 ln(1595)
+RESULT|Delta BIC w0waCDM vs LCDM (paper: '+5.6')|     5.6|5.629258|0.5225%|rel<=2%|PASS|FAIL
+  break-even n, framework vs LCDM, published (paper: '1300') expected=    1340         reproduced=1339.431         err=0.04248%     tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.04248% relative]]
+      note: exp(7.2) = 1339.4
+RESULT|break-even n, framework vs LCDM, published (paper: '1300')|    1340|1339.431|0.04248%|rel<=1%|PASS|PASS
+  break-even n, w0wa vs LCDM, DESI+CMB+Pantheon+ (paper: '210') expected=     211         reproduced=210.6083         err=0.1856%      tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1856% relative]]
+      note: exp(5.35) = 210.6
+RESULT|break-even n, w0wa vs LCDM, DESI+CMB+Pantheon+ (paper: '210')|     211|210.6083|0.1856%|rel<=1%|PASS|PASS
+  break-even n, w0wa vs LCDM, DESI+CMB+DESY5 (paper: '36000') expected=   36316         reproduced= 36315.5         err=0.001369%    tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.001369% relative]]
+      note: exp(10.5) = 36315.5
+RESULT|break-even n, w0wa vs LCDM, DESI+CMB+DESY5 (paper: '36000')|   36316| 36315.5|0.001369%|rel<=1%|PASS|PASS
+
+--------------------------------------------------------------------------------
+Running bmv_phase.R ...
+--------------------------------------------------------------------------------
+phase closest pair (200 um) = 0.791 rad ; farthest (700 um) = 0.226 rad ; mixed (450 um) = 0.352 rad
+entangling combination Delta_phi = 0.314 rad over tau = 2.5 s
+compare: the fold's which-path decoherence exponent for the same protocol is 8e-59 (graviton_whichpath.R)
+
+checks:
+  Delta_phi, Bose design (paper sec 5: '0.3 rad')            expected=    0.31         reproduced=0.3139345        err=1.269%       tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 1.269% relative]]
+      note: G m^2 tau/hbar [1/(d-Dx) + 1/(d+Dx) - 2/d]
+RESULT|Delta_phi, Bose design (paper sec 5: '0.3 rad')|    0.31|0.3139345|1.269%|rel<=2%|PASS|FAIL
+  closest-pair phase (paper: '0.8 rad')                      expected=    0.79         reproduced=0.7911149        err=0.1411%      tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1411% relative]]
+RESULT|closest-pair phase (paper: '0.8 rad')|    0.79|0.7911149|0.1411%|rel<=2%|PASS|PASS
+  classical-channel ceiling exp(-Delta_phi), two-branch KTM model (paper sec 5: '0.73') expected=    0.73         reproduced=0.7305669        err=0.07766%     tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.07766% relative]]
+      note: exp(-0.3139) = 0.7306; KTM minimum-noise point
+RESULT|classical-channel ceiling exp(-Delta_phi), two-branch KTM model (paper sec 5: '0.73')|    0.73|0.7305669|0.07766%|rel<=1%|PASS|PASS
+
+--------------------------------------------------------------------------------
+Running tilt_tensions.R ...
+--------------------------------------------------------------------------------
+n_s(pred) = 1 - 7*0.0189/pi = 0.957888 (paper: 0.957888)
+                            dataset     ns  sigma paper tension
+1 Planck 2018 TT,TE,EE+lowE+lensing 0.9649 0.0042  1.67  1.6696
+2                     ACT DR6 alone 0.9666 0.0077  1.13  1.1315
+3                   SPT-3G D1 alone 0.9510 0.0110 -0.63 -0.6261
+4                             P-ACT 0.9709 0.0038  3.42  3.4243
+5                           CMB-SPA 0.9679 0.0033  3.03  3.0341
+6                          P-ACT-LB 0.9743 0.0034  4.83  4.8272
+7                         P-ACT-LB2 0.9752 0.0030  5.77  5.7708
+8                CMB-SPA + DESI DR2 0.9726 0.0028  5.25  5.2544
+
+checks:
+  n_s prediction                                             expected=0.957888         reproduced=0.9578876        err=4.154e-05%   tol=rel<=0.001%  [PASS]  [[vs. plain 0.5% default: PASS, 4.154e-05% relative]]
+RESULT|n_s prediction|0.957888|0.9578876|4.154e-05%|rel<=0.001%|PASS|PASS
+  tilt tension, Planck 2018 TT,TE,EE+lowE+lensing [sigma]    expected=    1.67         reproduced=1.669619         err=0.02284%     tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.02284% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, Planck 2018 TT,TE,EE+lowE+lensing [sigma]|    1.67|1.669619|0.02284%|rel<=2%|PASS|PASS
+  tilt tension, ACT DR6 alone [sigma]                        expected=    1.13         reproduced= 1.13148         err=0.131%       tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.131% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, ACT DR6 alone [sigma]|    1.13| 1.13148|0.131%|rel<=2%|PASS|PASS
+  tilt tension, SPT-3G D1 alone [sigma]                      expected=   -0.63         reproduced=-0.6261456       err=0.6118%      tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 0.6118% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, SPT-3G D1 alone [sigma]|   -0.63|-0.6261456|0.6118%|rel<=2%|PASS|FAIL
+  tilt tension, P-ACT [sigma]                                expected=    3.42         reproduced=3.424315         err=0.1262%      tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1262% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, P-ACT [sigma]|    3.42|3.424315|0.1262%|rel<=2%|PASS|PASS
+  tilt tension, CMB-SPA [sigma]                              expected=    3.03         reproduced= 3.03406         err=0.134%       tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.134% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, CMB-SPA [sigma]|    3.03| 3.03406|0.134%|rel<=2%|PASS|PASS
+  tilt tension, P-ACT-LB [sigma]                             expected=    4.83         reproduced=4.827176         err=0.05847%     tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.05847% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, P-ACT-LB [sigma]|    4.83|4.827176|0.05847%|rel<=2%|PASS|PASS
+  tilt tension, P-ACT-LB2 [sigma]                            expected=    5.77         reproduced=5.770799         err=0.01385%     tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.01385% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, P-ACT-LB2 [sigma]|    5.77|5.770799|0.01385%|rel<=2%|PASS|PASS
+  tilt tension, CMB-SPA + DESI DR2 [sigma]                   expected=    5.25         reproduced=5.254428         err=0.08434%     tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.08434% relative]]
+      note: paper sec 5.2 table; inputs quoted there
+RESULT|tilt tension, CMB-SPA + DESI DR2 [sigma]|    5.25|5.254428|0.08434%|rel<=2%|PASS|PASS
+
+--------------------------------------------------------------------------------
+Running two_port_noise.R ...
+--------------------------------------------------------------------------------
+A_I = -0.0084434320 (exact -1/(12 pi^2) = -0.0084434320); A_0 (Im t = -pi) = 0.0084434320; A_0 (Im t = -0.3) = 0.0084434320
+two-port eigenvalues: 0.000e+00 and 0.0168868639 (1/(6 pi^2) = 0.0168868639)
+S_even(0.01)/(w^2/24) = 1.000018 ; S_odd(1e-3) = 0.0168868947 ; rho(1) = 0.0530516477 vs w(w^2+1)/(12 pi) = 0.0530516477
+
+checks:
+  A_I = -H^3/(12 pi^2) (sec 2.10)                            expected=-0.008443432     reproduced=-0.008443432     err=0%           tol=rel<=0.5%    [PASS]
+RESULT|A_I = -H^3/(12 pi^2) (sec 2.10)|-0.008443432|-0.008443432|0%|rel<=0.5%|PASS|PASS
+  A_0 = +H^3/(12 pi^2), contour Im t = -pi (sec 2.10)        expected=0.008443432      reproduced=0.008443432      err=0%           tol=rel<=0.5%    [PASS]
+RESULT|A_0 = +H^3/(12 pi^2), contour Im t = -pi (sec 2.10)|0.008443432|0.008443432|0%|rel<=0.5%|PASS|PASS
+  A_0 on Im t = -0.3 (any 0 < eps < 2 pi gives the same)     expected=0.008443432      reproduced=0.008443432      err=2.63e-12%    tol=rel<=0.5%    [PASS]
+RESULT|A_0 on Im t = -0.3 (any 0 < eps < 2 pi gives the same)|0.008443432|0.008443432|2.63e-12%|rel<=0.5%|PASS|PASS
+  even port: 1 + (A_0 + A_I)/(A_0 - A_I) = 1 (sec 2.10; eigenvalue exactly zero) expected=       1         reproduced=       1         err=0%           tol=rel<=1e-07%  [PASS]  [[vs. plain 0.5% default: PASS, 0% relative]]
+      note: the image integral is minus the local one
+RESULT|even port: 1 + (A_0 + A_I)/(A_0 - A_I) = 1 (sec 2.10; eigenvalue exactly zero)|       1|       1|0%|rel<=1e-07%|PASS|PASS
+  odd-port eigenvalue A_0 - A_I = H^3/(6 pi^2) (sec 2.10)    expected=0.01688686       reproduced=0.01688686       err=0%           tol=rel<=0.5%    [PASS]
+RESULT|odd-port eigenvalue A_0 - A_I = H^3/(6 pi^2) (sec 2.10)|0.01688686|0.01688686|0%|rel<=0.5%|PASS|PASS
+  S_I(w=1) closed form vs quadrature                         expected=-0.004593718     reproduced=-0.004593718     err=3.776e-14%   tol=rel<=0.5%    [PASS]
+RESULT|S_I(w=1) closed form vs quadrature|-0.004593718|-0.004593718|3.776e-14%|rel<=0.5%|PASS|PASS
+  S_I(w=0.25) closed form vs quadrature                      expected=-0.008111152     reproduced=-0.008111152     err=2.139e-14%   tol=rel<=0.5%    [PASS]
+RESULT|S_I(w=0.25) closed form vs quadrature|-0.008111152|-0.008111152|2.139e-14%|rel<=0.5%|PASS|PASS
+  S_even -> H w^2/24 at small w (w = 0.01)                   expected=       1         reproduced=1.000018         err=0.001775%    tol=rel<=0.5%    [PASS]
+RESULT|S_even -> H w^2/24 at small w (w = 0.01)|       1|1.000018|0.001775%|rel<=0.5%|PASS|PASS
+  S_odd(w -> 0) = H^3/(6 pi^2) (w = 1e-3)                    expected=0.01688686       reproduced=0.01688689       err=0.0001822%   tol=rel<=0.5%    [PASS]
+RESULT|S_odd(w -> 0) = H^3/(6 pi^2) (w = 1e-3)|0.01688686|0.01688689|0.0001822%|rel<=0.5%|PASS|PASS
+  spectral function rho(1) = w(w^2+1)/(12 pi)                expected=0.05305165       reproduced=0.05305165       err=3.924e-14%   tol=rel<=0.5%    [PASS]
+RESULT|spectral function rho(1) = w(w^2+1)/(12 pi)|0.05305165|0.05305165|3.924e-14%|rel<=0.5%|PASS|PASS
+  spectral function rho(2) = w(w^2+1)/(12 pi)                expected=0.2652582        reproduced=0.2652582        err=8.371e-14%   tol=rel<=0.5%    [PASS]
+RESULT|spectral function rho(2) = w(w^2+1)/(12 pi)|0.2652582|0.2652582|8.371e-14%|rel<=0.5%|PASS|PASS
+  spectral function rho(3) = w(w^2+1)/(12 pi)                expected=0.7957747        reproduced=0.7957747        err=5.023e-13%   tol=rel<=0.5%    [PASS]
+RESULT|spectral function rho(3) = w(w^2+1)/(12 pi)|0.7957747|0.7957747|5.023e-13%|rel<=0.5%|PASS|PASS
+  flat-space rho(2) = w^3/(12 pi) (radiation-reaction coefficient) expected=0.2122066        reproduced=0.2122066        err=4.635e-08%   tol=rel<=0.5%    [PASS]
+RESULT|flat-space rho(2) = w^3/(12 pi) (radiation-reaction coefficient)|0.2122066|0.2122066|4.635e-08%|rel<=0.5%|PASS|PASS
+
+--------------------------------------------------------------------------------
+Running cp_wall.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+cp_wall.R -- cp_wall_efolds.py CP-wall e-fold bound
+==============================================================================
+
+rho_c = 3.678e-47 GeV^4,  R_H = 6.955e+41 GeV^-1
+  Lambda_* = (rho_c R_H)^(1/3) [MeV]                         expected=    29.5         reproduced=29.46547         err=0.117%       tol=rel<=0.5%    [PASS]
+RESULT|Lambda_* = (rho_c R_H)^(1/3) [MeV]|    29.5|29.46547|0.117%|rel<=0.5%|PASS|PASS
+
+Delta N = 3 ln(Lambda_CP/Lambda_*), for Lambda_CP > Lambda_*:
+
+  Delta N at Lambda_CP = 1 GeV                               expected=    10.6         reproduced=10.57361         err=0.249%       tol=rel<=0.5%    [PASS]
+RESULT|Delta N at Lambda_CP = 1 GeV|    10.6|10.57361|0.249%|rel<=0.5%|PASS|PASS
+  Delta N at Lambda_CP = 1e3 GeV                             expected=    31.3         reproduced=31.29687         err=0.009986%    tol=rel<=0.5%    [PASS]
+RESULT|Delta N at Lambda_CP = 1e3 GeV|    31.3|31.29687|0.009986%|rel<=0.5%|PASS|PASS
+  Delta N at Lambda_CP = 1e8 GeV (paper rounds to 66)        expected=    65.8         reproduced=65.83565         err=0.05418%     tol=rel<=0.5%    [PASS]
+RESULT|Delta N at Lambda_CP = 1e8 GeV (paper rounds to 66)|    65.8|65.83565|0.05418%|rel<=0.5%|PASS|PASS
+
+Full table (cp_wall_efolds_output.txt):
+     Lambda_CP   d/R_H needed  extra e-folds
+         1e-03       3.91e-05            0.0
+         1e-02       3.91e-02            0.0
+         1e+00       3.91e+04           10.6
+         1e+03       3.91e+13           31.3
+         1e+08       3.91e+28           65.8
+         1e+12       3.91e+40           93.5
+         1e+16       3.91e+52          121.1
+
+--------------------------------------------------------------------------------
+Running dm_clock.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+dm_clock.R -- DM_CLOCK.md pure numbers R, I, and the tick t_dec
+==============================================================================
+
+INT x^2[-log(1-n)] dx = 1.347945369850e-01 (quad abs.err 6.0e-13)
+INT x^2 n(x) dx       = 1.259328691667e-01 (quad abs.err 6.0e-13)
+  R = Gamma-bar / N                                          expected=1.070368         reproduced=1.070368         err=2.807e-10%   tol=rel<=1e-06%  [PASS]  [[vs. plain 0.5% default: PASS, 2.807e-10% relative]]
+      note: DM_CLOCK.md HEADLINE, 12 digits
+RESULT|R = Gamma-bar / N|1.070368|1.070368|2.807e-10%|rel<=1e-06%|PASS|PASS
+  I = (1/2pi^2) INT x^2[1-sqrt(1-e^-x^2)] dx                 expected=0.01275967       reproduced=0.01275967       err=3.659e-10%   tol=rel<=1e-06%  [PASS]  [[vs. plain 0.5% default: PASS, 3.659e-10% relative]]
+      note: DM_CLOCK.md sec D and PAPER2_v3.md sec 4.2
+RESULT|I = (1/2pi^2) INT x^2[1-sqrt(1-e^-x^2)] dx|0.01275967|0.01275967|3.659e-10%|rel<=1e-06%|PASS|PASS
+
+The tick t_dec = 10.5798/M1 (DM_CLOCK.md HEADLINE table, c_G=1, phase-averaged):
+
+  t_dec coefficient [1/M1], c_G=1                            expected= 10.5798         reproduced=10.57984         err=0.0003797%   tol=rel<=0.001%  [PASS]  [[vs. plain 0.5% default: PASS, 0.0003797% relative]]
+      note: derived from the displayed phase-averaged R-I formula
+RESULT|t_dec coefficient [1/M1], c_G=1| 10.5798|10.57984|0.0003797%|rel<=0.001%|PASS|PASS
+  t_dec [s], M1 = 4.848e8 GeV                                expected=1.44e-32         reproduced=1.436423e-32     err=0.2484%      tol=rel<=0.5%    [PASS]
+      note: DM_CLOCK.md HEADLINE: 't_dec = 10.58/M1 = 1.44e-32 s' (coefficient rounded to 10.6)
+RESULT|t_dec [s], M1 = 4.848e8 GeV|1.44e-32|1.436423e-32|0.2484%|rel<=0.5%|PASS|PASS
+  t_dec [s], c_G=1/2 Majorana-pair convention                expected=2.28e-32         reproduced=2.280179e-32     err=0.007847%    tol=rel<=0.5%    [PASS]
+      note: factor-of-order-one counting alternative
+RESULT|t_dec [s], c_G=1/2 Majorana-pair convention|2.28e-32|2.280179e-32|0.007847%|rel<=0.5%|PASS|PASS
+
+(For reference, DM_CLOCK.md's own M1 = 4.8484e8 GeV gives t_dec = 1.436304e-32 s.)
+
+--------------------------------------------------------------------------------
+Running eta_rp4.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+eta_rp4.R -- SPIN_Z4.md sec 2.1 eta(RP4) and sec 2.2 N_W phase table
+==============================================================================
+
+zeta(-1) = -0.0833333333333333, zeta(-3) = 0.00833333333333333 (quoted exact values)
+  eta(RP^4) = (2/3)[-(1-2^4)zeta(-3)+(1-2^2)zeta(-1)]        expected=    0.25         reproduced=    0.25         err=0%           tol=rel<=1e-08%  [PASS]  [[vs. plain 0.5% default: PASS, 0% relative]]
+      note: SPIN_Z4.md sec 2.1; Witten 1508.04715 fn.39: eta(RP4) = -+1/4
+RESULT|eta(RP^4) = (2/3)[-(1-2^4)zeta(-3)+(1-2^2)zeta(-1)]|    0.25|    0.25|0%|rel<=1e-08%|PASS|PASS
+
+Phase table Z_+- = exp(+- i pi N_W / 8) (SPIN_Z4.md sec 2.2 / eta_rp4.py part C):
+
+N_W=45 (3 generations, no nu_R): mod16=13, mod8=5
+  Re[exp(+i pi*45/8)]                                        expected=0.382683         reproduced=0.3826834        err=4.32e-07 (0.000113% rel) tol=abs<=1e-05   [PASS]  [[vs. plain 0.5% default: PASS, 0.000113% relative]]
+RESULT|Re[exp(+i pi*45/8)]|0.382683|0.3826834|4.32e-07 (0.000113% rel)|abs<=1e-05|PASS|PASS
+  Im[exp(+i pi*45/8)]                                        expected=-0.92388         reproduced=-0.9238795       err=4.67e-07 (5.06e-05% rel) tol=abs<=1e-05   [PASS]  [[vs. plain 0.5% default: PASS, 5.06e-05% relative]]
+RESULT|Im[exp(+i pi*45/8)]|-0.92388|-0.9238795|4.67e-07 (5.06e-05% rel)|abs<=1e-05|PASS|PASS
+  Re[exp(-i pi*45/8)]                                        expected=0.382683         reproduced=0.3826834        err=4.32e-07 (0.000113% rel) tol=abs<=1e-05   [PASS]  [[vs. plain 0.5% default: PASS, 0.000113% relative]]
+RESULT|Re[exp(-i pi*45/8)]|0.382683|0.3826834|4.32e-07 (0.000113% rel)|abs<=1e-05|PASS|PASS
+  Im[exp(-i pi*45/8)]                                        expected= 0.92388         reproduced=0.9238795        err=4.67e-07 (5.06e-05% rel) tol=abs<=1e-05   [PASS]  [[vs. plain 0.5% default: PASS, 5.06e-05% relative]]
+RESULT|Im[exp(-i pi*45/8)]| 0.92388|0.9238795|4.67e-07 (5.06e-05% rel)|abs<=1e-05|PASS|PASS
+  2cos(pi*45/8) [summed lift weight]                         expected=0.765367         reproduced=0.7653669        err=1.35e-07 (1.767e-05% rel) tol=abs<=1e-05   [PASS]  [[vs. plain 0.5% default: PASS, 1.767e-05% relative]]
+RESULT|2cos(pi*45/8) [summed lift weight]|0.765367|0.7653669|1.35e-07 (1.767e-05% rel)|abs<=1e-05|PASS|PASS
+
+N_W=48 (3 generations with nu_R): mod16=0, mod8=0
+  Re[exp(+i pi*48/8)]                                        expected=       1         reproduced=       1         err=0 (0% rel)   tol=abs<=1e-10   [PASS]  [[vs. plain 0.5% default: PASS, 0% relative]]
+RESULT|Re[exp(+i pi*48/8)]|       1|       1|0 (0% rel)|abs<=1e-10|PASS|PASS
+  Im[exp(+i pi*48/8)]                                        expected=       0         reproduced=-7.347881e-16    err=7.35e-16 (Inf% rel) tol=abs<=1e-10   [PASS]  [[vs. plain 0.5% default: FAIL, Inf% relative]]
+RESULT|Im[exp(+i pi*48/8)]|       0|-7.347881e-16|7.35e-16 (Inf% rel)|abs<=1e-10|PASS|FAIL
+  2cos(pi*48/8) [summed lift weight]                         expected=       2         reproduced=       2         err=0 (0% rel)   tol=abs<=1e-10   [PASS]  [[vs. plain 0.5% default: PASS, 0% relative]]
+RESULT|2cos(pi*48/8) [summed lift weight]|       2|       2|0 (0% rel)|abs<=1e-10|PASS|PASS
+
+Read-off (SPIN_Z4.md sec 2.2): N_W=45 has n=13, 2cos(13pi/8)=+0.765>0, so it PASSES
+the sign-definiteness/non-vanishing tests but FAILS the phase-exactly-1 and
+phase-real tests; N_W=48 has n=0 and passes everything.
+
+--------------------------------------------------------------------------------
+Running crease_helicity.R ...
+--------------------------------------------------------------------------------
+
+==============================================================================
+crease_helicity.R -- CREASE_HELICITY.md sec 1, vartheta = alpha_Y * Sigma_W Y^2
+==============================================================================
+
+Hypercharge-squared sum per generation (Q=T3+Y convention):
+       QL       uRc       dRc         L       eRc 
+0.1666667 1.3333333 0.3333333 0.5000000 1.0000000 
+  Sigma_W Y^2 per generation                                 expected=3.333333         reproduced=3.333333         err=1.332e-14%   tol=rel<=1e-08%  [PASS]  [[vs. plain 0.5% default: PASS, 1.332e-14% relative]]
+RESULT|Sigma_W Y^2 per generation|3.333333|3.333333|1.332e-14%|rel<=1e-08%|PASS|PASS
+  Sigma_W Y^2 (x3 generations)                               expected=      10         reproduced=      10         err=0%           tol=rel<=1e-08%  [PASS]  [[vs. plain 0.5% default: PASS, 0% relative]]
+RESULT|Sigma_W Y^2 (x3 generations)|      10|      10|0%|rel<=1e-08%|PASS|PASS
+  b_Y cross-check = (2/3)SigmaY^2 + (1/3)Sigma_scalar Y^2    expected=6.833333         reproduced=6.833333         err=0%           tol=rel<=1e-08%  [PASS]  [[vs. plain 0.5% default: PASS, 0% relative]]
+      note: known SM one-loop hypercharge coefficient
+RESULT|b_Y cross-check = (2/3)SigmaY^2 + (1/3)Sigma_scalar Y^2|6.833333|6.833333|0%|rel<=1e-08%|PASS|PASS
+  alpha_Y^-1(M_Z)                                            expected=  98.365         reproduced= 98.3654         err=0.0004077%   tol=rel<=0.1%    [PASS]  [[vs. plain 0.5% default: PASS, 0.0004077% relative]]
+RESULT|alpha_Y^-1(M_Z)|  98.365| 98.3654|0.0004077%|rel<=0.1%|PASS|PASS
+
+H = 1e-5 M_P = 2.4350e+13 GeV, H = 1e-7 M_P = 2.4350e+11 GeV
+  alpha_Y(1e-5 M_P)                                          expected=0.014337         reproduced=0.0143367        err=0.002066%    tol=rel<=0.1%    [PASS]  [[vs. plain 0.5% default: PASS, 0.002066% relative]]
+RESULT|alpha_Y(1e-5 M_P)|0.014337|0.0143367|0.002066%|rel<=0.1%|PASS|PASS
+  alpha_Y(1e-7 M_P)                                          expected=0.013376         reproduced=0.01337624       err=0.001782%    tol=rel<=0.1%    [PASS]  [[vs. plain 0.5% default: PASS, 0.001782% relative]]
+RESULT|alpha_Y(1e-7 M_P)|0.013376|0.01337624|0.001782%|rel<=0.1%|PASS|PASS
+
+vartheta = alpha_Y(H) * Sigma_W Y^2:
+
+  vartheta at H = 1e-5 M_P (rounded to 0.143)                expected=  0.1434         reproduced=0.143367         err=0.02299%     tol=rel<=0.1%    [PASS]  [[vs. plain 0.5% default: PASS, 0.02299% relative]]
+      note: CREASE_HELICITY.md HEADLINE: 'vartheta = alpha_Y Sigma_W Y^2 = 0.143'
+RESULT|vartheta at H = 1e-5 M_P (rounded to 0.143)|  0.1434|0.143367|0.02299%|rel<=0.1%|PASS|PASS
+  vartheta at H = 1e-7 M_P                                   expected=  0.1338         reproduced=0.1337624        err=0.02811%     tol=rel<=0.1%    [PASS]  [[vs. plain 0.5% default: PASS, 0.02811% relative]]
+RESULT|vartheta at H = 1e-7 M_P|  0.1338|0.1337624|0.02811%|rel<=0.1%|PASS|PASS
+
+================================================================================
+Pointer-only item (not counted below -- see numass_geometric.py docstring)
+================================================================================
+Geometry-only profile provenance (existence checks, not a fit)
+[OK] calc/tangents/numass_mirror/numass_mirror.py
+[OK] calc/tangents/numass_mirror/numass_mirror_output.txt
+[OK] calc/desi_dr2_geometry.py
+[OK] WORKING_CALCULATIONS.md
+[OK] data/README.md
+[EXTERNAL INPUT NEEDED] PantheonPlusSH0ES.dat
+[EXTERNAL INPUT NEEDED] PantheonPlusSH0ES_STAT+SYS.cov
+Download and verify the declared data before rerunning the Python fit.
+No fit result is counted among the 96 R comparisons.
+
+================================================================================
+SUMMARY: pass/fail per headline number (tolerance is per-number; see each
+script's header comment and README.md for why each tolerance was chosen)
+================================================================================
+  [PASS] A_dec, N_f=1, unfolded (all n>=2)                          expected= 1.95376       reproduced=1.953765      
+  [PASS] H*t_dec, N_f=1, unfolded (derived: Ht=acosh(A), FIRST_TICK.md sec 2.1) expected= 1.28984       reproduced=1.289843      
+  [PASS] A_dec, N_f=1, folded RP^3 (odd n only)                     expected=  2.5954       reproduced=2.595397      
+  [PASS] H*t_dec, N_f=1, folded RP^3 (derived: Ht=acosh(A))         expected= 1.60752       reproduced=1.607518      
+  [PASS] fold delay in A_dec (%) [text: 'delays its own first tick by 33%'] expected=      33       reproduced=32.84081      
+  [PASS] exact log-abs-D at A=10, N_f=1                             expected=-261.627       reproduced=-261.6274     
+  [PASS] asymptote -(pi/12) N_f A^3 at A=10                         expected=-261.799       reproduced=-261.7994     
+  [PASS] asymptote vs exact relative disagreement (%) [text: '0.07%'] expected=    0.07       reproduced=0.06572191    
+  [PASS] lambda_H = c/H0 [m]                                        expected=1.37e+26       reproduced=1.372507e+26  
+  [PASS] w(LIGO, 100 Hz)                                            expected=1.8e-123       reproduced=1.765054e-123 
+  [PASS] w(LISA, 1 mHz)                                             expected= 1.8e-93       reproduced=1.765054e-93  
+  [PASS] w(PTA, 3 nHz)                                              expected=   2e-60       reproduced=2.421199e-60  
+  [PASS] hbar*H0 [eV]                                               expected=1.44e-33       reproduced=1.437712e-33  
+  [PASS] (m_e/H0)^2 [electron clock weight]                         expected= 1.3e+77       reproduced=1.26327e+77   
+  [PASS] (m_p/H0)^2 [proton clock weight]                           expected=   4e+83       reproduced=4.259059e+83  
+  [PASS] Sum m_nu, normal ordering [meV]                            expected=    58.8       reproduced=58.78431      
+  [PASS] m_betabeta lower bound, NO [meV]                           expected=     1.5       reproduced=1.496161      
+  [PASS] m_betabeta upper bound, NO [meV]                           expected=     3.7       reproduced=3.716913      
+  [PASS] Sum m_nu, inverted ordering [meV]                          expected=    98.9       reproduced=98.92233      
+  [PASS] m_betabeta lower bound, IO [meV]                           expected=    18.2       reproduced=18.19922      
+  [PASS] m_betabeta upper bound, IO [meV]                           expected=    48.2       reproduced=48.21555      
+  [PASS] n_DM [cm^-3] (not itself a headline number, shown for the chain) expected= 8.3e-10       reproduced=8.250825e-10  
+  [PASS] flux [cm^-2 s^-1]                                          expected=   0.018       reproduced=0.01815182    
+  [PASS] b_90 [cm]                                                  expected= 1.1e-37       reproduced=1.191749e-37  
+  [PASS] sigma_grav = pi*b_90^2 [cm^2]                              expected=   4e-74       reproduced=4.461899e-74  
+  [PASS] events / tonne-year                                        expected=   1e-38       reproduced=1.539199e-38  
+  [PASS] Lambda non-thermalisation bound [GeV]                      expected= 9.5e+10       reproduced=9.49006e+10   
+  [PASS] sigma_n bound [cm^2]                                       expected=   1e-72       reproduced=1.347057e-72  
+  [PASS] expected LZ events (SI q=0, unit efficiency) [count]       expected= 2.3e-30       reproduced=2.266438e-30  
+  [PASS] orders short of one event                                  expected=    29.6       reproduced=29.64466      
+  [PASS] spectral constant A (independently derived)                expected=11656.84       reproduced=11656.84      
+  [PASS] spectral constant B (independently derived)                expected=42092.92       reproduced=42092.92      
+  [PASS] spectral constant C (independently derived)                expected=16883.19       reproduced=16883.19      
+  [PASS] Gamma leading, Bose design, T = 1 s (paper sec 5)          expected= 8.2e-59       reproduced=8.182216e-59  
+  [PASS] Gamma ideal two-body                                       expected=1.704573e-58   reproduced=1.704573e-58  
+  [PASS] tau_DP, 10^-14 kg silica, 100 nm [s]                       expected=     1.8       reproduced=1.779631      
+  [PASS] tau_DP, 10^-14 kg diamond, 250 um [s]                      expected=   0.006       reproduced=0.005812741   
+  [PASS] Delta AIC framework vs LCDM (paper: 'a tie, +1')           expected=       1       reproduced=   1.012      
+  [PASS] Delta AIC w0waCDM vs LCDM, geometry-only (paper: '-5')     expected=    -5.1       reproduced=   -5.12      
+  [PASS] Delta AIC tilt mechanism vs LCDM (paper: '+21')            expected=    21.3       reproduced= 21.3289      
+  [PASS] Delta BIC framework vs LCDM (paper: '-4.4')                expected=    -4.4       reproduced=-4.362629     
+  [PASS] Delta BIC w0waCDM vs LCDM (paper: '+5.6')                  expected=     5.6       reproduced=5.629258      
+  [PASS] break-even n, framework vs LCDM, published (paper: '1300') expected=    1340       reproduced=1339.431      
+  [PASS] break-even n, w0wa vs LCDM, DESI+CMB+Pantheon+ (paper: '210') expected=     211       reproduced=210.6083      
+  [PASS] break-even n, w0wa vs LCDM, DESI+CMB+DESY5 (paper: '36000') expected=   36316       reproduced= 36315.5      
+  [PASS] Delta_phi, Bose design (paper sec 5: '0.3 rad')            expected=    0.31       reproduced=0.3139345     
+  [PASS] closest-pair phase (paper: '0.8 rad')                      expected=    0.79       reproduced=0.7911149     
+  [PASS] classical-channel ceiling exp(-Delta_phi), two-branch KTM model (paper sec 5: '0.73') expected=    0.73       reproduced=0.7305669     
+  [PASS] n_s prediction                                             expected=0.957888       reproduced=0.9578876     
+  [PASS] tilt tension, Planck 2018 TT,TE,EE+lowE+lensing [sigma]    expected=    1.67       reproduced=1.669619      
+  [PASS] tilt tension, ACT DR6 alone [sigma]                        expected=    1.13       reproduced= 1.13148      
+  [PASS] tilt tension, SPT-3G D1 alone [sigma]                      expected=   -0.63       reproduced=-0.6261456    
+  [PASS] tilt tension, P-ACT [sigma]                                expected=    3.42       reproduced=3.424315      
+  [PASS] tilt tension, CMB-SPA [sigma]                              expected=    3.03       reproduced= 3.03406      
+  [PASS] tilt tension, P-ACT-LB [sigma]                             expected=    4.83       reproduced=4.827176      
+  [PASS] tilt tension, P-ACT-LB2 [sigma]                            expected=    5.77       reproduced=5.770799      
+  [PASS] tilt tension, CMB-SPA + DESI DR2 [sigma]                   expected=    5.25       reproduced=5.254428      
+  [PASS] A_I = -H^3/(12 pi^2) (sec 2.10)                            expected=-0.008443432   reproduced=-0.008443432  
+  [PASS] A_0 = +H^3/(12 pi^2), contour Im t = -pi (sec 2.10)        expected=0.008443432    reproduced=0.008443432   
+  [PASS] A_0 on Im t = -0.3 (any 0 < eps < 2 pi gives the same)     expected=0.008443432    reproduced=0.008443432   
+  [PASS] even port: 1 + (A_0 + A_I)/(A_0 - A_I) = 1 (sec 2.10; eigenvalue exactly zero) expected=       1       reproduced=       1      
+  [PASS] odd-port eigenvalue A_0 - A_I = H^3/(6 pi^2) (sec 2.10)    expected=0.01688686     reproduced=0.01688686    
+  [PASS] S_I(w=1) closed form vs quadrature                         expected=-0.004593718   reproduced=-0.004593718  
+  [PASS] S_I(w=0.25) closed form vs quadrature                      expected=-0.008111152   reproduced=-0.008111152  
+  [PASS] S_even -> H w^2/24 at small w (w = 0.01)                   expected=       1       reproduced=1.000018      
+  [PASS] S_odd(w -> 0) = H^3/(6 pi^2) (w = 1e-3)                    expected=0.01688686     reproduced=0.01688689    
+  [PASS] spectral function rho(1) = w(w^2+1)/(12 pi)                expected=0.05305165     reproduced=0.05305165    
+  [PASS] spectral function rho(2) = w(w^2+1)/(12 pi)                expected=0.2652582      reproduced=0.2652582     
+  [PASS] spectral function rho(3) = w(w^2+1)/(12 pi)                expected=0.7957747      reproduced=0.7957747     
+  [PASS] flat-space rho(2) = w^3/(12 pi) (radiation-reaction coefficient) expected=0.2122066      reproduced=0.2122066     
+  [PASS] Lambda_* = (rho_c R_H)^(1/3) [MeV]                         expected=    29.5       reproduced=29.46547      
+  [PASS] Delta N at Lambda_CP = 1 GeV                               expected=    10.6       reproduced=10.57361      
+  [PASS] Delta N at Lambda_CP = 1e3 GeV                             expected=    31.3       reproduced=31.29687      
+  [PASS] Delta N at Lambda_CP = 1e8 GeV (paper rounds to 66)        expected=    65.8       reproduced=65.83565      
+  [PASS] R = Gamma-bar / N                                          expected=1.070368       reproduced=1.070368      
+  [PASS] I = (1/2pi^2) INT x^2[1-sqrt(1-e^-x^2)] dx                 expected=0.01275967     reproduced=0.01275967    
+  [PASS] t_dec coefficient [1/M1], c_G=1                            expected= 10.5798       reproduced=10.57984      
+  [PASS] t_dec [s], M1 = 4.848e8 GeV                                expected=1.44e-32       reproduced=1.436423e-32  
+  [PASS] t_dec [s], c_G=1/2 Majorana-pair convention                expected=2.28e-32       reproduced=2.280179e-32  
+  [PASS] eta(RP^4) = (2/3)[-(1-2^4)zeta(-3)+(1-2^2)zeta(-1)]        expected=    0.25       reproduced=    0.25      
+  [PASS] Re[exp(+i pi*45/8)]                                        expected=0.382683       reproduced=0.3826834     
+  [PASS] Im[exp(+i pi*45/8)]                                        expected=-0.92388       reproduced=-0.9238795    
+  [PASS] Re[exp(-i pi*45/8)]                                        expected=0.382683       reproduced=0.3826834     
+  [PASS] Im[exp(-i pi*45/8)]                                        expected= 0.92388       reproduced=0.9238795     
+  [PASS] 2cos(pi*45/8) [summed lift weight]                         expected=0.765367       reproduced=0.7653669     
+  [PASS] Re[exp(+i pi*48/8)]                                        expected=       1       reproduced=       1      
+  [PASS] Im[exp(+i pi*48/8)]                                        expected=       0       reproduced=-7.347881e-16 
+  [PASS] 2cos(pi*48/8) [summed lift weight]                         expected=       2       reproduced=       2      
+  [PASS] Sigma_W Y^2 per generation                                 expected=3.333333       reproduced=3.333333      
+  [PASS] Sigma_W Y^2 (x3 generations)                               expected=      10       reproduced=      10      
+  [PASS] b_Y cross-check = (2/3)SigmaY^2 + (1/3)Sigma_scalar Y^2    expected=6.833333       reproduced=6.833333      
+  [PASS] alpha_Y^-1(M_Z)                                            expected=  98.365       reproduced= 98.3654      
+  [PASS] alpha_Y(1e-5 M_P)                                          expected=0.014337       reproduced=0.0143367     
+  [PASS] alpha_Y(1e-7 M_P)                                          expected=0.013376       reproduced=0.01337624    
+  [PASS] vartheta at H = 1e-5 M_P (rounded to 0.143)                expected=  0.1434       reproduced=0.143367      
+  [PASS] vartheta at H = 1e-7 M_P                                   expected=  0.1338       reproduced=0.1337624     
+
+TOTAL: 96 / 96 numbers reproduced within their SCRIPT-CHOSEN tolerance
+(0.5% relative by default; loosened only where a script's header comment
+documents why -- coarser source precision, or an explicit ORDER OF MAGNITUDE
+label in the source -- never to hide a discrepancy).
+No failures under each script's chosen tolerance.
+
+FLAT DISCLOSURE, at the plain 0.5% default: 75 / 96 numbers also
+clear the plain 0.5% relative-error bar with NO loosening at all. The remainder
+do not, and are listed here rather than hidden behind a loosened tolerance --
+every one of them is a case where the SOURCE itself quotes only 1-2 significant
+figures or explicitly labels the number ORDER OF MAGNITUDE (see README.md):
+  - asymptote vs exact relative disagreement (%) [text: '0.07%'] (0.00428 (6.112% rel) vs its chosen tol abs<=0.01)
+  - w(LIGO, 100 Hz) (factor 1.02 (1.941% rel) vs its chosen tol factor<=1.5)
+  - w(LISA, 1 mHz) (factor 1.02 (1.941% rel) vs its chosen tol factor<=1.5)
+  - w(PTA, 3 nHz) (factor 1.21 (21.06% rel) vs its chosen tol factor<=1.5)
+  - (m_e/H0)^2 [electron clock weight] (factor 1.03 (2.825% rel) vs its chosen tol factor<=1.5)
+  - (m_p/H0)^2 [proton clock weight] (factor 1.06 (6.476% rel) vs its chosen tol factor<=1.5)
+  - n_DM [cm^-3] (not itself a headline number, shown for the chain) (factor 1.01 (0.5925% rel) vs its chosen tol factor<=2)
+  - flux [cm^-2 s^-1] (factor 1.01 (0.8434% rel) vs its chosen tol factor<=2)
+  - b_90 [cm] (factor 1.08 (8.341% rel) vs its chosen tol factor<=2)
+  - sigma_grav = pi*b_90^2 [cm^2] (factor 1.12 (11.55% rel) vs its chosen tol factor<=2)
+  - events / tonne-year (factor 1.54 (53.92% rel) vs its chosen tol factor<=2)
+  - sigma_n bound [cm^2] (factor 1.35 (34.71% rel) vs its chosen tol factor<=2)
+  - expected LZ events (SI q=0, unit efficiency) [count] (1.459% vs its chosen tol rel<=5%)
+  - tau_DP, 10^-14 kg silica, 100 nm [s] (1.132% vs its chosen tol rel<=2%)
+  - tau_DP, 10^-14 kg diamond, 250 um [s] (3.121% vs its chosen tol rel<=5%)
+  - Delta AIC framework vs LCDM (paper: 'a tie, +1') (1.2% vs its chosen tol rel<=2%)
+  - Delta BIC framework vs LCDM (paper: '-4.4') (0.8493% vs its chosen tol rel<=2%)
+  - Delta BIC w0waCDM vs LCDM (paper: '+5.6') (0.5225% vs its chosen tol rel<=2%)
+  - Delta_phi, Bose design (paper sec 5: '0.3 rad') (1.269% vs its chosen tol rel<=2%)
+  - tilt tension, SPT-3G D1 alone [sigma] (0.6118% vs its chosen tol rel<=2%)
+  - Im[exp(+i pi*48/8)] (7.35e-16 (Inf% rel) vs its chosen tol abs<=1e-10)
+
+Wall time for the 15 R scripts: 3 s.
+================================================================================

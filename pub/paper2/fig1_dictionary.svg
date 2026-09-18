@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="7in" height="5.80in" viewBox="0 0 700 580" role="img" aria-label="Crease dictionary: five possible locations for a CPT identification" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#9a9a9a" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="580" fill="white"/>
+  <text x="28" y="29" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Figure 1. Where a fold can sit, and what it costs</text>
+  <text x="28" y="48" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">Shaded rows are consistent. Hatching marks a failed smooth one-copy fold.</text>
+  <text x="78" y="78" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">fixed set</text>
+  <text x="138" y="78" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">identification</text>
+  <text x="321" y="78" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">price</text>
+  <text x="551" y="78" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">verdict</text>
+  <rect x="24" y="88" width="652" height="88" fill="#f2f2f2" stroke="#c7c7c7" stroke-width="0.8"/>
+  <line x1="132.0" y1="88.0" x2="132.0" y2="176.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="315.0" y1="88.0" x2="315.0" y2="176.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="545.0" y1="88.0" x2="545.0" y2="176.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="45.0" y1="131.0" x2="111.0" y2="131.0" stroke="#535353" stroke-width="2"/>
+  <line x1="45.0" y1="146.0" x2="111.0" y2="146.0" stroke="#c7c7c7" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="78.0" y="162" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-weight="500">no crease</text>
+  <text x="141.0" y="117.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">elliptic quotient dS/A</text>
+  <text x="141.0" y="135.0" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">free action: A: x → −x</text>
+  <text x="324.0" y="117.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">no crease at all; local correlators</text>
+  <text x="324.0" y="135.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">are the cover’s restriction</text>
+  <text x="554.0" y="117.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">invisible locally</text>
+  <text x="554.0" y="135.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">at tree level</text>
+  <rect x="24" y="176" width="652" height="88" fill="#f2f2f2" stroke="#c7c7c7" stroke-width="0.8"/>
+  <line x1="132.0" y1="176.0" x2="132.0" y2="264.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="315.0" y1="176.0" x2="315.0" y2="264.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="545.0" y1="176.0" x2="545.0" y2="264.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="78.0" y1="196.0" x2="78.0" y2="232.0" stroke="#111111" stroke-width="2.5"/>
+  <line x1="45.0" y1="219.0" x2="111.0" y2="219.0" stroke="#535353" stroke-width="1.3"/>
+  <text x="78.0" y="250" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-weight="500">codimension 1</text>
+  <text x="141.0" y="205.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">bang mirror</text>
+  <text x="141.0" y="223.0" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">t → −t fixes the spatial slice</text>
+  <text x="324.0" y="205.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">mirror boundary condition; no tension;</text>
+  <text x="324.0" y="223.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">positivity needs a restricted atlas</text>
+  <text x="554.0" y="205.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">best-studied</text>
+  <text x="554.0" y="223.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">fold</text>
+  <rect x="24" y="264" width="652" height="88" fill="#fbfbfb" stroke="#c7c7c7" stroke-width="0.8"/>
+  <rect x="24" y="264" width="9" height="88" fill="url(#hatch)" stroke="none" stroke-width="0"/>
+  <line x1="132.0" y1="264.0" x2="132.0" y2="352.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="315.0" y1="264.0" x2="315.0" y2="352.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="545.0" y1="264.0" x2="545.0" y2="352.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <circle cx="78" cy="306" r="10" fill="white" stroke="#111111" stroke-width="1.5"/>
+  <line x1="78.0" y1="306.0" x2="96.0" y2="306.0" stroke="#535353" stroke-width="0.8"/>
+  <line x1="78.0" y1="306.0" x2="87.0" y2="321.6" stroke="#535353" stroke-width="0.8"/>
+  <line x1="78.0" y1="306.0" x2="69.0" y2="321.6" stroke="#535353" stroke-width="0.8"/>
+  <line x1="78.0" y1="306.0" x2="60.0" y2="306.0" stroke="#535353" stroke-width="0.8"/>
+  <line x1="78.0" y1="306.0" x2="69.0" y2="290.4" stroke="#535353" stroke-width="0.8"/>
+  <line x1="78.0" y1="306.0" x2="87.0" y2="290.4" stroke="#535353" stroke-width="0.8"/>
+  <text x="78.0" y="338" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-weight="500">codimension 2</text>
+  <text x="141.0" y="293.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">modular fold dS/J (TP₁)</text>
+  <text x="141.0" y="311.0" font-size="12.5" text-anchor="start" fill="#333333" font-weight="normal">fixes the bifurcation 2-sphere</text>
+  <text x="324.0" y="293.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">Rindler at 2Tᵁ; Δρ = 1/(32π²d⁴),</text>
+  <text x="324.0" y="311.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">divergent at the crease</text>
+  <text x="554.0" y="293.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">dead as a smooth</text>
+  <text x="554.0" y="311.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">one-copy fold</text>
+  <rect x="24" y="352" width="652" height="88" fill="#fbfbfb" stroke="#c7c7c7" stroke-width="0.8"/>
+  <rect x="24" y="352" width="9" height="88" fill="url(#hatch)" stroke="none" stroke-width="0"/>
+  <line x1="132.0" y1="352.0" x2="132.0" y2="440.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="315.0" y1="352.0" x2="315.0" y2="440.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="545.0" y1="352.0" x2="545.0" y2="440.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="49.0" y1="368.0" x2="49.0" y2="406.0" stroke="#535353" stroke-width="2"/>
+  <line x1="107.0" y1="368.0" x2="107.0" y2="406.0" stroke="#535353" stroke-width="2"/>
+  <line x1="78.0" y1="366.0" x2="78.0" y2="408.0" stroke="#111111" stroke-width="3"/>
+  <text x="78.0" y="426" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-weight="500">codimension 1</text>
+  <text x="141.0" y="381.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">brane at fixed y</text>
+  <text x="141.0" y="399.0" font-size="12.5" text-anchor="start" fill="#333333" font-weight="normal">+−+ three-brane model</text>
+  <text x="324.0" y="381.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">every dS crease: negative</text>
+  <text x="324.0" y="399.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">tension brane (Karch–Randall</text>
+  <text x="324.0" y="417.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">eq. 13, NEC); it carries a ghost</text>
+  <text x="554.0" y="381.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">not a healthy</text>
+  <text x="554.0" y="399.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">fold</text>
+  <rect x="24" y="440" width="652" height="88" fill="#f2f2f2" stroke="#c7c7c7" stroke-width="0.8"/>
+  <line x1="132.0" y1="440.0" x2="132.0" y2="528.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="315.0" y1="440.0" x2="315.0" y2="528.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <line x1="545.0" y1="440.0" x2="545.0" y2="528.0" stroke="#c7c7c7" stroke-width="0.7"/>
+  <path d="M42 472 C61 454, 95 454, 114 472 L114 494 C95 512,61 512,42 494Z" fill="white" stroke="#111111" stroke-width="1.5"/>
+  <line x1="78.0" y1="469.0" x2="78.0" y2="497.0" stroke="#535353" stroke-width="1"/>
+  <text x="78.0" y="522" font-size="12.5" text-anchor="middle" fill="#1a1a1a" font-weight="500">two copies</text>
+  <text x="141" y="459" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold"><tspan x="141" dy="0">glue at the </tspan><tspan x="141" dy="15">bifurcation sphere</tspan></text>
+  <text x="141.0" y="497" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">second sheet is the J-image</text>
+  <text x="324.0" y="469.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">eternal black hole in the</text>
+  <text x="324.0" y="487.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">Hartle–Hawking state</text>
+  <text x="554.0" y="469.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">textbook:</text>
+  <text x="554.0" y="487.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">thermofield</text>
+  <text x="554.0" y="505.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">dynamics</text>
+  <text x="28" y="563" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">In the two-copy row, the cosmological-horizon analogue is the antipodal static patch.</text>
+</svg>

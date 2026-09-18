@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="504pt" height="630pt" viewBox="0 0 504 630" font-family="Helvetica,Arial,sans-serif">
+  <title>Figure 5, compact publication layout</title>
+  <desc>Three compact panels: neutrino mass markers and bounds, caveated geometry-only profiles, and the exact Lambda stance with DESI DR2 plus CMB fits.</desc>
+  <rect width="504" height="630" fill="#fff"/>
+  <text x="18" y="18" font-size="11pt" text-anchor="start" font-weight="bold" fill="#15181d">(a) Neutrino-mass markers and published DESI DR2 bounds</text>
+  <text x="18" y="33" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">circles: exact-rule markers · triangles: published 95% upper limits</text>
+  <line x1="171.00" y1="49.00" x2="171.00" y2="198.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="171.00" y="216.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">0</text>
+  <line x1="249.75" y1="49.00" x2="249.75" y2="198.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="249.75" y="216.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">50</text>
+  <line x1="328.50" y1="49.00" x2="328.50" y2="198.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="328.50" y="216.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">100</text>
+  <line x1="407.25" y1="49.00" x2="407.25" y2="198.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="407.25" y="216.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">150</text>
+  <line x1="486.00" y1="49.00" x2="486.00" y2="198.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="486.00" y="216.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">200</text>
+  <rect x="171.00" y="49.00" width="92.61" height="149.00" fill="#eef1f3"/>
+  <line x1="171.00" y1="49.00" x2="171.00" y2="198.00" stroke="#15181d" stroke-width="0.8"/>
+  <line x1="171.00" y1="198.00" x2="486.00" y2="198.00" stroke="#15181d" stroke-width="0.8"/>
+  <text x="175.00" y="61.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">shaded: below the NO floor</text>
+  <text x="18" y="59" font-size="10pt" text-anchor="start" font-weight="bold" fill="#56616b">EXACT RULE</text>
+  <text x="18" y="134" font-size="10pt" text-anchor="start" font-weight="bold" fill="#56616b">PUBLISHED LIMITS</text>
+  <line x1="18.00" y1="116.00" x2="155.00" y2="116.00" stroke="#d5dadd" stroke-width="0.8"/>
+  <text x="18" y="82" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">NO · m₁ = 0</text>
+  <line x1="171.00" y1="78.00" x2="263.61" y2="78.00" stroke="#174d79" stroke-width="1.3"/>
+  <circle cx="263.61" cy="78.00" r="3.30" fill="#174d79"/>
+  <text x="270.61" y="81.00" font-size="10pt" text-anchor="start" font-weight="bold" fill="#174d79">58.8 meV</text>
+  <text x="18" y="105" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">IO · m₃ = 0</text>
+  <line x1="171.00" y1="101.00" x2="326.77" y2="101.00" stroke="#9b3029" stroke-width="1.3"/>
+  <circle cx="326.77" cy="101.00" r="3.30" fill="#9b3029"/>
+  <text x="333.77" y="104.00" font-size="10pt" text-anchor="start" font-weight="bold" fill="#9b3029">98.9 meV</text>
+  <text x="18.00" y="155.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">Feldman–Cousins</text>
+  <line x1="171.00" y1="151.00" x2="254.47" y2="151.00" stroke="#15181d" stroke-width="1.3" stroke-dasharray="3 2"/>
+  <path d="M 254.47 151.00 l 5 -3 l 0 6 z" fill="#15181d"/>
+  <text x="261.48" y="154.00" font-size="10pt" text-anchor="start" font-weight="bold" fill="#15181d">&lt; 53 meV</text>
+  <text x="18.00" y="176.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">DESI DR2 · ΛCDM</text>
+  <line x1="171.00" y1="172.00" x2="272.12" y2="172.00" stroke="#15181d" stroke-width="1.3" stroke-dasharray="3 2"/>
+  <path d="M 272.12 172.00 l 5 -3 l 0 6 z" fill="#15181d"/>
+  <text x="279.12" y="175.00" font-size="10pt" text-anchor="start" font-weight="bold" fill="#15181d">&lt; 64.2 meV</text>
+  <text x="18.00" y="197.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">DESI DR2 · w₀wₐCDM</text>
+  <line x1="171.00" y1="193.00" x2="427.73" y2="193.00" stroke="#15181d" stroke-width="1.3" stroke-dasharray="3 2"/>
+  <path d="M 427.73 193.00 l 5 -3 l 0 6 z" fill="#15181d"/>
+  <text x="437.73" y="188.00" font-size="10pt" text-anchor="start" font-weight="bold" fill="#15181d">&lt; 163 meV</text>
+  <text x="328.50" y="234.00" font-size="10pt" text-anchor="middle" font-weight="bold" fill="#15181d">Σmν  (meV)</text>
+  <text x="18" y="260" font-size="11pt" text-anchor="start" font-weight="bold" fill="#15181d">(b) Geometry-only mass profiles</text>
+  <text x="18" y="274" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">BAO + Pantheon+ + ωcb prior + θ*. No CMB lensing or primary-CMB amplitude.</text>
+  <text x="18" y="288" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">Each profile: relative to its own minimum, not a substitute for panel (a).</text>
+  <line x1="58.00" y1="303.00" x2="58.00" y2="397.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="58.00" y="411.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">0</text>
+  <line x1="165.00" y1="303.00" x2="165.00" y2="397.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="165.00" y="411.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">50</text>
+  <line x1="272.00" y1="303.00" x2="272.00" y2="397.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="272.00" y="411.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">100</text>
+  <line x1="379.00" y1="303.00" x2="379.00" y2="397.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="379.00" y="411.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">150</text>
+  <line x1="486.00" y1="303.00" x2="486.00" y2="397.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="486.00" y="411.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">200</text>
+  <line x1="58.00" y1="397.00" x2="486.00" y2="397.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="51.00" y="400.00" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">0</text>
+  <line x1="58.00" y1="378.20" x2="486.00" y2="378.20" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="51.00" y="381.20" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">2</text>
+  <line x1="58.00" y1="359.40" x2="486.00" y2="359.40" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="51.00" y="362.40" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">4</text>
+  <line x1="58.00" y1="340.60" x2="486.00" y2="340.60" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="51.00" y="343.60" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">6</text>
+  <line x1="58.00" y1="321.80" x2="486.00" y2="321.80" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="51.00" y="324.80" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">8</text>
+  <line x1="58.00" y1="303.00" x2="486.00" y2="303.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="51.00" y="306.00" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">10</text>
+  <rect x="58.00" y="303.00" width="428.00" height="94.00" fill="none" stroke="#15181d"/>
+  <text x="272.00" y="425.00" font-size="10pt" text-anchor="middle" font-weight="bold" fill="#15181d">Σmν  (meV)</text>
+  <text x="18.00" y="350.00" font-size="10pt" text-anchor="middle" font-weight="bold" fill="#15181d" transform="rotate(-90 18.00 350.00)">Δχ²</text>
+  <line x1="58.00" y1="371.53" x2="486.00" y2="371.53" stroke="#56616b" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="483.00" y="367.53" font-size="10pt" text-anchor="end" font-weight="normal" fill="#56616b">2.71 (95%)</text>
+  <polyline points="58.00,397.00 79.40,395.01 100.80,390.97 122.20,386.02 143.60,380.46 165.00,374.39 183.83,368.69 207.80,360.96 239.90,349.87 272.00,337.96 314.80,320.88 355.67,303.00" fill="none" stroke="#174d79" stroke-width="1.8"/>
+  <polyline points="58.00,397.00 79.40,396.10 100.80,394.23 122.20,391.91 143.60,389.28 165.00,386.39 183.83,383.65 207.80,379.92 239.90,374.51 272.00,368.63 314.80,360.12 379.00,345.90 443.20,329.97" fill="none" stroke="#6b4c91" stroke-width="1.8" stroke-dasharray="5 3"/>
+  <polyline points="58.00,397.00 79.40,394.24 100.80,389.15 122.20,383.13 143.60,376.49 165.00,369.35 183.83,362.74 207.80,353.87 239.90,341.31 272.00,327.99 314.80,309.10 327.62,303.00" fill="none" stroke="#326b45" stroke-width="1.8" stroke-dasharray="1.5 2.5"/>
+  <line x1="58.00" y1="443.00" x2="80.00" y2="443.00" stroke="#174d79" stroke-width="1.8"/>
+  <text x="85.00" y="446.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">ΛCDM</text>
+  <line x1="188.00" y1="443.00" x2="210.00" y2="443.00" stroke="#6b4c91" stroke-width="1.8" stroke-dasharray="5 3"/>
+  <text x="215.00" y="446.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">w₀wₐCDM</text>
+  <line x1="331.00" y1="443.00" x2="353.00" y2="443.00" stroke="#326b45" stroke-width="1.8" stroke-dasharray="1.5 2.5"/>
+  <text x="358.00" y="446.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#15181d">two-sheet toy</text>
+  <text x="18" y="470" font-size="11pt" text-anchor="start" font-weight="bold" fill="#15181d">(c) Exact-Λ stance and published DESI DR2 + CMB fits</text>
+  <line x1="142.67" y1="486.00" x2="142.67" y2="592.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="142.67" y="606.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">−1.0</text>
+  <line x1="228.50" y1="486.00" x2="228.50" y2="592.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="228.50" y="606.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">−0.9</text>
+  <line x1="314.33" y1="486.00" x2="314.33" y2="592.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="314.33" y="606.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">−0.8</text>
+  <line x1="400.17" y1="486.00" x2="400.17" y2="592.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="400.17" y="606.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">−0.7</text>
+  <line x1="486.00" y1="486.00" x2="486.00" y2="592.00" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="486.00" y="606.00" font-size="10pt" text-anchor="middle" font-weight="normal" fill="#15181d">−0.6</text>
+  <line x1="74.00" y1="585.16" x2="486.00" y2="585.16" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="67.00" y="588.16" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">−1.2</text>
+  <line x1="74.00" y1="557.81" x2="486.00" y2="557.81" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="67.00" y="560.81" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">−0.8</text>
+  <line x1="74.00" y1="530.45" x2="486.00" y2="530.45" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="67.00" y="533.45" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">−0.4</text>
+  <line x1="74.00" y1="503.10" x2="486.00" y2="503.10" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="67.00" y="506.10" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">0.0</text>
+  <line x1="74.00" y1="489.42" x2="486.00" y2="489.42" stroke="#c6ccd2" stroke-width="0.6"/>
+  <text x="67.00" y="492.42" font-size="10pt" text-anchor="end" font-weight="normal" fill="#15181d">0.2</text>
+  <rect x="74.00" y="486.00" width="412.00" height="106.00" fill="none" stroke="#15181d"/>
+  <text x="280.00" y="624.00" font-size="10pt" text-anchor="middle" font-weight="bold" fill="#15181d">w₀</text>
+  <text x="24.00" y="539.00" font-size="10pt" text-anchor="middle" font-weight="bold" fill="#15181d" transform="rotate(-90 24.00 539.00)">wₐ</text>
+  <line x1="142.67" y1="486.00" x2="142.67" y2="592.00" stroke="#56616b" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="146.67" y="497.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">w₀ = −1</text>
+  <circle cx="142.67" cy="503.10" r="4.50" fill="#fff" stroke="#174d79" stroke-width="1.7"/>
+  <circle cx="142.67" cy="503.10" r="1.50" fill="#174d79"/>
+  <text x="155" y="521" font-size="10pt" text-anchor="start" font-weight="bold" fill="#174d79">exact Λ: (−1, 0)</text>
+  <line x1="265.41" y1="552.34" x2="358.11" y2="552.34" stroke="#15181d" stroke-width="1"/>
+  <line x1="311.76" y1="566.70" x2="311.76" y2="537.97" stroke="#15181d" stroke-width="1"/>
+  <circle cx="311.76" cy="552.34" r="3.20" fill="#15181d"/>
+  <text x="318.76" y="547.34" font-size="10pt" text-anchor="start" font-weight="bold" fill="#15181d">1</text>
+  <line x1="311.76" y1="568.06" x2="455.96" y2="568.06" stroke="#15181d" stroke-width="1"/>
+  <line x1="383.86" y1="585.85" x2="383.86" y2="548.23" stroke="#15181d" stroke-width="1"/>
+  <circle cx="383.86" cy="568.06" r="3.20" fill="#15181d"/>
+  <text x="390.86" y="563.06" font-size="10pt" text-anchor="start" font-weight="bold" fill="#15181d">2</text>
+  <line x1="225.93" y1="544.13" x2="299.74" y2="544.13" stroke="#15181d" stroke-width="1"/>
+  <line x1="261.98" y1="557.12" x2="261.98" y2="532.50" stroke="#15181d" stroke-width="1"/>
+  <circle cx="261.98" cy="544.13" r="3.20" fill="#15181d"/>
+  <text x="268.98" y="539.13" font-size="10pt" text-anchor="start" font-weight="bold" fill="#15181d">3</text>
+  <text x="310.00" y="500.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">1 DES-Dovekie</text>
+  <text x="310.00" y="513.00" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">2 Union3.1 (corr.)</text>
+  <text x="310" y="526" font-size="10pt" text-anchor="start" font-weight="normal" fill="#56616b">3 Unite; bars: quoted 1σ</text>
+</svg>

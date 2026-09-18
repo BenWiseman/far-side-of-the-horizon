@@ -1,0 +1,1 @@
+PASS: Figure 5 preserves all values/caveats; minimum final type 8.03 pt

@@ -1,0 +1,91 @@
+{
+  "scope": "Syntax/import/relocation checks, fixed-point calculations and numerical-core comparison. No likelihood optimisation or full Kerr barrier calculation.",
+  "python": "3.12.13 (main, Jul 18 2026, 17:02:19) [Clang 22.1.3 ]",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "checks": {
+    "desi_exact_equality": {
+      "vector": true,
+      "covariance": true,
+      "metadata": true,
+      "dimension": 13,
+      "smallest_covariance_eigenvalue": 0.005625
+    },
+    "syntax_compile": {
+      "files": 11,
+      "passed": true,
+      "bytecode_written": false
+    },
+    "data_path_resolution": {
+      "release_relative_default": true,
+      "explicit_env_directory": true,
+      "missing_inputs_explained": true
+    },
+    "local_data_hashes": {
+      "returncode": 0,
+      "output": "PASS PantheonPlusSH0ES.dat 1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8\nPASS PantheonPlusSH0ES_STAT+SYS.cov abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+    },
+    "numass_data_and_background": {
+      "selected_rows": 1580,
+      "arrays_bitwise_equal": true,
+      "grid_points": 8001,
+      "background_bitwise_equal": true
+    },
+    "de_fixed_point_likelihood": {
+      "old": 1746.7052271806924,
+      "staged": 1746.7052271806924,
+      "exact_equality": true,
+      "corrected_diagnostic_OL": 0.7399096928863408,
+      "flatness_E2_at_a1": 0.9999999999999998
+    },
+    "kerr_interpreter_and_paths": {
+      "same_interpreter": true,
+      "runner_exists": true,
+      "candidate_cwd": true,
+      "lambda_at_omega_067": 0.0638453578038658
+    },
+    "kerr_source_extraction": {
+      "run_and_basis_loaded": true,
+      "environment_parameters_applied": true,
+      "radial_integration_executed": false
+    },
+    "half_advanced_numerical_core": {
+      "AST_equal_after_removing_docstrings_and_prints": true
+    },
+    "adopted_bft_abundance": {
+      "AST_equal_after_removing_docstrings_and_prints": true,
+      "I": "0.012759667363446578572683201592231788617",
+      "M_GeV": "484844892.0871107887989719424528320923965",
+      "M_PeV": 484.8448920871108,
+      "analytic_in_state_integral_matches": true,
+      "prefactor_checks_pass": true
+    },
+    "half_advanced_run": {
+      "W_ret": -0.014522122958848695,
+      "W_adv": 0.014522122958848695,
+      "W_sym": 0.0,
+      "sample_max_Z": 0.9438760692297516,
+      "sample_pairs": 200000
+    },
+    "echo_arithmetic_from_other_cwd": {
+      "returncode": 0,
+      "uses_recorded_barrier_inputs": true
+    },
+    "live_sources_unchanged": {
+      "files": 9,
+      "passed": true
+    },
+    "final_scope_print_delta": {
+      "bft_and_echo_from_other_cwd": true,
+      "returncodes": [
+        0,
+        0
+      ],
+      "formulas_unchanged": true
+    }
+  }
+}

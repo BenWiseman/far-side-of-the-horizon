@@ -1,0 +1,1210 @@
+{
+ "1803.08928": {
+  "arxiv": "1803.08928",
+  "status": "VERIFIED",
+  "title": "CPT-Symmetric Universe",
+  "all_titles": [
+   "CPT-Symmetric Universe",
+   "$CPT$ symmetric universe",
+   "CPT symmetric universe"
+  ],
+  "first_author": "Boyle, Latham",
+  "n_authors": 3,
+  "authors": [
+   "Boyle, Latham",
+   "Finn, Kieran",
+   "Turok, Neil"
+  ],
+  "journal": "Phys.Rev.Lett. 121 (2018) 251301",
+  "year": 2018,
+  "inspire_id": 1664336
+ },
+ "1803.08930": {
+  "arxiv": "1803.08930",
+  "status": "VERIFIED",
+  "title": "The Big Bang, CPT, and neutrino dark matter",
+  "all_titles": [
+   "The Big Bang, CPT, and neutrino dark matter",
+   "The Big Bang, CPT, and neutrino dark matter"
+  ],
+  "first_author": "Boyle, Latham",
+  "n_authors": 3,
+  "authors": [
+   "Boyle, Latham",
+   "Finn, Kieran",
+   "Turok, Neil"
+  ],
+  "journal": "Annals Phys. 438 (2022) 168767",
+  "year": 2022,
+  "inspire_id": 1664350
+ },
+ "2109.06204": {
+  "arxiv": "2109.06204",
+  "status": "VERIFIED",
+  "title": "Two-Sheeted Universe, Analyticity and the Arrow of Time",
+  "all_titles": [
+   "Two-Sheeted Universe, Analyticity and the Arrow of Time"
+  ],
+  "first_author": "Boyle, Latham",
+  "n_authors": 2,
+  "authors": [
+   "Boyle, Latham",
+   "Turok, Neil"
+  ],
+  "journal": null,
+  "year": "2021",
+  "inspire_id": 1921575
+ },
+ "2201.07279": {
+  "arxiv": "2201.07279",
+  "status": "VERIFIED",
+  "title": "Gravitational entropy and the flatness, homogeneity and isotropy puzzles",
+  "all_titles": [
+   "Gravitational entropy and the flatness, homogeneity and isotropy puzzles",
+   "Gravitational entropy and the flatness, homogeneity and isotropy puzzles"
+  ],
+  "first_author": "Turok, Neil",
+  "n_authors": 2,
+  "authors": [
+   "Turok, Neil",
+   "Boyle, Latham"
+  ],
+  "journal": "Phys.Lett.B 849 (2024) 138443",
+  "year": 2024,
+  "inspire_id": 2012984
+ },
+ "2302.00344": {
+  "arxiv": "2302.00344",
+  "status": "VERIFIED",
+  "title": "A Minimal Explanation of the Primordial Cosmological Perturbations",
+  "all_titles": [
+   "A Minimal Explanation of the Primordial Cosmological Perturbations"
+  ],
+  "first_author": "Turok, Neil",
+  "n_authors": 2,
+  "authors": [
+   "Turok, Neil",
+   "Boyle, Latham"
+  ],
+  "journal": null,
+  "year": "2023",
+  "inspire_id": 2628773
+ },
+ "2110.06258": {
+  "arxiv": "2110.06258",
+  "status": "VERIFIED",
+  "title": "Cancelling the vacuum energy and Weyl anomaly in the standard model with dimension-zero scalar fields",
+  "all_titles": [
+   "Cancelling the vacuum energy and Weyl anomaly in the standard model with dimension-zero scalar fields"
+  ],
+  "first_author": "Boyle, Latham",
+  "n_authors": 2,
+  "authors": [
+   "Boyle, Latham",
+   "Turok, Neil"
+  ],
+  "journal": null,
+  "year": "2021",
+  "inspire_id": 1944227
+ },
+ "2210.01142": {
+  "arxiv": "2210.01142",
+  "status": "VERIFIED",
+  "title": "Thermodynamic solution of the homogeneity, isotropy and flatness puzzles (and a clue to the cosmological constant)",
+  "all_titles": [
+   "Thermodynamic solution of the homogeneity, isotropy and flatness puzzles (and a clue to the cosmological constant)",
+   "Thermodynamic solution of the homogeneity, isotropy and flatness puzzles (and a clue to the cosmological constant)"
+  ],
+  "first_author": "Boyle, Latham",
+  "n_authors": 2,
+  "authors": [
+   "Boyle, Latham",
+   "Turok, Neil"
+  ],
+  "journal": "Phys.Lett.B 849 (2024) 138442",
+  "year": 2024,
+  "inspire_id": 2160480
+ },
+ "2412.09558": {
+  "arxiv": "2412.09558",
+  "status": "VERIFIED",
+  "title": "Black Mirrors: CPT-Symmetric Alternatives to Black Holes",
+  "all_titles": [
+   "Black Mirrors: CPT-Symmetric Alternatives to Black Holes"
+  ],
+  "first_author": "Tzanavaris, Kostas",
+  "n_authors": 3,
+  "authors": [
+   "Tzanavaris, Kostas",
+   "Boyle, Latham",
+   "Turok, Neil"
+  ],
+  "journal": null,
+  "year": "2024",
+  "inspire_id": 2858851
+ },
+ "2509.09346": {
+  "arxiv": "2509.09346",
+  "status": "VERIFIED",
+  "title": "Fixed points of classical gravity coupled with a Standard-Model-like theory",
+  "all_titles": [
+   "Fixed points of classical gravity coupled with a Standard-Model-like theory"
+  ],
+  "first_author": "Boyle, Latham",
+  "n_authors": 3,
+  "authors": [
+   "Boyle, Latham",
+   "Turok, Neil",
+   "Vaibhav, Vatsalya"
+  ],
+  "journal": null,
+  "year": "2025",
+  "inspire_id": 2968983
+ },
+ "1409.6753": {
+  "arxiv": "1409.6753",
+  "status": "VERIFIED",
+  "title": "Horizon complementarity in elliptic de Sitter space",
+  "all_titles": [
+   "Horizon complementarity in elliptic de Sitter space"
+  ],
+  "first_author": "Hackl, Lucas",
+  "n_authors": 2,
+  "authors": [
+   "Hackl, Lucas",
+   "Neiman, Yasha"
+  ],
+  "journal": "Phys.Rev.D 91 (2015) 044016",
+  "year": 2015,
+  "inspire_id": 1318817
+ },
+ "gr-qc/9505035": {
+  "arxiv": "gr-qc/9505035",
+  "status": "VERIFIED",
+  "title": "Quantum field theory in Lorentzian universes from nothing",
+  "all_titles": [
+   "Quantum field theory in Lorentzian universes from nothing",
+   "Quantum field theory in Lorentzian universes-from-nothing"
+  ],
+  "first_author": "Friedman, John L.",
+  "n_authors": 2,
+  "authors": [
+   "Friedman, John L.",
+   "Higuchi, Atsushi"
+  ],
+  "journal": "Phys.Rev.D 52 (1995) 5687",
+  "year": 1995,
+  "inspire_id": 395297
+ },
+ "gr-qc/9504004": {
+  "arxiv": "gr-qc/9504004",
+  "status": "VERIFIED",
+  "title": "Thermodynamics of space-time: The Einstein equation of state",
+  "all_titles": [
+   "Thermodynamics of space-time: The Einstein equation of state"
+  ],
+  "first_author": "Jacobson, Ted",
+  "n_authors": 1,
+  "authors": [
+   "Jacobson, Ted"
+  ],
+  "journal": "Phys.Rev.Lett. 75 (1995) 1260",
+  "year": 1995,
+  "inspire_id": 394001
+ },
+ "1505.04753": {
+  "arxiv": "1505.04753",
+  "status": "VERIFIED",
+  "title": "Entanglement Equilibrium and the Einstein Equation",
+  "all_titles": [
+   "Entanglement Equilibrium and the Einstein Equation",
+   "Entanglement equilibrium and the Einstein equation"
+  ],
+  "first_author": "Jacobson, Ted",
+  "n_authors": 1,
+  "authors": [
+   "Jacobson, Ted"
+  ],
+  "journal": "Phys.Rev.Lett. 116 (2016) 201101",
+  "year": 2016,
+  "inspire_id": 1370675
+ },
+ "gr-qc/9803036": {
+  "arxiv": "gr-qc/9803036",
+  "status": "VERIFIED",
+  "title": "Global properties of vacuum states in de Sitter space",
+  "all_titles": [
+   "Global properties of vacuum states in de Sitter space",
+   "Global properties of vacuum states in de Sitter space.",
+   "Global Properties of Vacuum States in de Sitter Space"
+  ],
+  "first_author": "Borchers, H.J.",
+  "n_authors": 2,
+  "authors": [
+   "Borchers, H.J.",
+   "Buchholz, D."
+  ],
+  "journal": "Ann.Inst.H.Poincare A Phys.Theor. 70 (1999) 23",
+  "year": 1999,
+  "inspire_id": 467999
+ },
+ "hep-th/9706191": {
+  "arxiv": "hep-th/9706191",
+  "status": "VERIFIED",
+  "title": "Zeta function renormalization of one loop stress tensors in curved space-time, a check on the method in the conical manifold and other cases",
+  "all_titles": [
+   "Zeta function renormalization of one loop stress tensors in curved space-time, a check on the method in the conical manifold and other cases",
+   "zeta-function renormalization of one-loop stress tensors in curved spacetime, a check on the method in the conical manifold and other cases."
+  ],
+  "first_author": "Moretti, Valter",
+  "n_authors": 1,
+  "authors": [
+   "Moretti, Valter"
+  ],
+  "journal": null,
+  "year": "1997",
+  "inspire_id": 444838
+ },
+ "hep-th/0011156": {
+  "arxiv": "hep-th/0011156",
+  "status": "VERIFIED",
+  "title": "Locally localized gravity",
+  "all_titles": [
+   "Locally localized gravity",
+   "Locally localized gravity."
+  ],
+  "first_author": "Karch, Andreas",
+  "n_authors": 2,
+  "authors": [
+   "Karch, Andreas",
+   "Randall, Lisa"
+  ],
+  "journal": "JHEP 05 (2001) 008",
+  "year": 2001,
+  "inspire_id": 537060
+ },
+ "hep-ph/9912552": {
+  "arxiv": "hep-ph/9912552",
+  "status": "VERIFIED",
+  "title": "A Three three-brane universe: New phenomenology for the new millennium?",
+  "all_titles": [
+   "A Three three-brane universe: New phenomenology for the new millennium?",
+   "A three three-brane universe: New phenomenology for the new millennium?",
+   "A Three three-brane Universe:New Phenomenology for the New Millennium?"
+  ],
+  "first_author": "Kogan, Ian I.",
+  "n_authors": 5,
+  "authors": [
+   "Kogan, Ian I.",
+   "Mouslopoulos, Stavros",
+   "Papazoglou, Antonios",
+   "Ross, Graham G.",
+   "Santiago, Jose"
+  ],
+  "journal": "Nucl.Phys.B 584 (2000) 313",
+  "year": 2000,
+  "inspire_id": 512650
+ },
+ "hep-th/0209120": {
+  "arxiv": "hep-th/0209120",
+  "status": "VERIFIED",
+  "title": "Elliptic de Sitter space: dS/Z(2)",
+  "all_titles": [
+   "Elliptic de Sitter space: dS/Z(2)",
+   "Elliptic de Sitter space: dS/Z(2)."
+  ],
+  "first_author": "Parikh, Maulik K.",
+  "n_authors": 3,
+  "authors": [
+   "Parikh, Maulik K.",
+   "Savonije, Ivo",
+   "Verlinde, Erik P."
+  ],
+  "journal": "Phys.Rev.D 67 (2003) 064005",
+  "year": 2003,
+  "inspire_id": 595075
+ },
+ "1601.03447": {
+  "arxiv": "1601.03447",
+  "status": "VERIFIED",
+  "title": "Black hole unitarity and antipodal entanglement",
+  "all_titles": [
+   "Black hole unitarity and antipodal entanglement",
+   "Black hole unitarity and antipodal entanglement"
+  ],
+  "first_author": "'t Hooft, Gerard",
+  "n_authors": 1,
+  "authors": [
+   "'t Hooft, Gerard"
+  ],
+  "journal": "Found.Phys. 46 (2016) 1185",
+  "year": 2016,
+  "inspire_id": 1415258
+ },
+ "1804.05744": {
+  "arxiv": "1804.05744",
+  "status": "VERIFIED",
+  "title": "What happens in a black hole when a particle meets its antipode",
+  "all_titles": [
+   "What happens in a black hole when a particle meets its antipode"
+  ],
+  "first_author": "'t Hooft, Gerard",
+  "n_authors": 1,
+  "authors": [
+   "'t Hooft, Gerard"
+  ],
+  "journal": null,
+  "year": "2018",
+  "inspire_id": 1667909
+ },
+ "gr-qc/9802068": {
+  "arxiv": "gr-qc/9802068",
+  "status": "VERIFIED",
+  "title": "Inextendible Schwarzschild black hole with a single exterior: How thermal is the Hawking radiation?",
+  "all_titles": [
+   "Inextendible Schwarzschild black hole with a single exterior: How thermal is the Hawking radiation?",
+   "How thermal is Hawking radiation on the RP**3 geon?",
+   "How thermal is Hawking radiation on the RP(3) geon?"
+  ],
+  "first_author": "Louko, Jorma",
+  "n_authors": 2,
+  "authors": [
+   "Louko, Jorma",
+   "Marolf, Donald"
+  ],
+  "journal": "Phys.Rev.D 58 (1998) 024007",
+  "year": 1998,
+  "inspire_id": 467637
+ },
+ "2407.18225": {
+  "arxiv": "2407.18225",
+  "status": "VERIFIED",
+  "title": "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">\u03a9</mi></mrow><mrow><mi>K</mi></mrow></msub></mrow></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+  "all_titles": [
+   "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">\u03a9</mi></mrow><mrow><mi>K</mi></mrow></msub></mrow></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+   "Predicting spatial curvature $\\Omega_K$ in globally $CPT$-symmetric universes"
+  ],
+  "first_author": "Deng, Wei-Ning",
+  "n_authors": 2,
+  "authors": [
+   "Deng, Wei-Ning",
+   "Handley, Will"
+  ],
+  "journal": "Phys.Rev.D 110 (2024) 103528",
+  "year": 2024,
+  "inspire_id": 2811158
+ },
+ "2509.10379": {
+  "arxiv": "2509.10379",
+  "status": "VERIFIED",
+  "title": "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=\"normal\">\u03a9</mi><mi>K</mi></msub></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+  "all_titles": [
+   "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=\"normal\">\u03a9</mi><mi>K</mi></msub></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+   "CMB Constraints on Quantized Spatial Curvature $\u03a9_K$ in globally CPT-symmetric universes"
+  ],
+  "first_author": "Deng, Wei-Ning",
+  "n_authors": 2,
+  "authors": [
+   "Deng, Wei-Ning",
+   "Handley, Will"
+  ],
+  "journal": "Phys.Rev.D 113 (2026) 023546",
+  "year": 2026,
+  "inspire_id": 2969354
+ },
+ "gr-qc/9903008": {
+  "arxiv": "gr-qc/9903008",
+  "status": "VERIFIED",
+  "title": "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+  "all_titles": [
+   "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+   "Isotropic cosmological singularities. I: Polytropic perfect fluid spacetimes."
+  ],
+  "first_author": "Anguige, K.",
+  "n_authors": 2,
+  "authors": [
+   "Anguige, K.",
+   "Tod, K.P."
+  ],
+  "journal": "Annals Phys. 276 (1999) 257",
+  "year": 1999,
+  "inspire_id": 496113
+ },
+ "1409.0917": {
+  "arxiv": "1409.0917",
+  "status": "VERIFIED",
+  "title": "Identification of a gravitational arrow of time",
+  "all_titles": [
+   "Identification of a gravitational arrow of time"
+  ],
+  "first_author": "Barbour, Julian",
+  "n_authors": 3,
+  "authors": [
+   "Barbour, Julian",
+   "Koslowski, Tim",
+   "Mercati, Flavio"
+  ],
+  "journal": "Phys.Rev.Lett. 113 (2014) 181101",
+  "year": 2014,
+  "inspire_id": 1314977
+ },
+ "1604.03956": {
+  "arxiv": "1604.03956",
+  "status": "VERIFIED",
+  "title": "Janus Points and Arrows of Time",
+  "all_titles": [
+   "Janus Points and Arrows of Time"
+  ],
+  "first_author": "Barbour, Julian",
+  "n_authors": 3,
+  "authors": [
+   "Barbour, Julian",
+   "Koslowski, Tim",
+   "Mercati, Flavio"
+  ],
+  "journal": null,
+  "year": "2016",
+  "inspire_id": 1446973
+ },
+ "1310.5167": {
+  "arxiv": "1310.5167",
+  "status": "VERIFIED",
+  "title": "A Gravitational Origin of the Arrows of Time",
+  "all_titles": [
+   "A Gravitational Origin of the Arrows of Time"
+  ],
+  "first_author": "Barbour, Julian",
+  "n_authors": 3,
+  "authors": [
+   "Barbour, Julian",
+   "Koslowski, Tim",
+   "Mercati, Flavio"
+  ],
+  "journal": null,
+  "year": "2013",
+  "inspire_id": 1261373
+ },
+ "2607.27526": {
+  "arxiv": "2607.27526",
+  "status": "VERIFIED",
+  "title": "Structural morphology and the gravitational arrow of time",
+  "all_titles": [
+   "Structural morphology and the gravitational arrow of time"
+  ],
+  "first_author": "Barbour, Julian",
+  "n_authors": 3,
+  "authors": [
+   "Barbour, Julian",
+   "Lobo, Francisco S.N.",
+   "Louren\u00e7o, Maria I.R."
+  ],
+  "journal": null,
+  "year": "2026",
+  "inspire_id": 3184773
+ },
+ "2103.08626": {
+  "arxiv": "2103.08626",
+  "status": "VERIFIED",
+  "title": "Sterile neutrino dark matter from generalized CPT-symmetric early-Universe cosmologies",
+  "all_titles": [
+   "Sterile neutrino dark matter from generalized CPT-symmetric early-Universe cosmologies",
+   "Sterile Neutrino Dark Matter from Generalized $CPT$-Symmetric Early-Universe Cosmologies"
+  ],
+  "first_author": "Duran, Adam",
+  "n_authors": 3,
+  "authors": [
+   "Duran, Adam",
+   "Morrison, Logan",
+   "Profumo, Stefano"
+  ],
+  "journal": "Phys.Rev.D 104 (2021) 023509",
+  "year": 2021,
+  "inspire_id": 1851928
+ },
+ "2503.14452": {
+  "arxiv": "2503.14452",
+  "status": "VERIFIED",
+  "title": "The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and \u039bCDM parameters",
+  "all_titles": [
+   "The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and \u039bCDM parameters",
+   "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and $\u039b$CDM Parameters",
+   "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and $\\Lambda$CDM Parameters"
+  ],
+  "first_author": "Louis, Thibaut",
+  "n_authors": 168,
+  "authors": [
+   "Louis, Thibaut",
+   "La Posta, Adrien",
+   "Atkins, Zachary",
+   "Jense, Hidde T.",
+   "Abril-Cabezas, Irene",
+   "Addison, Graeme E.",
+   "Ade, Peter A.R.",
+   "Aiola, Simone"
+  ],
+  "journal": "JCAP 11 (2025) 062",
+  "year": 2025,
+  "inspire_id": 2901523
+ },
+ "2503.14454": {
+  "arxiv": "2503.14454",
+  "status": "VERIFIED",
+  "title": "The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models",
+  "all_titles": [
+   "The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models",
+   "The Atacama Cosmology Telescope: DR6 Constraints on Extended Cosmological Models"
+  ],
+  "first_author": "Calabrese, Erminia",
+  "n_authors": 172,
+  "authors": [
+   "Calabrese, Erminia",
+   "Hill, J. Colin",
+   "Jense, Hidde T.",
+   "La Posta, Adrien",
+   "Abril-Cabezas, Irene",
+   "Addison, Graeme E.",
+   "Ade, Peter A.R.",
+   "Aiola, Simone"
+  ],
+  "journal": "JCAP 11 (2025) 063",
+  "year": 2025,
+  "inspire_id": 2901540
+ },
+ "2506.20707": {
+  "arxiv": "2506.20707",
+  "status": "VERIFIED",
+  "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+  "all_titles": [
+   "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+   "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G Main field"
+  ],
+  "first_author": "Camphuis, E.",
+  "n_authors": 97,
+  "authors": [
+   "Camphuis, E.",
+   "Quan, W.",
+   "Balkenhol, L.",
+   "Khalife, A.R.",
+   "Ge, F.",
+   "Guidi, F.",
+   "Huang, N.",
+   "Lynch, G.P."
+  ],
+  "journal": "Phys.Rev.D 113 (2026) 083504",
+  "year": 2026,
+  "inspire_id": 2939202
+ },
+ "2503.14738": {
+  "arxiv": "2503.14738",
+  "status": "VERIFIED",
+  "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+  "all_titles": [
+   "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+   "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints"
+  ],
+  "first_author": "Abdul Karim, M.",
+  "n_authors": 186,
+  "authors": [
+   "Abdul Karim, M.",
+   "Aguilar, J.",
+   "Ahlen, S.",
+   "Alam, S.",
+   "Allen, L.",
+   "Allende Prieto, C.",
+   "Alves, O.",
+   "Anand, A."
+  ],
+  "journal": "Phys.Rev.D 112 (2025) 083515",
+  "year": 2025,
+  "inspire_id": 2902314
+ },
+ "2503.14744": {
+  "arxiv": "2503.14744",
+  "status": "VERIFIED",
+  "title": "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+  "all_titles": [
+   "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+   "Constraints on Neutrino Physics from DESI DR2 BAO and DR1 Full Shape"
+  ],
+  "first_author": "Elbers, W.",
+  "n_authors": 119,
+  "authors": [
+   "Elbers, W.",
+   "Aviles, A.",
+   "Noriega, H.E.",
+   "Chebat, D.",
+   "Menegas, A.",
+   "Frenk, C.S.",
+   "Garcia-Quintero, C.",
+   "Gonzalez, D."
+  ],
+  "journal": "Phys.Rev.D 112 (2025) 083513",
+  "year": 2025,
+  "inspire_id": 2902333
+ },
+ "1807.06209": {
+  "arxiv": "1807.06209",
+  "status": "VERIFIED",
+  "title": "Planck 2018 results. VI. Cosmological parameters",
+  "all_titles": [
+   "Planck 2018 results. VI. Cosmological parameters",
+   "Planck 2018 results - VI. Cosmological parameters (Corrigendum)"
+  ],
+  "first_author": "Aghanim, N.",
+  "n_authors": 181,
+  "authors": [
+   "Aghanim, N.",
+   "Akrami, Y.",
+   "Ashdown, M.",
+   "Aumont, J.",
+   "Baccigalupi, C.",
+   "Ballardini, M.",
+   "Banday, A.J.",
+   "Barreiro, R.B."
+  ],
+  "journal": "Astron.Astrophys. 641 (2020) A6",
+  "year": 2020,
+  "inspire_id": 1682902
+ },
+ "1307.3536": {
+  "arxiv": "1307.3536",
+  "status": "VERIFIED",
+  "title": "Investigating the near-criticality of the Higgs boson",
+  "all_titles": [
+   "Investigating the near-criticality of the Higgs boson"
+  ],
+  "first_author": "Buttazzo, Dario",
+  "n_authors": 7,
+  "authors": [
+   "Buttazzo, Dario",
+   "Degrassi, Giuseppe",
+   "Giardino, Pier Paolo",
+   "Giudice, Gian F.",
+   "Sala, Filippo",
+   "Salvio, Alberto",
+   "Strumia, Alessandro"
+  ],
+  "journal": "JHEP 12 (2013) 089",
+  "year": 2013,
+  "inspire_id": 1242456
+ },
+ "2603.05683": {
+  "arxiv": "2603.05683",
+  "status": "VERIFIED",
+  "title": "Pathologies of dimension-zero scalar fields",
+  "all_titles": [
+   "Pathologies of dimension-zero scalar fields",
+   "Pathologies of dimension-zero scalar fields"
+  ],
+  "first_author": "Cline, James M.",
+  "n_authors": 2,
+  "authors": [
+   "Cline, James M.",
+   "Hell, Anamaria"
+  ],
+  "journal": "Phys.Rev.D 114 (2026) 045022",
+  "year": 2026,
+  "inspire_id": 3127250
+ },
+ "2110.00483": {
+  "arxiv": "2110.00483",
+  "status": "VERIFIED",
+  "title": "Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season",
+  "all_titles": [
+   "Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season",
+   "BICEP / Keck XIII: Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season"
+  ],
+  "first_author": "Ade, P.A.R.",
+  "n_authors": 91,
+  "authors": [
+   "Ade, P.A.R.",
+   "Ahmed, Z.",
+   "Amiri, M.",
+   "Barkats, D.",
+   "Thakur, R. Basu",
+   "Beck, D.",
+   "Bischoff, C.A.",
+   "Bock, J.J."
+  ],
+  "journal": "Phys.Rev.Lett. 127 (2021) 151301",
+  "year": 2021,
+  "inspire_id": 1938051
+ },
+ "2406.11438": {
+  "arxiv": "2406.11438",
+  "status": "VERIFIED",
+  "title": "Search for Majorana Neutrinos with the Complete KamLAND-Zen Dataset",
+  "all_titles": [
+   "Search for Majorana Neutrinos with the Complete KamLAND-Zen Dataset",
+   "Search for Majorana Neutrinos with the Complete KamLAND-Zen Dataset"
+  ],
+  "first_author": "Abe, S.",
+  "n_authors": 72,
+  "authors": [
+   "Abe, S.",
+   "Araki, T.",
+   "Chiba, K.",
+   "Eda, T.",
+   "Eizuka, M.",
+   "Funahashi, Y.",
+   "Furuto, A.",
+   "Gando, A."
+  ],
+  "journal": "Phys.Rev.Lett. 135 (2025) 262501",
+  "year": 2025,
+  "inspire_id": 2799242
+ },
+ "2104.02521": {
+  "arxiv": "2104.02521",
+  "status": "VERIFIED",
+  "title": "Perturbations and the future conformal boundary",
+  "all_titles": [
+   "Perturbations and the future conformal boundary",
+   "Perturbations and the Future Conformal Boundary"
+  ],
+  "first_author": "Lasenby, A.N.",
+  "n_authors": 4,
+  "authors": [
+   "Lasenby, A.N.",
+   "Handley, W.J.",
+   "Bartlett, D.J.",
+   "Negreanu, C.S."
+  ],
+  "journal": "Phys.Rev.D 105 (2022) 083514",
+  "year": 2022,
+  "inspire_id": 1856370
+ },
+ "1801.08023": {
+  "arxiv": "1801.08023",
+  "status": "VERIFIED",
+  "title": "Precision big bang nucleosynthesis with improved Helium-4 predictions",
+  "all_titles": [
+   "Precision big bang nucleosynthesis with improved Helium-4 predictions"
+  ],
+  "first_author": "Pitrou, Cyril",
+  "n_authors": 4,
+  "authors": [
+   "Pitrou, Cyril",
+   "Coc, Alain",
+   "Uzan, Jean-Philippe",
+   "Vangioni, Elisabeth"
+  ],
+  "journal": "Phys.Rept. 754 (2018) 1",
+  "year": 2018,
+  "inspire_id": 1650165
+ },
+ "1908.03663": {
+  "arxiv": "1908.03663",
+  "status": "VERIFIED",
+  "title": "Hubble constant hunter\u2019s guide",
+  "all_titles": [
+   "Hubble constant hunter\u2019s guide",
+   "The Hubble Hunter's Guide"
+  ],
+  "first_author": "Knox, Lloyd",
+  "n_authors": 2,
+  "authors": [
+   "Knox, Lloyd",
+   "Millea, Marius"
+  ],
+  "journal": "Phys.Rev.D 101 (2020) 043533",
+  "year": 2020,
+  "inspire_id": 1748842
+ },
+ "gr-qc/9607079": {
+  "arxiv": "gr-qc/9607079",
+  "status": "VERIFIED",
+  "title": "Nucleating black holes via nonorientable instantons",
+  "all_titles": [
+   "Nucleating black holes via nonorientable instantons",
+   "Nucleating black holes via non-orientable instantons."
+  ],
+  "first_author": "Chamblin, Andrew",
+  "n_authors": 2,
+  "authors": [
+   "Chamblin, Andrew",
+   "Gibbons, G.W."
+  ],
+  "journal": "Phys.Rev.D 55 (1997) 2177",
+  "year": 1997,
+  "inspire_id": 421492
+ },
+ "2208.01611": {
+  "arxiv": "2208.01611",
+  "status": "VERIFIED",
+  "title": "Stress testing \u039bCDM with high-redshift galaxy candidates",
+  "all_titles": [
+   "Stress testing \u039bCDM with high-redshift galaxy candidates",
+   "Stress Testing $\\Lambda$CDM with High-redshift Galaxy Candidates"
+  ],
+  "first_author": "Boylan-Kolchin, Michael",
+  "n_authors": 1,
+  "authors": [
+   "Boylan-Kolchin, Michael"
+  ],
+  "journal": "Nature Astron. 7 (2023) 731",
+  "year": 2023,
+  "inspire_id": 2130302
+ },
+ "2307.15305": {
+  "arxiv": "2307.15305",
+  "status": "VERIFIED",
+  "title": "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn",
+  "all_titles": [
+   "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn",
+   "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn"
+  ],
+  "first_author": "Sun, Guochao",
+  "n_authors": 6,
+  "authors": [
+   "Sun, Guochao",
+   "Faucher-Gigu\u00e8re, Claude-Andr\u00e9",
+   "Hayward, Christopher C.",
+   "Shen, Xuejian",
+   "Wetzel, Andrew",
+   "Cochrane, Rachel K."
+  ],
+  "journal": "Astrophys.J.Lett. 955 (2023) L35",
+  "year": 2023,
+  "inspire_id": 2683338
+ },
+ "2404.03576": {
+  "arxiv": "2404.03576",
+  "status": "VERIFIED",
+  "title": "The Rise of Faint, Red Active Galactic Nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields",
+  "all_titles": [
+   "The Rise of Faint, Red Active Galactic Nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields",
+   "The Rise of Faint, Red AGN at $z>4$: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields"
+  ],
+  "first_author": "Kocevski, Dale D.",
+  "n_authors": 58,
+  "authors": [
+   "Kocevski, Dale D.",
+   "Finkelstein, Steven L.",
+   "Barro, Guillermo",
+   "Taylor, J. Anthony",
+   "Calabr\u00f2, Antonello",
+   "Laloux, Brivael",
+   "Buchner, Johannes",
+   "Trump, Jonathan R."
+  ],
+  "journal": "Astrophys.J. 986 (2025) 126",
+  "year": 2025,
+  "inspire_id": 3063166
+ },
+ "2507.12401": {
+  "arxiv": "2507.12401",
+  "status": "VERIFIED",
+  "title": "Cosmological neutrino mass: a frequentist overview in light of DESI",
+  "all_titles": [
+   "Cosmological neutrino mass: a frequentist overview in light of DESI",
+   "Cosmological neutrino mass: a frequentist overview in light of DESI"
+  ],
+  "first_author": "Chebat, D.",
+  "n_authors": 54,
+  "authors": [
+   "Chebat, D.",
+   "Y\u00e8che, C.",
+   "Armengaud, E.",
+   "Sch\u00f6neberg, N.",
+   "Walther, M.",
+   "de Mattia, A.",
+   "Rohlf, J.",
+   "Aguilar, J."
+  ],
+  "journal": "JCAP 01 (2026) 041",
+  "year": 2026,
+  "inspire_id": 2947552
+ },
+ "2504.01669": {
+  "arxiv": "2504.01669",
+  "status": "VERIFIED",
+  "title": "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+  "all_titles": [
+   "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+   "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+   "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics"
+  ],
+  "first_author": "Di Valentino, Eleonora",
+  "n_authors": 543,
+  "authors": [
+   "Di Valentino, Eleonora",
+   "Levi Said, Jackson",
+   "Riess, Adam",
+   "Pollo, Agnieszka",
+   "Poulin, Vivian",
+   "G\u00f3mez-Valent, Adri\u00e0",
+   "Weltman, Amanda",
+   "Palmese, Antonella"
+  ],
+  "journal": "Phys.Dark Univ. 49 (2025) 101965",
+  "year": 2025,
+  "inspire_id": 2907383
+ },
+ "1503.08043": {
+  "arxiv": "1503.08043",
+  "status": "VERIFIED",
+  "title": "Cosmological Collider Physics",
+  "all_titles": [
+   "Cosmological Collider Physics"
+  ],
+  "first_author": "Arkani-Hamed, Nima",
+  "n_authors": 2,
+  "authors": [
+   "Arkani-Hamed, Nima",
+   "Maldacena, Juan"
+  ],
+  "journal": null,
+  "year": "2015",
+  "inspire_id": 1356707
+ },
+ "hep-th/0304241": {
+  "arxiv": "hep-th/0304241",
+  "status": "VERIFIED",
+  "title": "The Taming of closed time - like curves",
+  "all_titles": [
+   "The Taming of closed time - like curves",
+   "The taming of closed time-like curves."
+  ],
+  "first_author": "Biswas, Rahul",
+  "n_authors": 5,
+  "authors": [
+   "Biswas, Rahul",
+   "Keski-Vakkuri, Esko",
+   "Leigh, Robert G.",
+   "Nowling, Sean",
+   "Sharpe, Eric"
+  ],
+  "journal": "JHEP 01 (2004) 064",
+  "year": 2004,
+  "inspire_id": 617738
+ },
+ "1811.04083": {
+  "arxiv": "1811.04083",
+  "status": "VERIFIED",
+  "title": "Early Dark Energy Can Resolve The Hubble Tension",
+  "all_titles": [
+   "Early Dark Energy Can Resolve The Hubble Tension"
+  ],
+  "first_author": "Poulin, Vivian",
+  "n_authors": 4,
+  "authors": [
+   "Poulin, Vivian",
+   "Smith, Tristan L.",
+   "Karwal, Tanvi",
+   "Kamionkowski, Marc"
+  ],
+  "journal": "Phys.Rev.Lett. 122 (2019) 221301",
+  "year": 2019,
+  "inspire_id": 1703158
+ },
+ "hep-th/9910219": {
+  "arxiv": "hep-th/9910219",
+  "status": "VERIFIED",
+  "title": "Brane cosmological evolution in a bulk with cosmological constant",
+  "all_titles": [
+   "Brane cosmological evolution in a bulk with cosmological constant",
+   "Brane cosmological evolution in a bulk with cosmological constant."
+  ],
+  "first_author": "Binetruy, Pierre",
+  "n_authors": 4,
+  "authors": [
+   "Binetruy, Pierre",
+   "Deffayet, Cedric",
+   "Ellwanger, Ulrich",
+   "Langlois, David"
+  ],
+  "journal": "Phys.Lett.B 477 (2000) 285",
+  "year": 2000,
+  "inspire_id": 509212
+ },
+ "2504.18464": {
+  "arxiv": "2504.18464",
+  "status": "VERIFIED",
+  "title": "Cosmological implications of DESI DR2 BAO measurements in light of the latest ACT DR6 CMB data",
+  "all_titles": [
+   "Cosmological implications of DESI DR2 BAO measurements in light of the latest ACT DR6 CMB data",
+   "Cosmological implications of DESI DR2 BAO measurements in light of the latest ACT DR6 CMB data"
+  ],
+  "first_author": "Garcia-Quintero, C.",
+  "n_authors": 95,
+  "authors": [
+   "Garcia-Quintero, C.",
+   "Noriega, H.E.",
+   "de Mattia, A.",
+   "Aviles, A.",
+   "Lodha, K.",
+   "Chebat, D.",
+   "Rohlf, J.",
+   "Nadathur, S."
+  ],
+  "journal": "Phys.Rev.D 112 (2025) 083529",
+  "year": 2025,
+  "inspire_id": 2915616
+ },
+ "2608.31136": {
+  "arxiv": "2608.31136",
+  "status": "VERIFIED",
+  "title": "SPT-3G D1: Quadratic-Estimator CMB Lensing Reconstruction and Cosmology",
+  "all_titles": [
+   "SPT-3G D1: Quadratic-Estimator CMB Lensing Reconstruction and Cosmology"
+  ],
+  "first_author": "Omori, Y.",
+  "n_authors": 95,
+  "authors": [
+   "Omori, Y.",
+   "Wu, W.L.K.",
+   "Nakato, Y.",
+   "Bianchini, F.",
+   "Balkenhol, L.",
+   "Daley, C.",
+   "Quan, W.",
+   "Anderes, E."
+  ],
+  "journal": null,
+  "year": "2026",
+  "inspire_id": 3198376
+ },
+ "2404.03002": {
+  "arxiv": "2404.03002",
+  "status": "VERIFIED",
+  "title": "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+  "all_titles": [
+   "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+   "DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations"
+  ],
+  "first_author": "Adame, A.G.",
+  "n_authors": 202,
+  "authors": [
+   "Adame, A.G.",
+   "Aguilar, J.",
+   "Ahlen, S.",
+   "Alam, S.",
+   "Alexander, D.M.",
+   "Alvarez, M.",
+   "Alves, O.",
+   "Anand, A."
+  ],
+  "journal": "JCAP 02 (2025) 021",
+  "year": 2025,
+  "inspire_id": 2774167
+ },
+ "1807.06211": {
+  "arxiv": "1807.06211",
+  "status": "VERIFIED",
+  "title": "Planck 2018 results. X. Constraints on inflation",
+  "all_titles": [
+   "Planck 2018 results. X. Constraints on inflation"
+  ],
+  "first_author": "Akrami, Y.",
+  "n_authors": 175,
+  "authors": [
+   "Akrami, Y.",
+   "Arroja, F.",
+   "Ashdown, M.",
+   "Aumont, J.",
+   "Baccigalupi, C.",
+   "Ballardini, M.",
+   "Banday, A.J.",
+   "Barreiro, R.B."
+  ],
+  "journal": "Astron.Astrophys. 641 (2020) A10",
+  "year": 2020,
+  "inspire_id": 1682899
+ },
+ "2205.05892": {
+  "arxiv": "2205.05892",
+  "status": "VERIFIED",
+  "title": "Full-shape galaxy power spectra and the curvature tension",
+  "all_titles": [
+   "Full-shape galaxy power spectra and the curvature tension",
+   "Full-Shape Galaxy Power Spectra and the Curvature Tension"
+  ],
+  "first_author": "Glanville, Aaron",
+  "n_authors": 3,
+  "authors": [
+   "Glanville, Aaron",
+   "Howlett, Cullan",
+   "Davis, Tamara M."
+  ],
+  "journal": "Mon.Not.Roy.Astron.Soc. 517 (2022) 3087",
+  "year": 2022,
+  "inspire_id": 2080671
+ },
+ "hep-th/9910174": {
+  "arxiv": "hep-th/9910174",
+  "status": "VERIFIED",
+  "title": "Mirage cosmology",
+  "all_titles": [
+   "Mirage cosmology",
+   "Mirage cosmology."
+  ],
+  "first_author": "Kehagias, A.",
+  "n_authors": 2,
+  "authors": [
+   "Kehagias, A.",
+   "Kiritsis, E."
+  ],
+  "journal": "JHEP 11 (1999) 022",
+  "year": 1999,
+  "inspire_id": 508975
+ },
+ "2611.00362": {
+  "arxiv": "2611.00362",
+  "status": "UNVERIFIED"
+ },
+ "1611.00362": {
+  "arxiv": "1611.00362",
+  "status": "VERIFIED",
+  "title": "Kaluza-Klein reduction of massive and partially massless spin-2 fields",
+  "all_titles": [
+   "Kaluza-Klein reduction of massive and partially massless spin-2 fields",
+   "Kaluza-Klein Reduction of Massive and Partially Massless Spin-2",
+   "Kaluza-Klein Reduction of Massive and Partially Massless Spin-2 Fields"
+  ],
+  "first_author": "Bonifacio, James",
+  "n_authors": 2,
+  "authors": [
+   "Bonifacio, James",
+   "Hinterbichler, Kurt"
+  ],
+  "journal": "Phys.Rev.D 95 (2017) 024023",
+  "year": 2017,
+  "inspire_id": 1495566
+ },
+ "2505.00659": {
+  "arxiv": "2505.00659",
+  "status": "VERIFIED",
+  "title": "It's all Ok: curvature in light of BAO from DESI DR2",
+  "all_titles": [
+   "It's all Ok: curvature in light of BAO from DESI DR2",
+   "It's All ${\\tt Ok}$: Curvature in Light of BAO from DESI DR2"
+  ],
+  "first_author": "Chen, Shi-Fan",
+  "n_authors": 2,
+  "authors": [
+   "Chen, Shi-Fan",
+   "Zaldarriaga, Matias"
+  ],
+  "journal": "JCAP 08 (2025) 014",
+  "year": 2025,
+  "inspire_id": 2917322
+ },
+ "gr-qc/9509039": {
+  "arxiv": "gr-qc/9509039",
+  "status": "VERIFIED",
+  "title": "On the obstructions to nonCliffordian pin structures",
+  "all_titles": [
+   "On the obstructions to nonCliffordian pin structures",
+   "On the Obstructions to non-Cliffordian Pin Structures"
+  ],
+  "first_author": "Chamblin, Andrew",
+  "n_authors": 1,
+  "authors": [
+   "Chamblin, Andrew"
+  ],
+  "journal": "Commun.Math.Phys. 164 (1994) 65",
+  "year": 1994,
+  "inspire_id": 399720
+ }
+}

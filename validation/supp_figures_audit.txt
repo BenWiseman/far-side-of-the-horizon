@@ -1,0 +1,25 @@
+[PASS] Figure 2 exact regular scalar curve: max rel 0.000e+00
+[PASS] Figure 2 exact regular tensor curve: max rel 0.000e+00
+[PASS] fig1_dictionary.svg invariant labels
+[PASS] fig1_dictionary.svg minimum type: 12.5 source units = 8.36 pt at 6.5 inches
+[PASS] fig1_dictionary.svg grayscale-safe
+[PASS] fig2_janus.svg invariant labels
+[PASS] fig2_janus.svg minimum type: 12.5 source units = 8.36 pt at 6.5 inches
+[PASS] fig2_janus.svg grayscale-safe
+[PASS] fig3_curvature.svg invariant labels
+[PASS] fig3_curvature.svg minimum type: 12.5 source units = 8.36 pt at 6.5 inches
+[PASS] fig3_curvature.svg grayscale-safe
+[PASS] fig4_tilt.svg invariant labels
+[PASS] fig4_tilt.svg minimum type: 12.5 source units = 8.36 pt at 6.5 inches
+[PASS] fig4_tilt.svg grayscale-safe
+[PASS] Figure 2 has no horizon icon claim
+[PASS] Figure 4 full SPT range
+[PASS] fig1_dictionary.pdf tight vector page
+[PASS] fig1_dictionary.pdf physical size: (504.0, 418.08)
+[PASS] fig2_janus.pdf tight vector page
+[PASS] fig2_janus.pdf physical size: (504.0, 360.0)
+[PASS] fig3_curvature.pdf tight vector page
+[PASS] fig3_curvature.pdf physical size: (504.0, 346.08)
+[PASS] fig4_tilt.pdf tight vector page
+[PASS] fig4_tilt.pdf physical size: (504.0, 382.08)
+ALL SUPPLEMENT FIGURE CHECKS PASS

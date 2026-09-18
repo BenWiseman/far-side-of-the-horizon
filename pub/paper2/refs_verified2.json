@@ -1,0 +1,506 @@
+{
+ "schrodinger_expanding": {
+  "query": "t title \"Expanding Universes\" and a Schrodinger",
+  "status": "UNVERIFIED",
+  "candidates": []
+ },
+ "gibbons1986": {
+  "query": "t \"elliptic interpretation\" and a Gibbons",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "The elliptic interpretation of black holes and quantum mechanics",
+    "first_author": "Gibbons, G.W.",
+    "n_authors": 1,
+    "journal": "Nucl.Phys.B 271 (1986) 86800220",
+    "year": 1986,
+    "arxiv": null,
+    "doi": "10.1016/S0550-3213(86)80022-0",
+    "inspire_id": 18221
+   }
+  ]
+ },
+ "israel1976": {
+  "query": "a Israel and t \"Thermo field dynamics of black holes\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Thermo field dynamics of black holes",
+    "first_author": "Israel, W.",
+    "n_authors": 1,
+    "journal": "Phys.Lett.A 57 (1976) 107",
+    "year": 1976,
+    "arxiv": null,
+    "doi": "10.1016/0375-9601(76)90178-X",
+    "inspire_id": 110012
+   }
+  ]
+ },
+ "sewell1982": {
+  "query": "a Sewell and t \"Quantum fields on manifolds\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "QUANTUM FIELDS ON MANIFOLDS: AN INTERPLAY BETWEEN QUANTUM THEORY, STATISTICAL THERMODYNAMICS AND GENERAL RELATIVITY",
+    "first_author": "Sewell, G.L.",
+    "n_authors": 1,
+    "journal": null,
+    "year": "1985",
+    "arxiv": null,
+    "doi": null,
+    "inspire_id": 224794
+   },
+   {
+    "title": "Quantum fields on manifolds: PCT and gravitationally induced thermal states",
+    "first_author": "Sewell, Geoffrey L.",
+    "n_authors": 1,
+    "journal": "Annals Phys. 141 (1982) 201",
+    "year": 1982,
+    "arxiv": null,
+    "doi": "10.1016/0003-4916(82)90285-8",
+    "inspire_id": 854440
+   }
+  ]
+ },
+ "goode_wainwright1985": {
+  "query": "t \"Isotropic singularities in cosmological models\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Isotropic singularities in cosmological models",
+    "first_author": "Goode, S.W.",
+    "n_authors": 2,
+    "journal": "Class.Quant.Grav. 2 (1985) 99",
+    "year": 1985,
+    "arxiv": null,
+    "doi": "10.1088/0264-9381/2/1/010",
+    "inspire_id": 225746
+   }
+  ]
+ },
+ "tod1987": {
+  "query": "a Tod and t \"isotropic singularities\"",
+  "status": "UNVERIFIED",
+  "candidates": []
+ },
+ "newman1993": {
+  "query": "a \"Newman, R.P.A.C.\" and t \"conformal singularity\"",
+  "status": "UNVERIFIED",
+  "candidates": []
+ },
+ "penrose1979": {
+  "query": "a Penrose and t \"Singularities and time asymmetry\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "SINGULARITIES AND TIME ASYMMETRY",
+    "first_author": "Penrose, R.",
+    "n_authors": 1,
+    "journal": null,
+    "year": "1980",
+    "arxiv": null,
+    "doi": null,
+    "inspire_id": 159041
+   },
+   {
+    "title": "Singularities and time-asymmetry",
+    "first_author": "Penrose, R.",
+    "n_authors": 1,
+    "journal": null,
+    "year": "1979",
+    "arxiv": null,
+    "doi": null,
+    "inspire_id": 1215196
+   }
+  ]
+ },
+ "higuchi1987": {
+  "query": "a Higuchi and t \"Forbidden mass range for spin-2 field\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Forbidden Mass Range for Spin-2 Field Theory in De Sitter Space-time",
+    "first_author": "Higuchi, Atsushi",
+    "n_authors": 1,
+    "journal": "Nucl.Phys.B 282 (1987) 397",
+    "year": 1987,
+    "arxiv": null,
+    "doi": "10.1016/0550-3213(87)90691-2",
+    "inspire_id": 228338
+   }
+  ]
+ },
+ "folacci_sanchez": {
+  "query": "a Folacci and t \"quantum field theory\" and de Sitter",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Quantum Field Theory and the 'Elliptic Interpretation' of De Sitter Space-time",
+    "first_author": "Folacci, Antoine",
+    "n_authors": 2,
+    "journal": "Nucl.Phys.B 294 (1987) 1111",
+    "year": 1987,
+    "arxiv": null,
+    "doi": "10.1016/0550-3213(87)90625-0",
+    "inspire_id": 230527
+   },
+   {
+    "title": "QUANTUM FIELD THEORY AND THE ANTIPODAL IDENTIFICATION OF DE SITTER SPACE: ELLIPTIC INFLATION",
+    "first_author": "Folacci, Antoine",
+    "n_authors": 2,
+    "journal": null,
+    "year": "1986",
+    "arxiv": null,
+    "doi": null,
+    "inspire_id": 243130
+   }
+  ]
+ },
+ "stewart_walker1974": {
+  "query": "t \"Perturbations of spacetimes in general relativity\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Relaxations of perturbations of spacetimes in general relativity coupled to nonlinear electrodynamics",
+    "first_author": "Toshmatov, Bobir",
+    "n_authors": 4,
+    "journal": "Phys.Rev.D 99 (2019) 064043",
+    "year": 2019,
+    "arxiv": "1903.03778",
+    "doi": "10.1103/PhysRevD.99.064043",
+    "inspire_id": 1724545
+   },
+   {
+    "title": "Perturbations of spacetimes in general relativity",
+    "first_author": "Stewart, J.M.",
+    "n_authors": 2,
+    "journal": "Proc.Roy.Soc.Lond.A 341 (1974) 49",
+    "year": 1974,
+    "arxiv": null,
+    "doi": "10.1098/rspa.1974.0172",
+    "inspire_id": 97134
+   }
+  ]
+ },
+ "mcgaugh2016": {
+  "query": "t \"Radial Acceleration Relation in Rotationally Supported Galaxies\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Radial Acceleration Relation in Rotationally Supported Galaxies",
+    "first_author": "McGaugh, Stacy",
+    "n_authors": 3,
+    "journal": "Phys.Rev.Lett. 117 (2016) 201101",
+    "year": 2016,
+    "arxiv": "1609.05917",
+    "doi": "10.1103/PhysRevLett.117.201101",
+    "inspire_id": 1487488
+   }
+  ]
+ },
+ "gutperle_strominger": {
+  "query": "t \"Spacelike branes\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Eternally inflating cosmologies from intersecting spacelike branes",
+    "first_author": "Mochizuki, Riuji",
+    "n_authors": 1,
+    "journal": "Mod.Phys.Lett.A 23 (2008) 487",
+    "year": 2008,
+    "arxiv": "0710.3619",
+    "doi": "10.1142/S0217732308026583",
+    "inspire_id": 764816
+   },
+   {
+    "title": "Stringy instability of topologically non-trivial AdS black holes and of de Sitter S-brane space-times",
+    "first_author": "McInnes, Brett",
+    "n_authors": 1,
+    "journal": "Nucl.Phys.B 660 (2003) 373",
+    "year": 2003,
+    "arxiv": "hep-th/0205103",
+    "doi": "10.1016/S0550-3213(03)00268-2",
+    "inspire_id": 586722
+   },
+   {
+    "title": "Space - like branes",
+    "first_author": "Gutperle, Michael",
+    "n_authors": 2,
+    "journal": "JHEP 04 (2002) 018",
+    "year": 2002,
+    "arxiv": "hep-th/0202210",
+    "doi": "10.1088/1126-6708/2002/04/018",
+    "inspire_id": 583522
+   }
+  ]
+ },
+ "bartlett_handley": {
+  "query": "t \"Improved cosmological fits with quantized primordial power spectra\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Improved cosmological fits with quantized primordial power spectra",
+    "first_author": "Bartlett, D.J.",
+    "n_authors": 3,
+    "journal": "Phys.Rev.D 105 (2022) 083515",
+    "year": 2022,
+    "arxiv": "2104.01938",
+    "doi": "10.1103/PhysRevD.105.083515",
+    "inspire_id": 1856153
+   }
+  ]
+ },
+ "prathaban_handley": {
+  "query": "t \"Rescuing palindromic universes with improved recombination modelling\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Rescuing palindromic universes with improved recombination modeling",
+    "first_author": "Prathaban, Metha",
+    "n_authors": 2,
+    "journal": "Phys.Rev.D 105 (2022) 123508",
+    "year": 2022,
+    "arxiv": "2111.14588",
+    "doi": "10.1103/PhysRevD.105.123508",
+    "inspire_id": 1979048
+   }
+  ]
+ },
+ "wei_crosscap": {
+  "query": "a \"Wei, Zixia\" and t crosscap",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Crosscap quenches and entanglement evolution",
+    "first_author": "Wei, Zixia",
+    "n_authors": 2,
+    "journal": "JHEP 05 (2026) 230",
+    "year": 2026,
+    "arxiv": "2412.18610",
+    "doi": "10.1007/JHEP05(2026)230",
+    "inspire_id": 2862711
+   },
+   {
+    "title": "Holographic dual of crosscap conformal field theory",
+    "first_author": "Wei, Zixia",
+    "n_authors": 1,
+    "journal": "JHEP 03 (2025) 086",
+    "year": 2025,
+    "arxiv": "2405.03755",
+    "doi": "10.1007/JHEP03(2025)086",
+    "inspire_id": 2783994
+   }
+  ]
+ },
+ "dulac_wei": {
+  "query": "a \"Wei, Zixia\" and t \"density matrix\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "No boundary density matrix in elliptic de Sitter dS/\u2124$_{2}$",
+    "first_author": "Dulac, Rapha\u00ebl",
+    "n_authors": 2,
+    "journal": "JHEP 05 (2026) 022",
+    "year": 2026,
+    "arxiv": "2512.00704",
+    "doi": "10.1007/JHEP05(2026)022",
+    "inspire_id": 3088095
+   }
+  ]
+ },
+ "maldacena_eternal": {
+  "query": "a Maldacena and t \"Eternal black holes in anti-de Sitter\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Eternal black holes in anti-de Sitter",
+    "first_author": "Maldacena, Juan Martin",
+    "n_authors": 1,
+    "journal": "JHEP 04 (2003) 021",
+    "year": 2003,
+    "arxiv": "hep-th/0106112",
+    "doi": "10.1088/1126-6708/2003/04/021",
+    "inspire_id": 558359
+   }
+  ]
+ },
+ "hollands_wald": {
+  "query": "a Hollands and a Wald and t \"Local Wick polynomials\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Local Wick polynomials and time ordered products of quantum fields in curved space-time",
+    "first_author": "Hollands, Stefan",
+    "n_authors": 2,
+    "journal": "Commun.Math.Phys. 223 (2001) 289",
+    "year": 2001,
+    "arxiv": "gr-qc/0103074",
+    "doi": "10.1007/s002200100540",
+    "inspire_id": 554314
+   }
+  ]
+ },
+ "longo_entropy": {
+  "query": "a \"Longo, Roberto\" and t \"entropy of coherent states\"",
+  "status": "UNVERIFIED",
+  "candidates": []
+ },
+ "solodukhin_ee": {
+  "query": "a Solodukhin and t \"Entanglement entropy of black holes\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Entanglement entropy of black holes",
+    "first_author": "Solodukhin, Sergey N.",
+    "n_authors": 1,
+    "journal": "Living Rev.Rel. 14 (2011) 8",
+    "year": 2011,
+    "arxiv": "1104.3712",
+    "doi": "10.12942/lrr-2011-8",
+    "inspire_id": 896627
+   },
+   {
+    "title": "Entanglement entropy of black holes and AdS/CFT correspondence",
+    "first_author": "Solodukhin, Sergey N.",
+    "n_authors": 1,
+    "journal": "Phys.Rev.Lett. 97 (2006) 201601",
+    "year": 2006,
+    "arxiv": "hep-th/0606205",
+    "doi": "10.1103/PhysRevLett.97.201601",
+    "inspire_id": 719814
+   }
+  ]
+ },
+ "padilla_nogo": {
+  "query": "a Padilla and t \"codimension\" and t \"no-go\"",
+  "status": "UNVERIFIED",
+  "candidates": []
+ },
+ "garriga_tanaka": {
+  "query": "t \"Gravity in the brane world\" and a Garriga",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Gravity in the brane world",
+    "first_author": "Garriga, Jaume",
+    "n_authors": 2,
+    "journal": "Phys.Rev.Lett. 84 (2000) 2778",
+    "year": 2000,
+    "arxiv": "hep-th/9911055",
+    "doi": "10.1103/PhysRevLett.84.2778",
+    "inspire_id": 509870
+   }
+  ]
+ },
+ "dowker_cone": {
+  "query": "a Dowker and t \"Casimir effect around a cone\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Casimir Effect Around a Cone",
+    "first_author": "Dowker, J.S.",
+    "n_authors": 1,
+    "journal": "Phys.Rev.D 36 (1987) 3095",
+    "year": 1987,
+    "arxiv": null,
+    "doi": "10.1103/PhysRevD.36.3095",
+    "inspire_id": 245964
+   }
+  ]
+ },
+ "kirby_taylor_pin": {
+  "query": "t \"Pin structures on low-dimensional manifolds\"",
+  "status": "UNVERIFIED",
+  "candidates": []
+ },
+ "horowitz_steif": {
+  "query": "a Horowitz and a Steif and t \"Singular string solutions\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Singular string solutions with nonsingular initial data",
+    "first_author": "Horowitz, Gary T.",
+    "n_authors": 2,
+    "journal": "Phys.Lett.B 258 (1991) 91",
+    "year": 1991,
+    "arxiv": null,
+    "doi": "10.1016/0370-2693(91)91214-G",
+    "inspire_id": 29052
+   }
+  ]
+ },
+ "lelli_sparc": {
+  "query": "t SPARC and a Lelli and t \"Mass Models\"",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves",
+    "first_author": "Lelli, Federico",
+    "n_authors": 3,
+    "journal": "Astron.J. 152 (2016) 157",
+    "year": 2016,
+    "arxiv": "1606.09251",
+    "doi": "10.3847/0004-6256/152/6/157",
+    "inspire_id": 1473015
+   }
+  ]
+ },
+ "nufit6": {
+  "query": "t \"NuFIT\" and t \"global analysis\" and neutrino oscillation",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "NuFit-6.0: updated global analysis of three-flavor neutrino oscillations",
+    "first_author": "Esteban, Ivan",
+    "n_authors": 6,
+    "journal": "JHEP 12 (2025) 216",
+    "year": 2025,
+    "arxiv": "2410.05380",
+    "doi": "10.1007/JHEP12(2024)216",
+    "inspire_id": 2838825
+   }
+  ]
+ },
+ "chacko_fox": {
+  "query": "a Chacko and a Fox and t radion",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Wave function of the radion in the dS and AdS brane worlds",
+    "first_author": "Chacko, Z.",
+    "n_authors": 2,
+    "journal": "Phys.Rev.D 64 (2001) 024015",
+    "year": 2001,
+    "arxiv": "hep-th/0102023",
+    "doi": "10.1103/PhysRevD.64.024015",
+    "inspire_id": 552789
+   }
+  ]
+ },
+ "gen_sasaki": {
+  "query": "a \"Gen, Uchida\" and a Sasaki and t radion",
+  "status": "CANDIDATES",
+  "candidates": [
+   {
+    "title": "Quantum radion on de Sitter branes",
+    "first_author": "Gen, Uchida",
+    "n_authors": 2,
+    "journal": "Prog.Theor.Phys. 108 (2002) 471",
+    "year": 2002,
+    "arxiv": "gr-qc/0201031",
+    "doi": "10.1143/PTP.108.471",
+    "inspire_id": 581603
+   },
+   {
+    "title": "Radion on the de Sitter brane",
+    "first_author": "Gen, Uchida",
+    "n_authors": 2,
+    "journal": "Prog.Theor.Phys. 105 (2001) 591",
+    "year": 2001,
+    "arxiv": "gr-qc/0011078",
+    "doi": "10.1143/PTP.105.591",
+    "inspire_id": 537294
+   }
+  ]
+ }
+}

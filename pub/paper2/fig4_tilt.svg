@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="7in" height="5.30in" viewBox="0 0 700 530" role="img" aria-label="Primordial tilt mechanism prediction compared with eight CMB datasets" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#9a9a9a" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="530" fill="white"/>
+  <text x="28" y="29" font-size="17" text-anchor="start" fill="#111111" font-weight="bold">Figure 4. Primordial tilt against 2025–26 CMB data</text>
+  <text x="28" y="48" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">All estimates are base-ΛCDM. Circles show the central estimate; bars show ±1σ.</text>
+  <rect x="220" y="94" width="270" height="282" fill="none" stroke="#111111" stroke-width="1.1"/>
+  <line x1="232.1" y1="376.0" x2="232.1" y2="381.0" stroke="#111111" stroke-width="0.8"/>
+  <text x="232.1" y="396.0" font-size="12.5" text-anchor="middle" fill="#111111" font-weight="normal">0.940</text>
+  <line x1="292.8" y1="376.0" x2="292.8" y2="381.0" stroke="#111111" stroke-width="0.8"/>
+  <text x="292.8" y="396.0" font-size="12.5" text-anchor="middle" fill="#111111" font-weight="normal">0.950</text>
+  <line x1="353.5" y1="376.0" x2="353.5" y2="381.0" stroke="#111111" stroke-width="0.8"/>
+  <text x="353.5" y="396.0" font-size="12.5" text-anchor="middle" fill="#111111" font-weight="normal">0.960</text>
+  <line x1="414.2" y1="376.0" x2="414.2" y2="381.0" stroke="#111111" stroke-width="0.8"/>
+  <text x="414.2" y="396.0" font-size="12.5" text-anchor="middle" fill="#111111" font-weight="normal">0.970</text>
+  <line x1="474.8" y1="376.0" x2="474.8" y2="381.0" stroke="#111111" stroke-width="0.8"/>
+  <text x="474.8" y="396.0" font-size="12.5" text-anchor="middle" fill="#111111" font-weight="normal">0.980</text>
+  <line x1="340.7" y1="94.0" x2="340.7" y2="376.0" stroke="#111111" stroke-width="1.7"/>
+  <line x1="291.6" y1="94.0" x2="291.6" y2="376.0" stroke="#111111" stroke-width="1.7" stroke-dasharray="5 4"/>
+  <line x1="30.0" y1="70.0" x2="58.0" y2="70.0" stroke="#111111" stroke-width="1.7"/>
+  <text x="66" y="74" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">solid: dimension-zero nₛ = 0.957888</text>
+  <line x1="30.0" y1="86.0" x2="58.0" y2="86.0" stroke="#111111" stroke-width="1.7" stroke-dasharray="5 4"/>
+  <text x="66" y="90" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">dashed: amplitude branch nₛ = 0.9498</text>
+  <text x="548.0" y="88.0" font-size="12.5" text-anchor="middle" fill="#111111" font-weight="bold">nₛ ± 1σ</text>
+  <text x="678.0" y="88.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="bold">vs solid (σ)</text>
+  <text x="212" y="121.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">Planck 2018 TT,TE,EE+lowE+lensing</text>
+  <line x1="357.7" y1="117.0" x2="408.7" y2="117.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="357.7" y1="113.0" x2="357.7" y2="121.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="408.7" y1="113.0" x2="408.7" y2="121.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="383.2" cy="117" r="3.4" fill="#111111"/>
+  <text x="498.0" y="121.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">0.9649 ± 0.0042</text>
+  <text x="678.0" y="121.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">+1.67σ</text>
+  <text x="208.0" y="155.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">ACT DR6 alone</text>
+  <line x1="346.8" y1="151.0" x2="440.2" y2="151.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="346.8" y1="147.0" x2="346.8" y2="155.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="440.2" y1="147.0" x2="440.2" y2="155.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="393.5" cy="151" r="3.4" fill="#111111"/>
+  <text x="498.0" y="155.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">0.9666 ± 0.0077</text>
+  <text x="678.0" y="155.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">+1.13σ</text>
+  <text x="208.0" y="189.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">SPT-3G D1 alone</text>
+  <line x1="232.1" y1="185.0" x2="365.6" y2="185.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="232.1" y1="181.0" x2="232.1" y2="189.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="365.6" y1="181.0" x2="365.6" y2="189.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="298.9" cy="185" r="3.4" fill="#111111"/>
+  <text x="498.0" y="189.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">0.9510 ± 0.0110</text>
+  <text x="678.0" y="189.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">−0.63σ</text>
+  <text x="208.0" y="223.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">P-ACT</text>
+  <line x1="396.6" y1="219.0" x2="442.7" y2="219.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="396.6" y1="215.0" x2="396.6" y2="223.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="442.7" y1="215.0" x2="442.7" y2="223.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="419.6" cy="219" r="3.4" fill="#111111"/>
+  <text x="498.0" y="223.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">0.9709 ± 0.0038</text>
+  <text x="678.0" y="223.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="bold">+3.42σ</text>
+  <text x="208.0" y="257.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">CMB-SPA</text>
+  <line x1="381.4" y1="253.0" x2="421.4" y2="253.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="381.4" y1="249.0" x2="381.4" y2="257.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="421.4" y1="249.0" x2="421.4" y2="257.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="401.4" cy="253" r="3.4" fill="#111111"/>
+  <text x="498.0" y="257.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">0.9679 ± 0.0033</text>
+  <text x="678.0" y="257.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="bold">+3.03σ</text>
+  <text x="208.0" y="291.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">P-ACT-LB</text>
+  <line x1="419.6" y1="287.0" x2="460.9" y2="287.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="419.6" y1="283.0" x2="419.6" y2="291.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="460.9" y1="283.0" x2="460.9" y2="291.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="440.2" cy="287" r="3.4" fill="#111111"/>
+  <text x="498.0" y="291.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">0.9743 ± 0.0034</text>
+  <text x="678.0" y="291.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="bold">+4.83σ</text>
+  <text x="208.0" y="325.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">P-ACT-LB2</text>
+  <line x1="427.5" y1="321.0" x2="463.9" y2="321.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="427.5" y1="317.0" x2="427.5" y2="325.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="463.9" y1="317.0" x2="463.9" y2="325.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="445.7" cy="321" r="3.4" fill="#111111"/>
+  <text x="498.0" y="325.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">0.9752 ± 0.0030</text>
+  <text x="678.0" y="325.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="bold">+5.77σ</text>
+  <text x="208.0" y="359.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="normal">CMB-SPA + DESI DR2</text>
+  <line x1="412.9" y1="355.0" x2="446.9" y2="355.0" stroke="#111111" stroke-width="1.6"/>
+  <line x1="412.9" y1="351.0" x2="412.9" y2="359.0" stroke="#111111" stroke-width="1.2"/>
+  <line x1="446.9" y1="351.0" x2="446.9" y2="359.0" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="429.9" cy="355" r="3.4" fill="#111111"/>
+  <text x="498.0" y="359.0" font-size="12.5" text-anchor="start" fill="#111111" font-weight="bold">0.9726 ± 0.0028</text>
+  <text x="678.0" y="359.0" font-size="12.5" text-anchor="end" fill="#111111" font-weight="bold">+5.25σ</text>
+  <text x="355" y="416" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">scalar spectral index nₛ</text>
+  <text x="28" y="442" font-size="12.5" text-anchor="start" fill="#111111" font-weight="normal">Prediction: nₛ = 1 − 7α₃(Mₚ)/π = 0.957888. Amplitude at N₀ = 36 with Standard-Model couplings demands nₛ = 0.9498.</text>
+  <text x="28" y="465" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">The two values are not on the same one-parameter locus. This is posterior tension with the mechanism,</text>
+  <text x="28" y="483" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">not a formal exclusion.</text>
+  <text x="28" y="510" font-size="12.5" text-anchor="start" fill="#535353" font-weight="normal">The CPT-symmetric structure fixes no tilt. Freeing Nₑff removes the tension, but needs ΔNₑff ≈ −0.35 to −0.82.</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "spec_version": 1,
+  "process": {
+    "compiler": "xelatex"
+  },
+  "sources": [
+    {
+      "filename": "Paper2_v3.tex",
+      "usage": "toplevel"
+    },
+    {
+      "filename": "Supplement_v3.tex",
+      "usage": "toplevel"
+    }
+  ],
+  "texlive_version": 2025,
+  "stamp": true
+}

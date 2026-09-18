@@ -1,0 +1,14 @@
+# Local build output, not part of the release
+validation/*.log
+pub/paper2/arxiv_src_v3/*.aux
+pub/paper2/arxiv_src_v3/*.log
+pub/paper2/arxiv_src_v3/*.out
+pub/paper2/arxiv_src_v3/Paper2_v3.pdf
+pub/paper2/arxiv_src_v3/Supplement_v3.pdf
+pub/paper2/*_mathjax.html
+pub/paper2/*_mathjax_files/
+tmp/
+__pycache__/
+*.pyc
+data/pantheon_plus/
+.venv/

@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "M_GeV": 484800000.0,
+    "v_GeV": 246.22,
+    "tau_s_free": 1e+28,
+    "gstar": 106.75
+  },
+  "q": 3.412267076405943e-60,
+  "y_norm": 1.8472322746222098e-30,
+  "Gamma0_GeV": 6.582119569e-53,
+  "tree_mass_bound_eV": 2.1335216928409524e-55,
+  "Born_branching_hnu_Znu_Wl": [
+    0.25,
+    0.25,
+    0.5
+  ],
+  "H_at_T_M_GeV": 0.33016965693158673,
+  "Gamma0_over_H_at_M": 1.9935567762860345e-52,
+  "scattering_over_H_per_coefficient": 5.010354658315485e-51,
+  "Y_inverse_decay_MB": 2.0327542803314227e-54,
+  "Y_adopted_DM": 8.699239489166306e-19,
+  "inverse_decay_fraction": 2.3367034358152063e-36,
+  "depletion_13_8_Gyr": 4.3549487999051724e-11,
+  "scope": "Added tree-level mass term and Born decay width in the stated minimal bath. Lifetime is free. No all-orders mass bound, spectrum, flux or observational viability claim."
+}

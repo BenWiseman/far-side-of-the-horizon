@@ -1,0 +1,13 @@
+                      file viewbox_width source_min final_min_pt
+ graphical_abstract_v3.svg          1600       28.0         8.19
+       fig1_dictionary.svg           700       12.5         8.36
+            fig2_janus.svg           700       12.5         8.36
+        fig3_curvature.svg           700       12.5         8.36
+             fig4_tilt.svg           700       12.5         8.36
+ final_median_pt final_max_pt
+            9.07         12.3
+            8.69         11.4
+            8.69         11.4
+            8.69         11.4
+            8.69         11.4
+PASS: no SVG text below 8 pt at 6.5 inch width

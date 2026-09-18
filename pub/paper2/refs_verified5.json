@@ -1,0 +1,441 @@
+{
+ "arxiv": {
+  "0810.5163": [
+   {
+    "first_author": "Marolf, Donald",
+    "n_authors": 2,
+    "year": 2009,
+    "title": "Group Averaging for de Sitter free fields",
+    "journal": "Class.Quant.Grav. 26 (2009) 235003",
+    "arxiv": "0810.5163",
+    "doi": "10.1088/0264-9381/26/23/235003"
+   }
+  ],
+  "2405.00866": [
+   {
+    "first_author": "G\u00e9rard, Christian",
+    "n_authors": 2,
+    "year": "2024",
+    "title": "IR-fixed Euclidean vacuum for linearized gravity on de Sitter space",
+    "journal": null,
+    "arxiv": "2405.00866",
+    "doi": null
+   }
+  ],
+  "1611.07830": [
+   {
+    "first_author": "Besnard, Fabien",
+    "n_authors": 2,
+    "year": 2018,
+    "title": "On the definition of spacetimes in Noncommutative Geometry, Part I",
+    "journal": "J.Geom.Phys. 123 (2018) 292",
+    "arxiv": "1611.07830",
+    "doi": "10.1016/j.geomphys.2017.09.008"
+   }
+  ],
+  "hep-th/0608221": [
+   {
+    "first_author": "Barrett, John W.",
+    "n_authors": 1,
+    "year": 2007,
+    "title": "A Lorentzian version of the non-commutative geometry of the standard model of particle physics",
+    "journal": "J.Math.Phys. 48 (2007) 012303",
+    "arxiv": "hep-th/0608221",
+    "doi": "10.1063/1.2408400"
+   }
+  ],
+  "hep-th/0610241": [
+   {
+    "first_author": "Chamseddine, Ali H.",
+    "n_authors": 3,
+    "year": 2007,
+    "title": "Gravity and the standard model with neutrino mixing",
+    "journal": "Adv.Theor.Math.Phys. 11 (2007) 991",
+    "arxiv": "hep-th/0610241",
+    "doi": "10.4310/ATMP.2007.v11.n6.a3"
+   }
+  ],
+  "hep-th/0003081": [
+   {
+    "first_author": "Volkov, Mikhail S.",
+    "n_authors": 2,
+    "year": 2000,
+    "title": "Black hole pair creation in de Sitter space: A Complete one loop analysis",
+    "journal": "Nucl.Phys.B 582 (2000) 313",
+    "arxiv": "hep-th/0003081",
+    "doi": "10.1016/S0550-3213(00)00287-X"
+   }
+  ],
+  "gr-qc/9606052": [
+   {
+    "first_author": "Bousso, Raphael",
+    "n_authors": 2,
+    "year": 1996,
+    "title": "Pair creation of black holes during inflation",
+    "journal": "Phys.Rev.D 54 (1996) 6312",
+    "arxiv": "gr-qc/9606052",
+    "doi": "10.1103/PhysRevD.54.6312"
+   }
+  ],
+  "gr-qc/9308025": [
+   {
+    "first_author": "Kiefer, Claus",
+    "n_authors": 1,
+    "year": "1993",
+    "title": "Quantum cosmology and the emergence of a classical world",
+    "journal": null,
+    "arxiv": "gr-qc/9308025",
+    "doi": null
+   }
+  ],
+  "2602.21263": [
+   {
+    "first_author": "Nayeri, Ali",
+    "n_authors": 1,
+    "year": 2026,
+    "title": "Inflationary branch decoherence and the cosmological arrow of time",
+    "journal": "Phys.Rev.D 113 (2026) 126030",
+    "arxiv": "2602.21263",
+    "doi": "10.1103/1k1w-c7vd"
+   }
+  ],
+  "1508.04715": [
+   {
+    "first_author": "Witten, Edward",
+    "n_authors": 1,
+    "year": 2016,
+    "title": "Fermion Path Integrals And Topological Phases",
+    "journal": "Rev.Mod.Phys. 88 (2016) 035001",
+    "arxiv": "1508.04715",
+    "doi": "10.1103/RevModPhys.88.035001"
+   }
+  ],
+  "1808.00009": [
+   {
+    "first_author": "Garc\u00eda-Etxebarria, I\u00f1aki",
+    "n_authors": 2,
+    "year": 2019,
+    "title": "Dai-Freed anomalies in particle physics",
+    "journal": "JHEP 08 (2019) 003",
+    "arxiv": "1808.00009",
+    "doi": "10.1007/JHEP08(2019)003"
+   }
+  ],
+  "1707.06036": [
+   {
+    "first_author": "Marletto, Chiara",
+    "n_authors": 2,
+    "year": 2017,
+    "title": "Gravitationally-induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity",
+    "journal": "Phys.Rev.Lett. 119 (2017) 240402",
+    "arxiv": "1707.06036",
+    "doi": "10.1103/PhysRevLett.119.240402"
+   }
+  ],
+  "1811.03116": [
+   {
+    "first_author": "Oppenheim, Jonathan",
+    "n_authors": 1,
+    "year": 2023,
+    "title": "A Postquantum Theory of Classical Gravity?",
+    "journal": "Phys.Rev.X 13 (2023) 041040",
+    "arxiv": "1811.03116",
+    "doi": "10.1103/PhysRevX.13.041040"
+   }
+  ],
+  "2203.01982": [
+   {
+    "first_author": "Oppenheim, Jonathan",
+    "n_authors": 4,
+    "year": 2023,
+    "title": "Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity",
+    "journal": "Nature Commun. 14 (2023) 7910",
+    "arxiv": "2203.01982",
+    "doi": "10.1038/s41467-023-43348-2"
+   }
+  ],
+  "1001.0124": [
+   {
+    "first_author": "Louko, Jorma",
+    "n_authors": 1,
+    "year": 2010,
+    "title": "Geon black holes and quantum field theory",
+    "journal": "J.Phys.Conf.Ser. 222 (2010) 012038",
+    "arxiv": "1001.0124",
+    "doi": "10.1088/1742-6596/222/1/012038"
+   }
+  ],
+  "1606.02744": [
+   {
+    "first_author": "Weisberg, Joel M.",
+    "n_authors": 2,
+    "year": 2016,
+    "title": "Relativistic Measurements from Timing the Binary Pulsar PSR B1913+16",
+    "journal": "Astrophys.J. 829 (2016) 55",
+    "arxiv": "1606.02744",
+    "doi": "10.3847/0004-637X/829/1/55"
+   }
+  ],
+  "1511.03190": [
+   {
+    "first_author": "Giustina, Marissa",
+    "n_authors": 22,
+    "year": 2015,
+    "title": "Significant-Loophole-Free Test of Bell\u2019s Theorem with Entangled Photons",
+    "journal": "Phys.Rev.Lett. 115 (2015) 250401",
+    "arxiv": "1511.03190",
+    "doi": "10.1103/PhysRevLett.115.250401"
+   }
+  ],
+  "2512.00704": [
+   {
+    "first_author": "Dulac, Rapha\u00ebl",
+    "n_authors": 2,
+    "year": 2026,
+    "title": "No boundary density matrix in elliptic de Sitter dS/\u2124$_{2}$",
+    "journal": "JHEP 05 (2026) 022",
+    "arxiv": "2512.00704",
+    "doi": "10.1007/JHEP05(2026)022"
+   }
+  ],
+  "hep-th/0212072": [
+   {
+    "first_author": "Herzog, C.P.",
+    "n_authors": 2,
+    "year": 2003,
+    "title": "Schwinger-Keldysh propagators from AdS/CFT correspondence",
+    "journal": "JHEP 03 (2003) 046",
+    "arxiv": "hep-th/0212072",
+    "doi": "10.1088/1126-6708/2003/03/046"
+   }
+  ],
+  "2606.18128": [
+   {
+    "first_author": "Tzanavaris, Kostas",
+    "n_authors": 3,
+    "year": "2026",
+    "title": "The free boundary problem in general relativity",
+    "journal": null,
+    "arxiv": "2606.18128",
+    "doi": null
+   }
+  ],
+  "2601.09644": [
+   {
+    "first_author": "Kageura, Yuta",
+    "n_authors": 8,
+    "year": "2026",
+    "title": "A New Constraint on the Optical Depth from the Reionization History Independent of CMB Large-Scale E-Mode Polarization",
+    "journal": null,
+    "arxiv": "2601.09644",
+    "doi": null
+   }
+  ],
+  "2603.22454": [
+   {
+    "first_author": "Genesini, Valentina",
+    "n_authors": 5,
+    "year": "2026",
+    "title": "Cross-spectra likelihood for robust $\u03c4$ constraints from all satellite polarisation data",
+    "journal": null,
+    "arxiv": "2603.22454",
+    "doi": null
+   }
+  ],
+  "2406.14554": [
+   {
+    "first_author": "Allali, Itamar J.",
+    "n_authors": 2,
+    "year": 2024,
+    "title": "Neutrino mass bounds from DESI 2024 are relaxed by Planck PR4 and cosmological supernovae",
+    "journal": "JCAP 12 (2024) 020",
+    "arxiv": "2406.14554",
+    "doi": "10.1088/1475-7516/2024/12/020"
+   }
+  ],
+  "2607.28918": [
+   {
+    "first_author": "Kim, Jinyoung",
+    "n_authors": 3,
+    "year": "2026",
+    "title": "A Sequentially-Valid Reanalysis of DESI's Dynamical Dark Energy Signal",
+    "journal": null,
+    "arxiv": "2607.28918",
+    "doi": null
+   }
+  ],
+  "hep-ph/9205202": [
+   {
+    "first_author": "Choi, Ki-woon",
+    "n_authors": 3,
+    "year": 1993,
+    "title": "Is CP a gauge symmetry?",
+    "journal": "Nucl.Phys.B 391 (1993) 515",
+    "arxiv": "hep-ph/9205202",
+    "doi": "10.1016/0550-3213(93)90082-Z"
+   }
+  ],
+  "2105.09122": [
+   {
+    "first_author": "Valenti, Alessandro",
+    "n_authors": 2,
+    "year": 2021,
+    "title": "The CKM phase and $ \\overline{\\theta} $ in Nelson-Barr models",
+    "journal": "JHEP 07 (2021) 203",
+    "arxiv": "2105.09122",
+    "doi": "10.1007/JHEP07(2021)203"
+   }
+  ]
+ },
+ "by_title": {
+  "halliwell_hawking": [
+   {
+    "first_author": "Halliwell, J.J.",
+    "n_authors": 2,
+    "year": 1985,
+    "title": "The Origin of Structure in the Universe",
+    "journal": "Phys.Rev.D 31 (1985) 1777",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevD.31.1777"
+   }
+  ],
+  "page_geilker": [
+   {
+    "first_author": "Page, Don N.",
+    "n_authors": 1,
+    "year": 1982,
+    "title": "COMMENT ON `INDIRECT EVIDENCE FOR QUANTUM GRAVITY'. PAGE RESPONDS",
+    "journal": "Phys.Rev.Lett. 48 (1982) 523",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevLett.48.523"
+   },
+   {
+    "first_author": "Page, Don N.",
+    "n_authors": 1,
+    "year": 1982,
+    "title": "COMMENT ON `INDIRECT EVIDENCE FOR QUANTUM GRAVITY?' PAGE RESPONDS",
+    "journal": "Phys.Rev.Lett. 48 (1982) 521",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevLett.48.521"
+   },
+   {
+    "first_author": "Page, Don N.",
+    "n_authors": 2,
+    "year": 1981,
+    "title": "Indirect Evidence for Quantum Gravity",
+    "journal": "Phys.Rev.Lett. 47 (1981) 979",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevLett.47.979"
+   }
+  ],
+  "hartle_hawking": [
+   {
+    "first_author": "Hartle, J.B.",
+    "n_authors": 2,
+    "year": 1983,
+    "title": "Wave Function of the Universe",
+    "journal": "Phys.Rev.D 28 (1983) 2960",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevD.28.2960"
+   },
+   {
+    "first_author": "Hartle, J.B.",
+    "n_authors": 2,
+    "year": 1988,
+    "title": "Gravitational $\\theta$ States and the Wave Function of the Universe",
+    "journal": "Phys.Rev.D 37 (1988) 2833",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevD.37.2833"
+   }
+  ],
+  "gross_perry_yaffe": [
+   {
+    "first_author": "Gross, D.J.",
+    "n_authors": 3,
+    "year": 1982,
+    "title": "Instability of Flat Space at Finite Temperature",
+    "journal": "Phys.Rev.D 25 (1982) 330",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevD.25.330"
+   }
+  ],
+  "kobzarev_okun_zeldovich": [
+   {
+    "first_author": "Zeldovich, Ya.B.",
+    "n_authors": 3,
+    "year": 1974,
+    "title": "Cosmological Consequences of the Spontaneous Breakdown of Discrete Symmetry",
+    "journal": "Zh.Eksp.Teor.Fiz. 67 (1974) 3",
+    "arxiv": null,
+    "doi": null
+   }
+  ],
+  "eardley_white_hole": [
+   {
+    "first_author": "Eardley, Douglas M.",
+    "n_authors": 1,
+    "year": 1974,
+    "title": "Death of White Holes in the Early Universe",
+    "journal": "Phys.Rev.Lett. 33 (1974) 442",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevLett.33.442"
+   }
+  ],
+  "allen_dS_vacuum": [
+   {
+    "first_author": "Allen, Bruce",
+    "n_authors": 1,
+    "year": 1985,
+    "title": "Vacuum States in de Sitter Space",
+    "journal": "Phys.Rev.D 32 (1985) 3136",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevD.32.3136"
+   }
+  ],
+  "kiefer_decoherence_prd46": [
+   {
+    "first_author": "Kiefer, C.",
+    "n_authors": 1,
+    "year": 1992,
+    "title": "Decoherence in quantum electrodynamics and quantum gravity",
+    "journal": "Phys.Rev.D 46 (1992) 1658",
+    "arxiv": null,
+    "doi": "10.1103/PhysRevD.46.1658"
+   }
+  ],
+  "schwinger_1961": [
+   {
+    "first_author": "Schwinger, Julian S.",
+    "n_authors": 1,
+    "year": 1961,
+    "title": "Brownian motion of a quantum oscillator",
+    "journal": "J.Math.Phys. 2 (1961) 407",
+    "arxiv": null,
+    "doi": "10.1063/1.1703727"
+   }
+  ],
+  "keldysh_1964": [
+   {
+    "first_author": "Keldysh, L.V.",
+    "n_authors": 1,
+    "year": 1965,
+    "title": "Diagram Technique for Nonequilibrium Processes",
+    "journal": "Sov.Phys.JETP 20 (1965) 1018",
+    "arxiv": null,
+    "doi": "10.1142/9789811279461_0007"
+   }
+  ],
+  "niemi_semenoff_1984": [
+   {
+    "first_author": "Niemi, A.J.",
+    "n_authors": 2,
+    "year": 1984,
+    "title": "Finite Temperature Quantum Field Theory in Minkowski Space",
+    "journal": "Annals Phys. 152 (1984) 105",
+    "arxiv": null,
+    "doi": "10.1016/0003-4916(84)90082-4"
+   }
+  ]
+ },
+ "unresolved": []
+}

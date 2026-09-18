@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use this material, please cite the paper and this release.
+title: 'The Far Side of the Horizon: a geometric fold for CPT-related copies of spacetime'
+authors:
+  - family-names: Wiseman
+    given-names: B. H.
+type: software
+version: 3.0.0
+date-released: '2026-09-18'
+license: MIT
+repository-code: 'https://github.com/BenWiseman/far-side-of-the-horizon'
+url: 'https://github.com/BenWiseman/far-side-of-the-horizon/releases/tag/v3.0.0'
+preferred-citation:
+  type: unpublished
+  title: 'The Far Side of the Horizon: a geometric fold for CPT-related copies of spacetime'
+  authors:
+    - family-names: Wiseman
+      given-names: B. H.
+  year: 2026
+  url: 'https://github.com/BenWiseman/far-side-of-the-horizon'

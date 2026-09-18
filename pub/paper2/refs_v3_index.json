@@ -1,0 +1,4409 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-09-18",
+  "scope": "Release bibliography metadata provenance index; not a scientific review or publication gate",
+  "manuscript": {
+    "file": "PAPER2_v3.md",
+    "sha256": "c043a77dcaaad17798bf46f669cdb47420466f408690a70ab1fee3c9ded4f590",
+    "bibliography_heading_line": 965,
+    "reference_count": 82,
+    "metadata_coverage_statement_line": 967
+  },
+  "historical_logs": [
+    {
+      "file": "refs_verified.json",
+      "sha256": "0cc2e2e62f43dd44993030fcd3c9d29cab733a7560f9a4ff83265eaf30f0d00a",
+      "purpose": "Historical metadata lookup log; no claim-level validation evidence inferred"
+    },
+    {
+      "file": "refs_verified2.json",
+      "sha256": "06ec2031df7b6ea9f4531d53025734bcce5c5cacc4e00c9646ac2f6f1ba9e916",
+      "purpose": "Historical metadata lookup log; no claim-level validation evidence inferred"
+    },
+    {
+      "file": "refs_verified3.json",
+      "sha256": "fe1545d173cc6edab5158b94e366328d54b1e421a66219914aacdf77b0be1e91",
+      "purpose": "Historical metadata lookup log; no claim-level validation evidence inferred"
+    },
+    {
+      "file": "refs_verified4.json",
+      "sha256": "f01682580c952bfe84f2204706c2c8664c1000146233c2a9e335c37556c13a4f",
+      "purpose": "Historical metadata lookup log; no claim-level validation evidence inferred"
+    },
+    {
+      "file": "refs_verified5.json",
+      "sha256": "5dace714883839df273d7baaff56b40b0c2dc9be4817ff7d1a723ebc4c6b1669",
+      "purpose": "Historical metadata lookup log; no claim-level validation evidence inferred"
+    }
+  ],
+  "method": {
+    "identity_matching": "Exact arXiv identifier, or exact title after case/punctuation/diacritic/markup normalization. Explicitly identified review and composite-part title mappings are separately labelled. Candidate position and old bibliography numbering are not identity evidence.",
+    "json_pointer_format": "RFC 6901; ~1 encodes a slash within an arXiv-key token.",
+    "source_read_vs_metadata": "A metadata lookup match establishes only an identity link to a historical record. It does not establish source reading, correctness of every citation field, or validation of any manuscript claim.",
+    "fresh_checks": "Current primary metadata-check receipts supplied by the parent session: arXiv abstract pages for references 81 and 82, and three INSPIRE API records (18221, 444838, 445039) to resolve references 2 and 12. No bulk external re-verification was performed by this indexer.",
+    "historical_status": "VERIFIED, CANDIDATES and UNVERIFIED are original historical lookup labels, not verdicts assigned to present manuscript claims."
+  },
+  "limitations": [
+    "The five supplied logs are historical and include records unrelated to the current bibliography. Only matched rows are assigned here.",
+    "Coverage is limited to the supplied records: eight current entries have no matching historical row; reference 1 has only related review/catalogue records; references 81–82 rely on separate current arXiv metadata checks. Current INSPIRE receipts resolve the historic logging discrepancy for reference 2 and the former identifier discrepancy for reference 12. The manuscript now describes this limited metadata coverage explicitly.",
+    "Absence of a historical match does not mean a citation is false, and lack of an arXiv identifier is not itself a deficiency.",
+    "No per-claim source validation, journal-page/DOI re-verification, or proof of source reading is asserted. Known source-access limitations are retained from the manuscript."
+  ],
+  "status_counts": {
+    "current_primary_metadata_check": 2,
+    "historical_arxiv_metadata_match": 53,
+    "historical_review_metadata_only": 1,
+    "historical_title_metadata_match": 18,
+    "no_matching_historical_record": 8
+  },
+  "unmatched_historical_reference_numbers": [
+    49,
+    58,
+    59,
+    60,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+  ],
+  "unresolved_reference_numbers": [
+    49,
+    58,
+    59,
+    60,
+    77,
+    78,
+    79,
+    80
+  ],
+  "references": [
+    {
+      "reference_number": 1,
+      "source_line": 969,
+      "citation": "E. Schrödinger, *Expanding Universes*, Cambridge University Press (1956). *(Verified via Crossref catalogue and contemporary reviews; not an INSPIRE record.)*",
+      "title": "Expanding Universes",
+      "arxiv": null,
+      "bibliographic_form": "book",
+      "status": "historical_review_metadata_only",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/schrodinger_cr/0",
+          "metadata": {
+            "first_author": "Yang, C. N.",
+            "year": 1956,
+            "title": "<i>Expanding Universes</i>\n            . E. Schrodinger. Cambridge University Press, Cambr",
+            "journal": "Science",
+            "volume": "124",
+            "pages": "370-370",
+            "doi": "10.1126/science.124.3217.370.a",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Yang, C. N.",
+            1956,
+            "<i>Expanding Universes</i>\n            . E. Schrodinger. Cambridge University Press, Cambr",
+            "Science",
+            "124",
+            "370-370",
+            "10.1126/science.124.3217.370.a",
+            "journal-article"
+          ],
+          "match_method": "related_book_review_or_catalogue_title"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/schrodinger_cr/1",
+          "metadata": {
+            "first_author": "Yang, C. N.",
+            "year": 1956,
+            "title": "<i>Expanding Universes</i>\n            . E. Schrodinger. Cambridge University Press, Cambr",
+            "journal": "Science",
+            "volume": "124",
+            "pages": "370-370",
+            "doi": "10.1126/science.124.3217.370-a",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Yang, C. N.",
+            1956,
+            "<i>Expanding Universes</i>\n            . E. Schrodinger. Cambridge University Press, Cambr",
+            "Science",
+            "124",
+            "370-370",
+            "10.1126/science.124.3217.370-a",
+            "journal-article"
+          ],
+          "match_method": "related_book_review_or_catalogue_title"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/schrodinger_cr/2",
+          "metadata": {
+            "first_author": "Schrodinger, E.",
+            "year": 1956,
+            "title": "Expanding Universes",
+            "journal": "American Journal of Physics",
+            "volume": "24",
+            "pages": "472-473",
+            "doi": "10.1119/1.1934284",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Schrodinger, E.",
+            1956,
+            "Expanding Universes",
+            "American Journal of Physics",
+            "24",
+            "472-473",
+            "10.1119/1.1934284",
+            "journal-article"
+          ],
+          "match_method": "related_book_review_or_catalogue_title"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/schrodinger_cr/3",
+          "metadata": {
+            "first_author": "DAVIES, J. T.",
+            "year": 1957,
+            "title": "<i>Expanding Universes</i>. By E. Schrödinger. Cambridge University Press, London, 1956. P",
+            "journal": "The British Journal for the Philosophy of Science",
+            "volume": "8",
+            "pages": "78-79",
+            "doi": "10.1093/bjps/viii.29.78",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "DAVIES, J. T.",
+            1957,
+            "<i>Expanding Universes</i>. By E. Schrödinger. Cambridge University Press, London, 1956. P",
+            "The British Journal for the Philosophy of Science",
+            "8",
+            "78-79",
+            "10.1093/bjps/viii.29.78",
+            "journal-article"
+          ],
+          "match_method": "related_book_review_or_catalogue_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "The matching Crossref rows are journal review/article or catalogue-style records, including an American Journal of Physics record (24, 472–473), not a direct Cambridge University Press book record. The title is supported; the book citation is not fully verified by these logs. The earlier INSPIRE query /schrodinger_expanding in refs_verified2.json returned UNVERIFIED with no candidates."
+      ]
+    },
+    {
+      "reference_number": 2,
+      "source_line": 971,
+      "citation": "G. W. Gibbons, \"The elliptic interpretation of black holes and quantum mechanics,\" Nucl. Phys. B 271 (1986) 497.",
+      "title": "The elliptic interpretation of black holes and quantum mechanics",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/gibbons1986/candidates/0",
+          "metadata": {
+            "title": "The elliptic interpretation of black holes and quantum mechanics",
+            "first_author": "Gibbons, G.W.",
+            "n_authors": 1,
+            "journal": "Nucl.Phys.B 271 (1986) 86800220",
+            "year": 1986,
+            "arxiv": null,
+            "doi": "10.1016/S0550-3213(86)80022-0",
+            "inspire_id": 18221
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "The elliptic interpretation of black holes and quantum mechanics",
+            "first_author": "Gibbons, G.W.",
+            "n_authors": 1,
+            "journal": "Nucl.Phys.B 271 (1986) 86800220",
+            "year": 1986,
+            "arxiv": null,
+            "doi": "10.1016/S0550-3213(86)80022-0",
+            "inspire_id": 18221
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": {
+        "catalogue": "INSPIRE-HEP",
+        "url": "https://inspirehep.net/api/literature/18221",
+        "inspire_id": 18221,
+        "page_start": "497",
+        "page_end": "508",
+        "volume": "271",
+        "year": 1986,
+        "historical_artid": "86800220",
+        "checked_date": "2026-09-18",
+        "provenance": "Primary INSPIRE API metadata check via urllib supplied by parent in current task message",
+        "scope": "Confirms citation page metadata only; no claim validation"
+      },
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Historical title/DOI identity matches. The old log journal field wrongly used artid 86800220 as a page. A current primary INSPIRE API check supplied by the parent returns page_start 497 and page_end 508, volume 271, year 1986; this confirms the current manuscript first page 497. This is a historical logging discrepancy, not a current citation error."
+      ]
+    },
+    {
+      "reference_number": 3,
+      "source_line": 973,
+      "citation": "M. K. Parikh, I. Savonije, E. Verlinde, \"Elliptic de Sitter space: dS/Z₂,\" Phys. Rev. D 67 (2003) 064005, hep-th/0209120.",
+      "title": "Elliptic de Sitter space: dS/Z₂",
+      "arxiv": "hep-th/0209120",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/hep-th~10209120",
+          "metadata": {
+            "arxiv": "hep-th/0209120",
+            "status": "VERIFIED",
+            "title": "Elliptic de Sitter space: dS/Z(2)",
+            "all_titles": [
+              "Elliptic de Sitter space: dS/Z(2)",
+              "Elliptic de Sitter space: dS/Z(2)."
+            ],
+            "first_author": "Parikh, Maulik K.",
+            "n_authors": 3,
+            "authors": [
+              "Parikh, Maulik K.",
+              "Savonije, Ivo",
+              "Verlinde, Erik P."
+            ],
+            "journal": "Phys.Rev.D 67 (2003) 064005",
+            "year": 2003,
+            "inspire_id": 595075
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "hep-th/0209120",
+            "status": "VERIFIED",
+            "title": "Elliptic de Sitter space: dS/Z(2)",
+            "all_titles": [
+              "Elliptic de Sitter space: dS/Z(2)",
+              "Elliptic de Sitter space: dS/Z(2)."
+            ],
+            "first_author": "Parikh, Maulik K.",
+            "n_authors": 3,
+            "authors": [
+              "Parikh, Maulik K.",
+              "Savonije, Ivo",
+              "Verlinde, Erik P."
+            ],
+            "journal": "Phys.Rev.D 67 (2003) 064005",
+            "year": 2003,
+            "inspire_id": 595075
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 4,
+      "source_line": 975,
+      "citation": "G. 't Hooft, \"Black hole unitarity and antipodal entanglement,\" Found. Phys. 46 (2016) 1185, arXiv:1601.03447.",
+      "title": "Black hole unitarity and antipodal entanglement",
+      "arxiv": "1601.03447",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1601.03447",
+          "metadata": {
+            "arxiv": "1601.03447",
+            "status": "VERIFIED",
+            "title": "Black hole unitarity and antipodal entanglement",
+            "all_titles": [
+              "Black hole unitarity and antipodal entanglement",
+              "Black hole unitarity and antipodal entanglement"
+            ],
+            "first_author": "'t Hooft, Gerard",
+            "n_authors": 1,
+            "authors": [
+              "'t Hooft, Gerard"
+            ],
+            "journal": "Found.Phys. 46 (2016) 1185",
+            "year": 2016,
+            "inspire_id": 1415258
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1601.03447",
+            "status": "VERIFIED",
+            "title": "Black hole unitarity and antipodal entanglement",
+            "all_titles": [
+              "Black hole unitarity and antipodal entanglement",
+              "Black hole unitarity and antipodal entanglement"
+            ],
+            "first_author": "'t Hooft, Gerard",
+            "n_authors": 1,
+            "authors": [
+              "'t Hooft, Gerard"
+            ],
+            "journal": "Found.Phys. 46 (2016) 1185",
+            "year": 2016,
+            "inspire_id": 1415258
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 5,
+      "source_line": 977,
+      "citation": "G. 't Hooft, \"What happens in a black hole when a particle meets its antipode,\" arXiv:1804.05744.",
+      "title": "What happens in a black hole when a particle meets its antipode",
+      "arxiv": "1804.05744",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1804.05744",
+          "metadata": {
+            "arxiv": "1804.05744",
+            "status": "VERIFIED",
+            "title": "What happens in a black hole when a particle meets its antipode",
+            "all_titles": [
+              "What happens in a black hole when a particle meets its antipode"
+            ],
+            "first_author": "'t Hooft, Gerard",
+            "n_authors": 1,
+            "authors": [
+              "'t Hooft, Gerard"
+            ],
+            "journal": null,
+            "year": "2018",
+            "inspire_id": 1667909
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1804.05744",
+            "status": "VERIFIED",
+            "title": "What happens in a black hole when a particle meets its antipode",
+            "all_titles": [
+              "What happens in a black hole when a particle meets its antipode"
+            ],
+            "first_author": "'t Hooft, Gerard",
+            "n_authors": 1,
+            "authors": [
+              "'t Hooft, Gerard"
+            ],
+            "journal": null,
+            "year": "2018",
+            "inspire_id": 1667909
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 6,
+      "source_line": 979,
+      "citation": "A. Folacci, N. G. Sánchez, \"Quantum field theory and the 'elliptic interpretation' of de Sitter space-time,\" Nucl. Phys. B 294 (1987) 1111.",
+      "title": "Quantum field theory and the 'elliptic interpretation' of de Sitter space-time",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/folacci_sanchez/candidates/0",
+          "metadata": {
+            "title": "Quantum Field Theory and the 'Elliptic Interpretation' of De Sitter Space-time",
+            "first_author": "Folacci, Antoine",
+            "n_authors": 2,
+            "journal": "Nucl.Phys.B 294 (1987) 1111",
+            "year": 1987,
+            "arxiv": null,
+            "doi": "10.1016/0550-3213(87)90625-0",
+            "inspire_id": 230527
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Quantum Field Theory and the 'Elliptic Interpretation' of De Sitter Space-time",
+            "first_author": "Folacci, Antoine",
+            "n_authors": 2,
+            "journal": "Nucl.Phys.B 294 (1987) 1111",
+            "year": 1987,
+            "arxiv": null,
+            "doi": "10.1016/0550-3213(87)90625-0",
+            "inspire_id": 230527
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 7,
+      "source_line": 981,
+      "citation": "G. L. Sewell, \"Quantum fields on manifolds: PCT and gravitationally induced thermal states,\" Annals Phys. 141 (1982) 201.",
+      "title": "Quantum fields on manifolds: PCT and gravitationally induced thermal states",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/sewell1982/candidates/1",
+          "metadata": {
+            "title": "Quantum fields on manifolds: PCT and gravitationally induced thermal states",
+            "first_author": "Sewell, Geoffrey L.",
+            "n_authors": 1,
+            "journal": "Annals Phys. 141 (1982) 201",
+            "year": 1982,
+            "arxiv": null,
+            "doi": "10.1016/0003-4916(82)90285-8",
+            "inspire_id": 854440
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Quantum fields on manifolds: PCT and gravitationally induced thermal states",
+            "first_author": "Sewell, Geoffrey L.",
+            "n_authors": 1,
+            "journal": "Annals Phys. 141 (1982) 201",
+            "year": 1982,
+            "arxiv": null,
+            "doi": "10.1016/0003-4916(82)90285-8",
+            "inspire_id": 854440
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 8,
+      "source_line": 983,
+      "citation": "H. J. Borchers, D. Buchholz, \"Global properties of vacuum states in de Sitter space,\" Ann. Inst. H. Poincaré A 70 (1999) 23, gr-qc/9803036.",
+      "title": "Global properties of vacuum states in de Sitter space",
+      "arxiv": "gr-qc/9803036",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/gr-qc~19803036",
+          "metadata": {
+            "arxiv": "gr-qc/9803036",
+            "status": "VERIFIED",
+            "title": "Global properties of vacuum states in de Sitter space",
+            "all_titles": [
+              "Global properties of vacuum states in de Sitter space",
+              "Global properties of vacuum states in de Sitter space.",
+              "Global Properties of Vacuum States in de Sitter Space"
+            ],
+            "first_author": "Borchers, H.J.",
+            "n_authors": 2,
+            "authors": [
+              "Borchers, H.J.",
+              "Buchholz, D."
+            ],
+            "journal": "Ann.Inst.H.Poincare A Phys.Theor. 70 (1999) 23",
+            "year": 1999,
+            "inspire_id": 467999
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "gr-qc/9803036",
+            "status": "VERIFIED",
+            "title": "Global properties of vacuum states in de Sitter space",
+            "all_titles": [
+              "Global properties of vacuum states in de Sitter space",
+              "Global properties of vacuum states in de Sitter space.",
+              "Global Properties of Vacuum States in de Sitter Space"
+            ],
+            "first_author": "Borchers, H.J.",
+            "n_authors": 2,
+            "authors": [
+              "Borchers, H.J.",
+              "Buchholz, D."
+            ],
+            "journal": "Ann.Inst.H.Poincare A Phys.Theor. 70 (1999) 23",
+            "year": 1999,
+            "inspire_id": 467999
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 9,
+      "source_line": 985,
+      "citation": "L. Hackl, Y. Neiman, \"Horizon complementarity in elliptic de Sitter space,\" Phys. Rev. D 91 (2015) 044016, arXiv:1409.6753.",
+      "title": "Horizon complementarity in elliptic de Sitter space",
+      "arxiv": "1409.6753",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1409.6753",
+          "metadata": {
+            "arxiv": "1409.6753",
+            "status": "VERIFIED",
+            "title": "Horizon complementarity in elliptic de Sitter space",
+            "all_titles": [
+              "Horizon complementarity in elliptic de Sitter space"
+            ],
+            "first_author": "Hackl, Lucas",
+            "n_authors": 2,
+            "authors": [
+              "Hackl, Lucas",
+              "Neiman, Yasha"
+            ],
+            "journal": "Phys.Rev.D 91 (2015) 044016",
+            "year": 2015,
+            "inspire_id": 1318817
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1409.6753",
+            "status": "VERIFIED",
+            "title": "Horizon complementarity in elliptic de Sitter space",
+            "all_titles": [
+              "Horizon complementarity in elliptic de Sitter space"
+            ],
+            "first_author": "Hackl, Lucas",
+            "n_authors": 2,
+            "authors": [
+              "Hackl, Lucas",
+              "Neiman, Yasha"
+            ],
+            "journal": "Phys.Rev.D 91 (2015) 044016",
+            "year": 2015,
+            "inspire_id": 1318817
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 10,
+      "source_line": 987,
+      "citation": "J. L. Friedman, A. Higuchi, \"Quantum field theory in Lorentzian universes from nothing,\" Phys. Rev. D 52 (1995) 5687, gr-qc/9505035.",
+      "title": "Quantum field theory in Lorentzian universes from nothing",
+      "arxiv": "gr-qc/9505035",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/gr-qc~19505035",
+          "metadata": {
+            "arxiv": "gr-qc/9505035",
+            "status": "VERIFIED",
+            "title": "Quantum field theory in Lorentzian universes from nothing",
+            "all_titles": [
+              "Quantum field theory in Lorentzian universes from nothing",
+              "Quantum field theory in Lorentzian universes-from-nothing"
+            ],
+            "first_author": "Friedman, John L.",
+            "n_authors": 2,
+            "authors": [
+              "Friedman, John L.",
+              "Higuchi, Atsushi"
+            ],
+            "journal": "Phys.Rev.D 52 (1995) 5687",
+            "year": 1995,
+            "inspire_id": 395297
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "gr-qc/9505035",
+            "status": "VERIFIED",
+            "title": "Quantum field theory in Lorentzian universes from nothing",
+            "all_titles": [
+              "Quantum field theory in Lorentzian universes from nothing",
+              "Quantum field theory in Lorentzian universes-from-nothing"
+            ],
+            "first_author": "Friedman, John L.",
+            "n_authors": 2,
+            "authors": [
+              "Friedman, John L.",
+              "Higuchi, Atsushi"
+            ],
+            "journal": "Phys.Rev.D 52 (1995) 5687",
+            "year": 1995,
+            "inspire_id": 395297
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 11,
+      "source_line": 989,
+      "citation": "R. Dulac, Z. Wei, \"No boundary density matrix in elliptic de Sitter dS/Z₂,\" JHEP 05 (2026) 022, arXiv:2512.00704.",
+      "title": "No boundary density matrix in elliptic de Sitter dS/Z₂",
+      "arxiv": "2512.00704",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/dulac_wei/candidates/0",
+          "metadata": {
+            "title": "No boundary density matrix in elliptic de Sitter dS/ℤ$_{2}$",
+            "first_author": "Dulac, Raphaël",
+            "n_authors": 2,
+            "journal": "JHEP 05 (2026) 022",
+            "year": 2026,
+            "arxiv": "2512.00704",
+            "doi": "10.1007/JHEP05(2026)022",
+            "inspire_id": 3088095
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "No boundary density matrix in elliptic de Sitter dS/ℤ$_{2}$",
+            "first_author": "Dulac, Raphaël",
+            "n_authors": 2,
+            "journal": "JHEP 05 (2026) 022",
+            "year": 2026,
+            "arxiv": "2512.00704",
+            "doi": "10.1007/JHEP05(2026)022",
+            "inspire_id": 3088095
+          },
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/2512.00704/0",
+          "metadata": {
+            "first_author": "Dulac, Raphaël",
+            "n_authors": 2,
+            "year": 2026,
+            "title": "No boundary density matrix in elliptic de Sitter dS/ℤ$_{2}$",
+            "journal": "JHEP 05 (2026) 022",
+            "arxiv": "2512.00704",
+            "doi": "10.1007/JHEP05(2026)022"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Dulac, Raphaël",
+            "n_authors": 2,
+            "year": 2026,
+            "title": "No boundary density matrix in elliptic de Sitter dS/ℤ$_{2}$",
+            "journal": "JHEP 05 (2026) 022",
+            "arxiv": "2512.00704",
+            "doi": "10.1007/JHEP05(2026)022"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 12,
+      "source_line": 991,
+      "citation": "V. Moretti, \"Zeta function renormalization of one-loop stress tensors in curved spacetimes,\" hep-th/9706191 (INSPIRE record 444838; no journal publication listed).",
+      "title": "Zeta function renormalization of one-loop stress tensors in curved spacetimes",
+      "arxiv": "hep-th/9706191",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/hep-th~19706191",
+          "metadata": {
+            "arxiv": "hep-th/9706191",
+            "status": "VERIFIED",
+            "title": "Zeta function renormalization of one loop stress tensors in curved space-time, a check on the method in the conical manifold and other cases",
+            "all_titles": [
+              "Zeta function renormalization of one loop stress tensors in curved space-time, a check on the method in the conical manifold and other cases",
+              "zeta-function renormalization of one-loop stress tensors in curved spacetime, a check on the method in the conical manifold and other cases."
+            ],
+            "first_author": "Moretti, Valter",
+            "n_authors": 1,
+            "authors": [
+              "Moretti, Valter"
+            ],
+            "journal": null,
+            "year": "1997",
+            "inspire_id": 444838
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "hep-th/9706191",
+            "status": "VERIFIED",
+            "title": "Zeta function renormalization of one loop stress tensors in curved space-time, a check on the method in the conical manifold and other cases",
+            "all_titles": [
+              "Zeta function renormalization of one loop stress tensors in curved space-time, a check on the method in the conical manifold and other cases",
+              "zeta-function renormalization of one-loop stress tensors in curved spacetime, a check on the method in the conical manifold and other cases."
+            ],
+            "first_author": "Moretti, Valter",
+            "n_authors": 1,
+            "authors": [
+              "Moretti, Valter"
+            ],
+            "journal": null,
+            "year": "1997",
+            "inspire_id": 444838
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": {
+        "catalogue": "INSPIRE-HEP",
+        "url": "https://inspirehep.net/api/literature/444838",
+        "inspire_id": 444838,
+        "arxiv": "hep-th/9706191",
+        "author": "Moretti",
+        "journal": null,
+        "excluded_record": {
+          "url": "https://inspirehep.net/api/literature/445039",
+          "inspire_id": 445039,
+          "arxiv": "hep-th/9706225",
+          "topic": "Euclidean SYM",
+          "reason": "Different source; former staged citation identifier corrected"
+        },
+        "checked_date": "2026-09-18",
+        "provenance": "Two primary INSPIRE API metadata checks via urllib supplied by parent in current task message",
+        "scope": "Confirms citation identity metadata only; no claim validation"
+      },
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Current manuscript INSPIRE record 444838 agrees with the historical exact-arXiv match and the current primary API check. The former identifier 445039 has been corrected by the parent in the staged manuscript; the API identifies it as a different hep-th/9706225 Euclidean SYM work. The historical title is longer than the manuscript title. The current metadata receipt reports no journal."
+      ]
+    },
+    {
+      "reference_number": 13,
+      "source_line": 993,
+      "citation": "A. Karch, L. Randall, \"Locally localized gravity,\" JHEP 05 (2001) 008, hep-th/0011156.",
+      "title": "Locally localized gravity",
+      "arxiv": "hep-th/0011156",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/hep-th~10011156",
+          "metadata": {
+            "arxiv": "hep-th/0011156",
+            "status": "VERIFIED",
+            "title": "Locally localized gravity",
+            "all_titles": [
+              "Locally localized gravity",
+              "Locally localized gravity."
+            ],
+            "first_author": "Karch, Andreas",
+            "n_authors": 2,
+            "authors": [
+              "Karch, Andreas",
+              "Randall, Lisa"
+            ],
+            "journal": "JHEP 05 (2001) 008",
+            "year": 2001,
+            "inspire_id": 537060
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "hep-th/0011156",
+            "status": "VERIFIED",
+            "title": "Locally localized gravity",
+            "all_titles": [
+              "Locally localized gravity",
+              "Locally localized gravity."
+            ],
+            "first_author": "Karch, Andreas",
+            "n_authors": 2,
+            "authors": [
+              "Karch, Andreas",
+              "Randall, Lisa"
+            ],
+            "journal": "JHEP 05 (2001) 008",
+            "year": 2001,
+            "inspire_id": 537060
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 14,
+      "source_line": 995,
+      "citation": "I. I. Kogan, S. Mouslopoulos, A. Papazoglou, G. G. Ross, J. Santiago, \"A three three-brane universe: new phenomenology for the new millennium?\", Nucl. Phys. B 584 (2000) 313, hep-ph/9912552.",
+      "title": "A three three-brane universe: new phenomenology for the new millennium?",
+      "arxiv": "hep-ph/9912552",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/hep-ph~19912552",
+          "metadata": {
+            "arxiv": "hep-ph/9912552",
+            "status": "VERIFIED",
+            "title": "A Three three-brane universe: New phenomenology for the new millennium?",
+            "all_titles": [
+              "A Three three-brane universe: New phenomenology for the new millennium?",
+              "A three three-brane universe: New phenomenology for the new millennium?",
+              "A Three three-brane Universe:New Phenomenology for the New Millennium?"
+            ],
+            "first_author": "Kogan, Ian I.",
+            "n_authors": 5,
+            "authors": [
+              "Kogan, Ian I.",
+              "Mouslopoulos, Stavros",
+              "Papazoglou, Antonios",
+              "Ross, Graham G.",
+              "Santiago, Jose"
+            ],
+            "journal": "Nucl.Phys.B 584 (2000) 313",
+            "year": 2000,
+            "inspire_id": 512650
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "hep-ph/9912552",
+            "status": "VERIFIED",
+            "title": "A Three three-brane universe: New phenomenology for the new millennium?",
+            "all_titles": [
+              "A Three three-brane universe: New phenomenology for the new millennium?",
+              "A three three-brane universe: New phenomenology for the new millennium?",
+              "A Three three-brane Universe:New Phenomenology for the New Millennium?"
+            ],
+            "first_author": "Kogan, Ian I.",
+            "n_authors": 5,
+            "authors": [
+              "Kogan, Ian I.",
+              "Mouslopoulos, Stavros",
+              "Papazoglou, Antonios",
+              "Ross, Graham G.",
+              "Santiago, Jose"
+            ],
+            "journal": "Nucl.Phys.B 584 (2000) 313",
+            "year": 2000,
+            "inspire_id": 512650
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 15,
+      "source_line": 997,
+      "citation": "W. Israel, \"Thermo field dynamics of black holes,\" Phys. Lett. A 57 (1976) 107.",
+      "title": "Thermo field dynamics of black holes",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/israel1976/candidates/0",
+          "metadata": {
+            "title": "Thermo field dynamics of black holes",
+            "first_author": "Israel, W.",
+            "n_authors": 1,
+            "journal": "Phys.Lett.A 57 (1976) 107",
+            "year": 1976,
+            "arxiv": null,
+            "doi": "10.1016/0375-9601(76)90178-X",
+            "inspire_id": 110012
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Thermo field dynamics of black holes",
+            "first_author": "Israel, W.",
+            "n_authors": 1,
+            "journal": "Phys.Lett.A 57 (1976) 107",
+            "year": 1976,
+            "arxiv": null,
+            "doi": "10.1016/0375-9601(76)90178-X",
+            "inspire_id": 110012
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 16,
+      "source_line": 999,
+      "citation": "J. M. Maldacena, \"Eternal black holes in anti-de Sitter,\" JHEP 04 (2003) 021, hep-th/0106112.",
+      "title": "Eternal black holes in anti-de Sitter",
+      "arxiv": "hep-th/0106112",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/maldacena_eternal/candidates/0",
+          "metadata": {
+            "title": "Eternal black holes in anti-de Sitter",
+            "first_author": "Maldacena, Juan Martin",
+            "n_authors": 1,
+            "journal": "JHEP 04 (2003) 021",
+            "year": 2003,
+            "arxiv": "hep-th/0106112",
+            "doi": "10.1088/1126-6708/2003/04/021",
+            "inspire_id": 558359
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Eternal black holes in anti-de Sitter",
+            "first_author": "Maldacena, Juan Martin",
+            "n_authors": 1,
+            "journal": "JHEP 04 (2003) 021",
+            "year": 2003,
+            "arxiv": "hep-th/0106112",
+            "doi": "10.1088/1126-6708/2003/04/021",
+            "inspire_id": 558359
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 17,
+      "source_line": 1001,
+      "citation": "A. Higuchi, \"Forbidden mass range for spin-2 field theory in de Sitter space-time,\" Nucl. Phys. B 282 (1987) 397.",
+      "title": "Forbidden mass range for spin-2 field theory in de Sitter space-time",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/higuchi1987/candidates/0",
+          "metadata": {
+            "title": "Forbidden Mass Range for Spin-2 Field Theory in De Sitter Space-time",
+            "first_author": "Higuchi, Atsushi",
+            "n_authors": 1,
+            "journal": "Nucl.Phys.B 282 (1987) 397",
+            "year": 1987,
+            "arxiv": null,
+            "doi": "10.1016/0550-3213(87)90691-2",
+            "inspire_id": 228338
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Forbidden Mass Range for Spin-2 Field Theory in De Sitter Space-time",
+            "first_author": "Higuchi, Atsushi",
+            "n_authors": 1,
+            "journal": "Nucl.Phys.B 282 (1987) 397",
+            "year": 1987,
+            "arxiv": null,
+            "doi": "10.1016/0550-3213(87)90691-2",
+            "inspire_id": 228338
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 18,
+      "source_line": 1003,
+      "citation": "R. Penrose, \"Singularities and time-asymmetry,\" in *General Relativity: An Einstein Centenary Survey*, eds. S. W. Hawking and W. Israel, Cambridge University Press (1979).",
+      "title": "Singularities and time-asymmetry",
+      "arxiv": null,
+      "bibliographic_form": "book_chapter",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/penrose1979/candidates/0",
+          "metadata": {
+            "title": "SINGULARITIES AND TIME ASYMMETRY",
+            "first_author": "Penrose, R.",
+            "n_authors": 1,
+            "journal": null,
+            "year": "1980",
+            "arxiv": null,
+            "doi": null,
+            "inspire_id": 159041
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "SINGULARITIES AND TIME ASYMMETRY",
+            "first_author": "Penrose, R.",
+            "n_authors": 1,
+            "journal": null,
+            "year": "1980",
+            "arxiv": null,
+            "doi": null,
+            "inspire_id": 159041
+          },
+          "match_method": "normalized_exact_title"
+        },
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/penrose1979/candidates/1",
+          "metadata": {
+            "title": "Singularities and time-asymmetry",
+            "first_author": "Penrose, R.",
+            "n_authors": 1,
+            "journal": null,
+            "year": "1979",
+            "arxiv": null,
+            "doi": null,
+            "inspire_id": 1215196
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Singularities and time-asymmetry",
+            "first_author": "Penrose, R.",
+            "n_authors": 1,
+            "journal": null,
+            "year": "1979",
+            "arxiv": null,
+            "doi": null,
+            "inspire_id": 1215196
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Two historical title candidates identify Penrose, with INSPIRE IDs 159041 (year 1980) and 1215196 (year 1979); neither supplies a journal/book venue. The 1979 row agrees with the manuscript year; the book/chapter details remain only partly covered."
+      ]
+    },
+    {
+      "reference_number": 19,
+      "source_line": 1005,
+      "citation": "S. W. Goode, J. Wainwright, \"Isotropic singularities in cosmological models,\" Class. Quantum Grav. 2 (1985) 99.",
+      "title": "Isotropic singularities in cosmological models",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/goode_wainwright1985/candidates/0",
+          "metadata": {
+            "title": "Isotropic singularities in cosmological models",
+            "first_author": "Goode, S.W.",
+            "n_authors": 2,
+            "journal": "Class.Quant.Grav. 2 (1985) 99",
+            "year": 1985,
+            "arxiv": null,
+            "doi": "10.1088/0264-9381/2/1/010",
+            "inspire_id": 225746
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Isotropic singularities in cosmological models",
+            "first_author": "Goode, S.W.",
+            "n_authors": 2,
+            "journal": "Class.Quant.Grav. 2 (1985) 99",
+            "year": 1985,
+            "arxiv": null,
+            "doi": "10.1088/0264-9381/2/1/010",
+            "inspire_id": 225746
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 20,
+      "source_line": 1007,
+      "citation": "K. Anguige, K. P. Tod, \"Isotropic cosmological singularities: I. Polytropic perfect fluid spacetimes,\" Annals Phys. 276 (1999) 257, gr-qc/9903008.",
+      "title": "Isotropic cosmological singularities: I. Polytropic perfect fluid spacetimes",
+      "arxiv": "gr-qc/9903008",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/gr-qc~19903008",
+          "metadata": {
+            "arxiv": "gr-qc/9903008",
+            "status": "VERIFIED",
+            "title": "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "all_titles": [
+              "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+              "Isotropic cosmological singularities. I: Polytropic perfect fluid spacetimes."
+            ],
+            "first_author": "Anguige, K.",
+            "n_authors": 2,
+            "authors": [
+              "Anguige, K.",
+              "Tod, K.P."
+            ],
+            "journal": "Annals Phys. 276 (1999) 257",
+            "year": 1999,
+            "inspire_id": 496113
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "gr-qc/9903008",
+            "status": "VERIFIED",
+            "title": "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "all_titles": [
+              "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+              "Isotropic cosmological singularities. I: Polytropic perfect fluid spacetimes."
+            ],
+            "first_author": "Anguige, K.",
+            "n_authors": 2,
+            "authors": [
+              "Anguige, K.",
+              "Tod, K.P."
+            ],
+            "journal": "Annals Phys. 276 (1999) 257",
+            "year": 1999,
+            "inspire_id": 496113
+          },
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/tod_isotropic/1",
+          "metadata": {
+            "first_author": "Anguige, K.",
+            "year": 1999,
+            "title": "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "journal": "Annals Phys. 276 (1999) 257",
+            "arxiv": "gr-qc/9903008",
+            "doi": "10.1006/aphy.1999.5946"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Anguige, K.",
+            1999,
+            "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "Annals Phys. 276 (1999) 257",
+            "gr-qc/9903008",
+            "10.1006/aphy.1999.5946"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/tod_isotropic_cr/0",
+          "metadata": {
+            "first_author": "Anguige, K.",
+            "year": 1999,
+            "title": "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "journal": "Annals of Physics",
+            "volume": "276",
+            "pages": "257-293",
+            "doi": "10.1006/aphy.1999.5946",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Anguige, K.",
+            1999,
+            "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "Annals of Physics",
+            "276",
+            "257-293",
+            "10.1006/aphy.1999.5946",
+            "journal-article"
+          ],
+          "match_method": "normalized_exact_title"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/anguige_tod_ii/0",
+          "metadata": {
+            "first_author": "Anguige, K.",
+            "year": 1999,
+            "title": "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "journal": "Annals Phys. 276 (1999) 257",
+            "arxiv": "gr-qc/9903008",
+            "doi": "10.1006/aphy.1999.5946"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Anguige, K.",
+            1999,
+            "Isotropic Cosmological Singularities: I. Polytropic Perfect Fluid Spacetimes",
+            "Annals Phys. 276 (1999) 257",
+            "gr-qc/9903008",
+            "10.1006/aphy.1999.5946"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 21,
+      "source_line": 1009,
+      "citation": "K. Anguige, K. P. Tod, \"Isotropic cosmological singularities II: the Einstein–Vlasov system,\" Annals Phys. 276 (1999) 294, gr-qc/9903009.",
+      "title": "Isotropic cosmological singularities II: the Einstein–Vlasov system",
+      "arxiv": "gr-qc/9903009",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/tod_isotropic/2",
+          "metadata": {
+            "first_author": "Anguige, K.",
+            "year": 1999,
+            "title": "Isotropic Cosmological Singularities: II. The Einstein–Vlasov System",
+            "journal": "Annals Phys. 276 (1999) 294",
+            "arxiv": "gr-qc/9903009",
+            "doi": "10.1006/aphy.1999.5947"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Anguige, K.",
+            1999,
+            "Isotropic Cosmological Singularities: II. The Einstein–Vlasov System",
+            "Annals Phys. 276 (1999) 294",
+            "gr-qc/9903009",
+            "10.1006/aphy.1999.5947"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/tod_isotropic_cr/2",
+          "metadata": {
+            "first_author": "Anguige, K.",
+            "year": 1999,
+            "title": "Isotropic Cosmological Singularities: II. The Einstein–Vlasov System",
+            "journal": "Annals of Physics",
+            "volume": "276",
+            "pages": "294-320",
+            "doi": "10.1006/aphy.1999.5947",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Anguige, K.",
+            1999,
+            "Isotropic Cosmological Singularities: II. The Einstein–Vlasov System",
+            "Annals of Physics",
+            "276",
+            "294-320",
+            "10.1006/aphy.1999.5947",
+            "journal-article"
+          ],
+          "match_method": "normalized_exact_title"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/anguige_tod_ii/1",
+          "metadata": {
+            "first_author": "Anguige, K.",
+            "year": 1999,
+            "title": "Isotropic Cosmological Singularities: II. The Einstein–Vlasov System",
+            "journal": "Annals Phys. 276 (1999) 294",
+            "arxiv": "gr-qc/9903009",
+            "doi": "10.1006/aphy.1999.5947"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Anguige, K.",
+            1999,
+            "Isotropic Cosmological Singularities: II. The Einstein–Vlasov System",
+            "Annals Phys. 276 (1999) 294",
+            "gr-qc/9903009",
+            "10.1006/aphy.1999.5947"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 22,
+      "source_line": 1011,
+      "citation": "R. P. A. C. Newman, \"On the structure of conformal singularities in classical general relativity,\" Proc. Roy. Soc. Lond. A 443 (1993) 473 (and II, ibid. 493).",
+      "title": "On the structure of conformal singularities in classical general relativity",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/newman_conformal/0",
+          "metadata": {
+            "first_author": "Newman, Richard P.A.C.",
+            "year": 1993,
+            "title": "On the Structure of conformal singularities in classical general relativity",
+            "journal": "Proc.Roy.Soc.Lond.A 443 (1993) 473",
+            "arxiv": null,
+            "doi": "10.1098/rspa.1993.0158"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Newman, Richard P.A.C.",
+            1993,
+            "On the Structure of conformal singularities in classical general relativity",
+            "Proc.Roy.Soc.Lond.A 443 (1993) 473",
+            null,
+            "10.1098/rspa.1993.0158"
+          ],
+          "match_method": "normalized_exact_title"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/newman_conformal/1",
+          "metadata": {
+            "first_author": "Newman, Richard P.A.C.",
+            "year": 1993,
+            "title": "On the Structure of conformal singularities in classical general relativity. 2. Evolution ",
+            "journal": "Proc.Roy.Soc.Lond.A 443 (1993) 493",
+            "arxiv": null,
+            "doi": "10.1098/rspa.1993.0159"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Newman, Richard P.A.C.",
+            1993,
+            "On the Structure of conformal singularities in classical general relativity. 2. Evolution ",
+            "Proc.Roy.Soc.Lond.A 443 (1993) 493",
+            null,
+            "10.1098/rspa.1993.0159"
+          ],
+          "match_method": "composite_citation_part_II_title_and_journal_match"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/newman_conformal_cr/0",
+          "metadata": {
+            "first_author": "Newman, Richard P. A. C.",
+            "year": 1993,
+            "title": "On the structure of conformal singularities in classical general relativity",
+            "journal": "Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences",
+            "volume": "443",
+            "pages": "473-492",
+            "doi": "10.1098/rspa.1993.0158",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Newman, Richard P. A. C.",
+            1993,
+            "On the structure of conformal singularities in classical general relativity",
+            "Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences",
+            "443",
+            "473-492",
+            "10.1098/rspa.1993.0158",
+            "journal-article"
+          ],
+          "match_method": "normalized_exact_title"
+        },
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/newman_conformal_cr/1",
+          "metadata": {
+            "first_author": "Newman, Richard P. A. C.",
+            "year": 1993,
+            "title": "On the structure of conformal singularities in classical general relativity. II Evolution ",
+            "journal": "Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences",
+            "volume": "443",
+            "pages": "493-515",
+            "doi": "10.1098/rspa.1993.0159",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Newman, Richard P. A. C.",
+            1993,
+            "On the structure of conformal singularities in classical general relativity. II Evolution ",
+            "Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences",
+            "443",
+            "493-515",
+            "10.1098/rspa.1993.0159",
+            "journal-article"
+          ],
+          "match_method": "composite_citation_part_II_title_and_journal_match"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Composite citation: part I at page 473 and part II at page 493 are mapped separately. Part-II titles are truncated in the supplied logs, but author, year, journal, page and DOI identify the second part."
+      ]
+    },
+    {
+      "reference_number": 23,
+      "source_line": 1013,
+      "citation": "K. P. Tod, \"Isotropic cosmological singularities: other matter models,\" Class. Quantum Grav. 20 (2003) 521, gr-qc/0209071.",
+      "title": "Isotropic cosmological singularities: other matter models",
+      "arxiv": "gr-qc/0209071",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/tod_isotropic/0",
+          "metadata": {
+            "first_author": "Tod, K.P.",
+            "year": 2003,
+            "title": "Isotropic cosmological singularities: Other matter models",
+            "journal": "Class.Quant.Grav. 20 (2003) 521",
+            "arxiv": "gr-qc/0209071",
+            "doi": "10.1088/0264-9381/20/3/309"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Tod, K.P.",
+            2003,
+            "Isotropic cosmological singularities: Other matter models",
+            "Class.Quant.Grav. 20 (2003) 521",
+            "gr-qc/0209071",
+            "10.1088/0264-9381/20/3/309"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 24,
+      "source_line": 1015,
+      "citation": "N. Turok, L. Boyle, \"Gravitational entropy and the flatness, homogeneity and isotropy puzzles,\" Phys. Lett. B 849 (2024) 138443, arXiv:2201.07279.",
+      "title": "Gravitational entropy and the flatness, homogeneity and isotropy puzzles",
+      "arxiv": "2201.07279",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2201.07279",
+          "metadata": {
+            "arxiv": "2201.07279",
+            "status": "VERIFIED",
+            "title": "Gravitational entropy and the flatness, homogeneity and isotropy puzzles",
+            "all_titles": [
+              "Gravitational entropy and the flatness, homogeneity and isotropy puzzles",
+              "Gravitational entropy and the flatness, homogeneity and isotropy puzzles"
+            ],
+            "first_author": "Turok, Neil",
+            "n_authors": 2,
+            "authors": [
+              "Turok, Neil",
+              "Boyle, Latham"
+            ],
+            "journal": "Phys.Lett.B 849 (2024) 138443",
+            "year": 2024,
+            "inspire_id": 2012984
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2201.07279",
+            "status": "VERIFIED",
+            "title": "Gravitational entropy and the flatness, homogeneity and isotropy puzzles",
+            "all_titles": [
+              "Gravitational entropy and the flatness, homogeneity and isotropy puzzles",
+              "Gravitational entropy and the flatness, homogeneity and isotropy puzzles"
+            ],
+            "first_author": "Turok, Neil",
+            "n_authors": 2,
+            "authors": [
+              "Turok, Neil",
+              "Boyle, Latham"
+            ],
+            "journal": "Phys.Lett.B 849 (2024) 138443",
+            "year": 2024,
+            "inspire_id": 2012984
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 25,
+      "source_line": 1017,
+      "citation": "L. Boyle, N. Turok, \"Two-sheeted universe, analyticity and the arrow of time,\" arXiv:2109.06204.",
+      "title": "Two-sheeted universe, analyticity and the arrow of time",
+      "arxiv": "2109.06204",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2109.06204",
+          "metadata": {
+            "arxiv": "2109.06204",
+            "status": "VERIFIED",
+            "title": "Two-Sheeted Universe, Analyticity and the Arrow of Time",
+            "all_titles": [
+              "Two-Sheeted Universe, Analyticity and the Arrow of Time"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 2,
+            "authors": [
+              "Boyle, Latham",
+              "Turok, Neil"
+            ],
+            "journal": null,
+            "year": "2021",
+            "inspire_id": 1921575
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2109.06204",
+            "status": "VERIFIED",
+            "title": "Two-Sheeted Universe, Analyticity and the Arrow of Time",
+            "all_titles": [
+              "Two-Sheeted Universe, Analyticity and the Arrow of Time"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 2,
+            "authors": [
+              "Boyle, Latham",
+              "Turok, Neil"
+            ],
+            "journal": null,
+            "year": "2021",
+            "inspire_id": 1921575
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 26,
+      "source_line": 1019,
+      "citation": "L. Boyle, K. Finn, N. Turok, \"CPT-symmetric universe,\" Phys. Rev. Lett. 121 (2018) 251301, arXiv:1803.08928.",
+      "title": "CPT-symmetric universe",
+      "arxiv": "1803.08928",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1803.08928",
+          "metadata": {
+            "arxiv": "1803.08928",
+            "status": "VERIFIED",
+            "title": "CPT-Symmetric Universe",
+            "all_titles": [
+              "CPT-Symmetric Universe",
+              "$CPT$ symmetric universe",
+              "CPT symmetric universe"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 3,
+            "authors": [
+              "Boyle, Latham",
+              "Finn, Kieran",
+              "Turok, Neil"
+            ],
+            "journal": "Phys.Rev.Lett. 121 (2018) 251301",
+            "year": 2018,
+            "inspire_id": 1664336
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1803.08928",
+            "status": "VERIFIED",
+            "title": "CPT-Symmetric Universe",
+            "all_titles": [
+              "CPT-Symmetric Universe",
+              "$CPT$ symmetric universe",
+              "CPT symmetric universe"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 3,
+            "authors": [
+              "Boyle, Latham",
+              "Finn, Kieran",
+              "Turok, Neil"
+            ],
+            "journal": "Phys.Rev.Lett. 121 (2018) 251301",
+            "year": 2018,
+            "inspire_id": 1664336
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 27,
+      "source_line": 1021,
+      "citation": "J. M. Stewart, M. Walker, \"Perturbations of spacetimes in general relativity,\" Proc. Roy. Soc. Lond. A 341 (1974) 49.",
+      "title": "Perturbations of spacetimes in general relativity",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/stewart_walker1974/candidates/1",
+          "metadata": {
+            "title": "Perturbations of spacetimes in general relativity",
+            "first_author": "Stewart, J.M.",
+            "n_authors": 2,
+            "journal": "Proc.Roy.Soc.Lond.A 341 (1974) 49",
+            "year": 1974,
+            "arxiv": null,
+            "doi": "10.1098/rspa.1974.0172",
+            "inspire_id": 97134
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Perturbations of spacetimes in general relativity",
+            "first_author": "Stewart, J.M.",
+            "n_authors": 2,
+            "journal": "Proc.Roy.Soc.Lond.A 341 (1974) 49",
+            "year": 1974,
+            "arxiv": null,
+            "doi": "10.1098/rspa.1974.0172",
+            "inspire_id": 97134
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 28,
+      "source_line": 1023,
+      "citation": "J. M. M. Senovilla, \"Super-energy tensors,\" Class. Quantum Grav. 17 (2000) 2799, gr-qc/9906087.",
+      "title": "Super-energy tensors",
+      "arxiv": "gr-qc/9906087",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified4.json",
+          "json_pointer": "/senovilla_superenergy/0",
+          "metadata": {
+            "first_author": "Senovilla, Jose M.M.",
+            "year": 2000,
+            "title": "Superenergy tensors",
+            "journal": "Class.Quant.Grav. 17 (2000) 2799",
+            "arxiv": "gr-qc/9906087"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Senovilla, Jose M.M.",
+            2000,
+            "Superenergy tensors",
+            "Class.Quant.Grav. 17 (2000) 2799",
+            "gr-qc/9906087"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 29,
+      "source_line": 1025,
+      "citation": "T. Clifton, G. F. R. Ellis, R. Tavakol, \"A gravitational entropy proposal,\" Class. Quantum Grav. 30 (2013) 125009, arXiv:1303.5612.",
+      "title": "A gravitational entropy proposal",
+      "arxiv": "1303.5612",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified4.json",
+          "json_pointer": "/clifton_ellis_tavakol/0",
+          "metadata": {
+            "first_author": "Clifton, Timothy",
+            "year": 2013,
+            "title": "A Gravitational Entropy Proposal",
+            "journal": "Class.Quant.Grav. 30 (2013) 125009",
+            "arxiv": "1303.5612"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Clifton, Timothy",
+            2013,
+            "A Gravitational Entropy Proposal",
+            "Class.Quant.Grav. 30 (2013) 125009",
+            "1303.5612"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 30,
+      "source_line": 1027,
+      "citation": "J. Barbour, T. Koslowski, F. Mercati, \"Identification of a gravitational arrow of time,\" Phys. Rev. Lett. 113 (2014) 181101, arXiv:1409.0917.",
+      "title": "Identification of a gravitational arrow of time",
+      "arxiv": "1409.0917",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1409.0917",
+          "metadata": {
+            "arxiv": "1409.0917",
+            "status": "VERIFIED",
+            "title": "Identification of a gravitational arrow of time",
+            "all_titles": [
+              "Identification of a gravitational arrow of time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Koslowski, Tim",
+              "Mercati, Flavio"
+            ],
+            "journal": "Phys.Rev.Lett. 113 (2014) 181101",
+            "year": 2014,
+            "inspire_id": 1314977
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1409.0917",
+            "status": "VERIFIED",
+            "title": "Identification of a gravitational arrow of time",
+            "all_titles": [
+              "Identification of a gravitational arrow of time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Koslowski, Tim",
+              "Mercati, Flavio"
+            ],
+            "journal": "Phys.Rev.Lett. 113 (2014) 181101",
+            "year": 2014,
+            "inspire_id": 1314977
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 31,
+      "source_line": 1029,
+      "citation": "J. Barbour, T. Koslowski, F. Mercati, \"Janus points and arrows of time,\" arXiv:1604.03956.",
+      "title": "Janus points and arrows of time",
+      "arxiv": "1604.03956",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1604.03956",
+          "metadata": {
+            "arxiv": "1604.03956",
+            "status": "VERIFIED",
+            "title": "Janus Points and Arrows of Time",
+            "all_titles": [
+              "Janus Points and Arrows of Time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Koslowski, Tim",
+              "Mercati, Flavio"
+            ],
+            "journal": null,
+            "year": "2016",
+            "inspire_id": 1446973
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1604.03956",
+            "status": "VERIFIED",
+            "title": "Janus Points and Arrows of Time",
+            "all_titles": [
+              "Janus Points and Arrows of Time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Koslowski, Tim",
+              "Mercati, Flavio"
+            ],
+            "journal": null,
+            "year": "2016",
+            "inspire_id": 1446973
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 32,
+      "source_line": 1031,
+      "citation": "J. Barbour, T. Koslowski, F. Mercati, \"A gravitational origin of the arrows of time,\" arXiv:1310.5167.",
+      "title": "A gravitational origin of the arrows of time",
+      "arxiv": "1310.5167",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1310.5167",
+          "metadata": {
+            "arxiv": "1310.5167",
+            "status": "VERIFIED",
+            "title": "A Gravitational Origin of the Arrows of Time",
+            "all_titles": [
+              "A Gravitational Origin of the Arrows of Time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Koslowski, Tim",
+              "Mercati, Flavio"
+            ],
+            "journal": null,
+            "year": "2013",
+            "inspire_id": 1261373
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1310.5167",
+            "status": "VERIFIED",
+            "title": "A Gravitational Origin of the Arrows of Time",
+            "all_titles": [
+              "A Gravitational Origin of the Arrows of Time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Koslowski, Tim",
+              "Mercati, Flavio"
+            ],
+            "journal": null,
+            "year": "2013",
+            "inspire_id": 1261373
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 33,
+      "source_line": 1033,
+      "citation": "J. Barbour, F. Lobo, M. Lourenço, \"Structural morphology and the gravitational arrow of time,\" arXiv:2607.27526.",
+      "title": "Structural morphology and the gravitational arrow of time",
+      "arxiv": "2607.27526",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2607.27526",
+          "metadata": {
+            "arxiv": "2607.27526",
+            "status": "VERIFIED",
+            "title": "Structural morphology and the gravitational arrow of time",
+            "all_titles": [
+              "Structural morphology and the gravitational arrow of time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Lobo, Francisco S.N.",
+              "Lourenço, Maria I.R."
+            ],
+            "journal": null,
+            "year": "2026",
+            "inspire_id": 3184773
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2607.27526",
+            "status": "VERIFIED",
+            "title": "Structural morphology and the gravitational arrow of time",
+            "all_titles": [
+              "Structural morphology and the gravitational arrow of time"
+            ],
+            "first_author": "Barbour, Julian",
+            "n_authors": 3,
+            "authors": [
+              "Barbour, Julian",
+              "Lobo, Francisco S.N.",
+              "Lourenço, Maria I.R."
+            ],
+            "journal": null,
+            "year": "2026",
+            "inspire_id": 3184773
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 34,
+      "source_line": 1035,
+      "citation": "L. Boyle, K. Finn, N. Turok, \"The Big Bang, CPT, and neutrino dark matter,\" Annals Phys. 438 (2022) 168767, arXiv:1803.08930.",
+      "title": "The Big Bang, CPT, and neutrino dark matter",
+      "arxiv": "1803.08930",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1803.08930",
+          "metadata": {
+            "arxiv": "1803.08930",
+            "status": "VERIFIED",
+            "title": "The Big Bang, CPT, and neutrino dark matter",
+            "all_titles": [
+              "The Big Bang, CPT, and neutrino dark matter",
+              "The Big Bang, CPT, and neutrino dark matter"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 3,
+            "authors": [
+              "Boyle, Latham",
+              "Finn, Kieran",
+              "Turok, Neil"
+            ],
+            "journal": "Annals Phys. 438 (2022) 168767",
+            "year": 2022,
+            "inspire_id": 1664350
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1803.08930",
+            "status": "VERIFIED",
+            "title": "The Big Bang, CPT, and neutrino dark matter",
+            "all_titles": [
+              "The Big Bang, CPT, and neutrino dark matter",
+              "The Big Bang, CPT, and neutrino dark matter"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 3,
+            "authors": [
+              "Boyle, Latham",
+              "Finn, Kieran",
+              "Turok, Neil"
+            ],
+            "journal": "Annals Phys. 438 (2022) 168767",
+            "year": 2022,
+            "inspire_id": 1664350
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 35,
+      "source_line": 1037,
+      "citation": "W. Elbers et al. (DESI Collaboration), \"Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape,\" Phys. Rev. D 112 (2025) 083513, arXiv:2503.14744.",
+      "title": "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+      "arxiv": "2503.14744",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2503.14744",
+          "metadata": {
+            "arxiv": "2503.14744",
+            "status": "VERIFIED",
+            "title": "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+            "all_titles": [
+              "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+              "Constraints on Neutrino Physics from DESI DR2 BAO and DR1 Full Shape"
+            ],
+            "first_author": "Elbers, W.",
+            "n_authors": 119,
+            "authors": [
+              "Elbers, W.",
+              "Aviles, A.",
+              "Noriega, H.E.",
+              "Chebat, D.",
+              "Menegas, A.",
+              "Frenk, C.S.",
+              "Garcia-Quintero, C.",
+              "Gonzalez, D."
+            ],
+            "journal": "Phys.Rev.D 112 (2025) 083513",
+            "year": 2025,
+            "inspire_id": 2902333
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2503.14744",
+            "status": "VERIFIED",
+            "title": "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+            "all_titles": [
+              "Constraints on neutrino physics from DESI DR2 BAO and DR1 full shape",
+              "Constraints on Neutrino Physics from DESI DR2 BAO and DR1 Full Shape"
+            ],
+            "first_author": "Elbers, W.",
+            "n_authors": 119,
+            "authors": [
+              "Elbers, W.",
+              "Aviles, A.",
+              "Noriega, H.E.",
+              "Chebat, D.",
+              "Menegas, A.",
+              "Frenk, C.S.",
+              "Garcia-Quintero, C.",
+              "Gonzalez, D."
+            ],
+            "journal": "Phys.Rev.D 112 (2025) 083513",
+            "year": 2025,
+            "inspire_id": 2902333
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 36,
+      "source_line": 1039,
+      "citation": "W.-N. Deng, W. Handley, \"Predicting spatial curvature Ω_K in globally CPT-symmetric universes,\" Phys. Rev. D 110 (2024) 103528, arXiv:2407.18225.",
+      "title": "Predicting spatial curvature Ω_K in globally CPT-symmetric universes",
+      "arxiv": "2407.18225",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2407.18225",
+          "metadata": {
+            "arxiv": "2407.18225",
+            "status": "VERIFIED",
+            "title": "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">Ω</mi></mrow><mrow><mi>K</mi></mrow></msub></mrow></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+            "all_titles": [
+              "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">Ω</mi></mrow><mrow><mi>K</mi></mrow></msub></mrow></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+              "Predicting spatial curvature $\\Omega_K$ in globally $CPT$-symmetric universes"
+            ],
+            "first_author": "Deng, Wei-Ning",
+            "n_authors": 2,
+            "authors": [
+              "Deng, Wei-Ning",
+              "Handley, Will"
+            ],
+            "journal": "Phys.Rev.D 110 (2024) 103528",
+            "year": 2024,
+            "inspire_id": 2811158
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2407.18225",
+            "status": "VERIFIED",
+            "title": "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">Ω</mi></mrow><mrow><mi>K</mi></mrow></msub></mrow></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+            "all_titles": [
+              "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"normal\">Ω</mi></mrow><mrow><mi>K</mi></mrow></msub></mrow></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+              "Predicting spatial curvature $\\Omega_K$ in globally $CPT$-symmetric universes"
+            ],
+            "first_author": "Deng, Wei-Ning",
+            "n_authors": 2,
+            "authors": [
+              "Deng, Wei-Ning",
+              "Handley, Will"
+            ],
+            "journal": "Phys.Rev.D 110 (2024) 103528",
+            "year": 2024,
+            "inspire_id": 2811158
+          },
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified4.json",
+          "json_pointer": "/deng_handley_2025/2",
+          "metadata": {
+            "first_author": "Deng, Wei-Ning",
+            "year": 2024,
+            "title": "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"norma",
+            "journal": "Phys.Rev.D 110 (2024) 103528",
+            "arxiv": "2407.18225"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Deng, Wei-Ning",
+            2024,
+            "Predicting spatial curvature <math display=\"inline\"><mrow><msub><mrow><mi mathvariant=\"norma",
+            "Phys.Rev.D 110 (2024) 103528",
+            "2407.18225"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Some historical title fields contain MathML or are truncated; matching is by exact arXiv identifier."
+      ]
+    },
+    {
+      "reference_number": 37,
+      "source_line": 1041,
+      "citation": "W.-N. Deng, W. Handley, \"CMB constraints on quantized spatial curvature Ω_K in globally CPT-symmetric universes,\" Phys. Rev. D 113 (2026) 023546, arXiv:2509.10379.",
+      "title": "CMB constraints on quantized spatial curvature Ω_K in globally CPT-symmetric universes",
+      "arxiv": "2509.10379",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2509.10379",
+          "metadata": {
+            "arxiv": "2509.10379",
+            "status": "VERIFIED",
+            "title": "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=\"normal\">Ω</mi><mi>K</mi></msub></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+            "all_titles": [
+              "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=\"normal\">Ω</mi><mi>K</mi></msub></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+              "CMB Constraints on Quantized Spatial Curvature $Ω_K$ in globally CPT-symmetric universes"
+            ],
+            "first_author": "Deng, Wei-Ning",
+            "n_authors": 2,
+            "authors": [
+              "Deng, Wei-Ning",
+              "Handley, Will"
+            ],
+            "journal": "Phys.Rev.D 113 (2026) 023546",
+            "year": 2026,
+            "inspire_id": 2969354
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2509.10379",
+            "status": "VERIFIED",
+            "title": "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=\"normal\">Ω</mi><mi>K</mi></msub></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+            "all_titles": [
+              "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=\"normal\">Ω</mi><mi>K</mi></msub></math> in globally <math display=\"inline\"><mi>C</mi><mi>P</mi><mi>T</mi></math>-symmetric universes",
+              "CMB Constraints on Quantized Spatial Curvature $Ω_K$ in globally CPT-symmetric universes"
+            ],
+            "first_author": "Deng, Wei-Ning",
+            "n_authors": 2,
+            "authors": [
+              "Deng, Wei-Ning",
+              "Handley, Will"
+            ],
+            "journal": "Phys.Rev.D 113 (2026) 023546",
+            "year": 2026,
+            "inspire_id": 2969354
+          },
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified4.json",
+          "json_pointer": "/deng_handley_2025/0",
+          "metadata": {
+            "first_author": "Deng, Wei-Ning",
+            "year": 2026,
+            "title": "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=",
+            "journal": "Phys.Rev.D 113 (2026) 023546",
+            "arxiv": "2509.10379"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Deng, Wei-Ning",
+            2026,
+            "CMB constraints on quantized spatial curvature <math display=\"inline\"><msub><mi mathvariant=",
+            "Phys.Rev.D 113 (2026) 023546",
+            "2509.10379"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Some historical title fields contain MathML or are truncated; matching is by exact arXiv identifier."
+      ]
+    },
+    {
+      "reference_number": 38,
+      "source_line": 1043,
+      "citation": "M. Abdul Karim et al. (DESI Collaboration), \"DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints,\" Phys. Rev. D 112 (2025) 083515, arXiv:2503.14738.",
+      "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+      "arxiv": "2503.14738",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2503.14738",
+          "metadata": {
+            "arxiv": "2503.14738",
+            "status": "VERIFIED",
+            "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+            "all_titles": [
+              "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+              "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints"
+            ],
+            "first_author": "Abdul Karim, M.",
+            "n_authors": 186,
+            "authors": [
+              "Abdul Karim, M.",
+              "Aguilar, J.",
+              "Ahlen, S.",
+              "Alam, S.",
+              "Allen, L.",
+              "Allende Prieto, C.",
+              "Alves, O.",
+              "Anand, A."
+            ],
+            "journal": "Phys.Rev.D 112 (2025) 083515",
+            "year": 2025,
+            "inspire_id": 2902314
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2503.14738",
+            "status": "VERIFIED",
+            "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+            "all_titles": [
+              "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+              "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints"
+            ],
+            "first_author": "Abdul Karim, M.",
+            "n_authors": 186,
+            "authors": [
+              "Abdul Karim, M.",
+              "Aguilar, J.",
+              "Ahlen, S.",
+              "Alam, S.",
+              "Allen, L.",
+              "Allende Prieto, C.",
+              "Alves, O.",
+              "Anand, A."
+            ],
+            "journal": "Phys.Rev.D 112 (2025) 083515",
+            "year": 2025,
+            "inspire_id": 2902314
+          },
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified4.json",
+          "json_pointer": "/desi_dr2_i/1",
+          "metadata": {
+            "first_author": "Abdul Karim, M.",
+            "year": 2025,
+            "title": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constrai",
+            "journal": "Phys.Rev.D 112 (2025) 083515",
+            "arxiv": "2503.14738"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Abdul Karim, M.",
+            2025,
+            "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constrai",
+            "Phys.Rev.D 112 (2025) 083515",
+            "2503.14738"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "A historical search contains multiple DESI papers; only the record for arXiv:2503.14738 is matched. The refs_verified4.json title is truncated."
+      ]
+    },
+    {
+      "reference_number": 39,
+      "source_line": 1045,
+      "citation": "N. Aghanim et al. (Planck Collaboration), \"Planck 2018 results VI: cosmological parameters,\" Astron. Astrophys. 641 (2020) A6, arXiv:1807.06209.",
+      "title": "Planck 2018 results VI: cosmological parameters",
+      "arxiv": "1807.06209",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1807.06209",
+          "metadata": {
+            "arxiv": "1807.06209",
+            "status": "VERIFIED",
+            "title": "Planck 2018 results. VI. Cosmological parameters",
+            "all_titles": [
+              "Planck 2018 results. VI. Cosmological parameters",
+              "Planck 2018 results - VI. Cosmological parameters (Corrigendum)"
+            ],
+            "first_author": "Aghanim, N.",
+            "n_authors": 181,
+            "authors": [
+              "Aghanim, N.",
+              "Akrami, Y.",
+              "Ashdown, M.",
+              "Aumont, J.",
+              "Baccigalupi, C.",
+              "Ballardini, M.",
+              "Banday, A.J.",
+              "Barreiro, R.B."
+            ],
+            "journal": "Astron.Astrophys. 641 (2020) A6",
+            "year": 2020,
+            "inspire_id": 1682902
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1807.06209",
+            "status": "VERIFIED",
+            "title": "Planck 2018 results. VI. Cosmological parameters",
+            "all_titles": [
+              "Planck 2018 results. VI. Cosmological parameters",
+              "Planck 2018 results - VI. Cosmological parameters (Corrigendum)"
+            ],
+            "first_author": "Aghanim, N.",
+            "n_authors": 181,
+            "authors": [
+              "Aghanim, N.",
+              "Akrami, Y.",
+              "Ashdown, M.",
+              "Aumont, J.",
+              "Baccigalupi, C.",
+              "Ballardini, M.",
+              "Banday, A.J.",
+              "Barreiro, R.B."
+            ],
+            "journal": "Astron.Astrophys. 641 (2020) A6",
+            "year": 2020,
+            "inspire_id": 1682902
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 40,
+      "source_line": 1047,
+      "citation": "N. Turok, L. Boyle, \"A minimal explanation of the primordial cosmological perturbations,\" arXiv:2302.00344.",
+      "title": "A minimal explanation of the primordial cosmological perturbations",
+      "arxiv": "2302.00344",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2302.00344",
+          "metadata": {
+            "arxiv": "2302.00344",
+            "status": "VERIFIED",
+            "title": "A Minimal Explanation of the Primordial Cosmological Perturbations",
+            "all_titles": [
+              "A Minimal Explanation of the Primordial Cosmological Perturbations"
+            ],
+            "first_author": "Turok, Neil",
+            "n_authors": 2,
+            "authors": [
+              "Turok, Neil",
+              "Boyle, Latham"
+            ],
+            "journal": null,
+            "year": "2023",
+            "inspire_id": 2628773
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2302.00344",
+            "status": "VERIFIED",
+            "title": "A Minimal Explanation of the Primordial Cosmological Perturbations",
+            "all_titles": [
+              "A Minimal Explanation of the Primordial Cosmological Perturbations"
+            ],
+            "first_author": "Turok, Neil",
+            "n_authors": 2,
+            "authors": [
+              "Turok, Neil",
+              "Boyle, Latham"
+            ],
+            "journal": null,
+            "year": "2023",
+            "inspire_id": 2628773
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 41,
+      "source_line": 1049,
+      "citation": "D. Buttazzo, G. Degrassi, P. P. Giardino, G. F. Giudice, F. Sala, A. Salvio, A. Strumia, \"Investigating the near-criticality of the Higgs boson,\" JHEP 12 (2013) 089, arXiv:1307.3536.",
+      "title": "Investigating the near-criticality of the Higgs boson",
+      "arxiv": "1307.3536",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/1307.3536",
+          "metadata": {
+            "arxiv": "1307.3536",
+            "status": "VERIFIED",
+            "title": "Investigating the near-criticality of the Higgs boson",
+            "all_titles": [
+              "Investigating the near-criticality of the Higgs boson"
+            ],
+            "first_author": "Buttazzo, Dario",
+            "n_authors": 7,
+            "authors": [
+              "Buttazzo, Dario",
+              "Degrassi, Giuseppe",
+              "Giardino, Pier Paolo",
+              "Giudice, Gian F.",
+              "Sala, Filippo",
+              "Salvio, Alberto",
+              "Strumia, Alessandro"
+            ],
+            "journal": "JHEP 12 (2013) 089",
+            "year": 2013,
+            "inspire_id": 1242456
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "1307.3536",
+            "status": "VERIFIED",
+            "title": "Investigating the near-criticality of the Higgs boson",
+            "all_titles": [
+              "Investigating the near-criticality of the Higgs boson"
+            ],
+            "first_author": "Buttazzo, Dario",
+            "n_authors": 7,
+            "authors": [
+              "Buttazzo, Dario",
+              "Degrassi, Giuseppe",
+              "Giardino, Pier Paolo",
+              "Giudice, Gian F.",
+              "Sala, Filippo",
+              "Salvio, Alberto",
+              "Strumia, Alessandro"
+            ],
+            "journal": "JHEP 12 (2013) 089",
+            "year": 2013,
+            "inspire_id": 1242456
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 42,
+      "source_line": 1051,
+      "citation": "T. Louis et al. (ACT Collaboration), \"The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and ΛCDM parameters,\" JCAP 11 (2025) 062, arXiv:2503.14452.",
+      "title": "The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and ΛCDM parameters",
+      "arxiv": "2503.14452",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2503.14452",
+          "metadata": {
+            "arxiv": "2503.14452",
+            "status": "VERIFIED",
+            "title": "The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and ΛCDM parameters",
+            "all_titles": [
+              "The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and ΛCDM parameters",
+              "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and $Λ$CDM Parameters",
+              "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and $\\Lambda$CDM Parameters"
+            ],
+            "first_author": "Louis, Thibaut",
+            "n_authors": 168,
+            "authors": [
+              "Louis, Thibaut",
+              "La Posta, Adrien",
+              "Atkins, Zachary",
+              "Jense, Hidde T.",
+              "Abril-Cabezas, Irene",
+              "Addison, Graeme E.",
+              "Ade, Peter A.R.",
+              "Aiola, Simone"
+            ],
+            "journal": "JCAP 11 (2025) 062",
+            "year": 2025,
+            "inspire_id": 2901523
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2503.14452",
+            "status": "VERIFIED",
+            "title": "The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and ΛCDM parameters",
+            "all_titles": [
+              "The Atacama Cosmology Telescope: DR6 power spectra, likelihoods and ΛCDM parameters",
+              "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and $Λ$CDM Parameters",
+              "The Atacama Cosmology Telescope: DR6 Power Spectra, Likelihoods and $\\Lambda$CDM Parameters"
+            ],
+            "first_author": "Louis, Thibaut",
+            "n_authors": 168,
+            "authors": [
+              "Louis, Thibaut",
+              "La Posta, Adrien",
+              "Atkins, Zachary",
+              "Jense, Hidde T.",
+              "Abril-Cabezas, Irene",
+              "Addison, Graeme E.",
+              "Ade, Peter A.R.",
+              "Aiola, Simone"
+            ],
+            "journal": "JCAP 11 (2025) 062",
+            "year": 2025,
+            "inspire_id": 2901523
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 43,
+      "source_line": 1053,
+      "citation": "E. Calabrese et al. (ACT Collaboration), \"The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models,\" JCAP 11 (2025) 063, arXiv:2503.14454.",
+      "title": "The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models",
+      "arxiv": "2503.14454",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2503.14454",
+          "metadata": {
+            "arxiv": "2503.14454",
+            "status": "VERIFIED",
+            "title": "The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models",
+            "all_titles": [
+              "The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models",
+              "The Atacama Cosmology Telescope: DR6 Constraints on Extended Cosmological Models"
+            ],
+            "first_author": "Calabrese, Erminia",
+            "n_authors": 172,
+            "authors": [
+              "Calabrese, Erminia",
+              "Hill, J. Colin",
+              "Jense, Hidde T.",
+              "La Posta, Adrien",
+              "Abril-Cabezas, Irene",
+              "Addison, Graeme E.",
+              "Ade, Peter A.R.",
+              "Aiola, Simone"
+            ],
+            "journal": "JCAP 11 (2025) 063",
+            "year": 2025,
+            "inspire_id": 2901540
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2503.14454",
+            "status": "VERIFIED",
+            "title": "The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models",
+            "all_titles": [
+              "The Atacama Cosmology Telescope: DR6 constraints on extended cosmological models",
+              "The Atacama Cosmology Telescope: DR6 Constraints on Extended Cosmological Models"
+            ],
+            "first_author": "Calabrese, Erminia",
+            "n_authors": 172,
+            "authors": [
+              "Calabrese, Erminia",
+              "Hill, J. Colin",
+              "Jense, Hidde T.",
+              "La Posta, Adrien",
+              "Abril-Cabezas, Irene",
+              "Addison, Graeme E.",
+              "Ade, Peter A.R.",
+              "Aiola, Simone"
+            ],
+            "journal": "JCAP 11 (2025) 063",
+            "year": 2025,
+            "inspire_id": 2901540
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 44,
+      "source_line": 1055,
+      "citation": "J. M. Cline, M. Hell, \"Pathologies of dimension-zero scalar fields,\" Phys. Rev. D 114 (2026) 045022, arXiv:2603.05683.",
+      "title": "Pathologies of dimension-zero scalar fields",
+      "arxiv": "2603.05683",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2603.05683",
+          "metadata": {
+            "arxiv": "2603.05683",
+            "status": "VERIFIED",
+            "title": "Pathologies of dimension-zero scalar fields",
+            "all_titles": [
+              "Pathologies of dimension-zero scalar fields",
+              "Pathologies of dimension-zero scalar fields"
+            ],
+            "first_author": "Cline, James M.",
+            "n_authors": 2,
+            "authors": [
+              "Cline, James M.",
+              "Hell, Anamaria"
+            ],
+            "journal": "Phys.Rev.D 114 (2026) 045022",
+            "year": 2026,
+            "inspire_id": 3127250
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2603.05683",
+            "status": "VERIFIED",
+            "title": "Pathologies of dimension-zero scalar fields",
+            "all_titles": [
+              "Pathologies of dimension-zero scalar fields",
+              "Pathologies of dimension-zero scalar fields"
+            ],
+            "first_author": "Cline, James M.",
+            "n_authors": 2,
+            "authors": [
+              "Cline, James M.",
+              "Hell, Anamaria"
+            ],
+            "journal": "Phys.Rev.D 114 (2026) 045022",
+            "year": 2026,
+            "inspire_id": 3127250
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 45,
+      "source_line": 1057,
+      "citation": "M. Boylan-Kolchin, \"Stress testing ΛCDM with high-redshift galaxy candidates,\" Nature Astron. 7 (2023) 731, arXiv:2208.01611.",
+      "title": "Stress testing ΛCDM with high-redshift galaxy candidates",
+      "arxiv": "2208.01611",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2208.01611",
+          "metadata": {
+            "arxiv": "2208.01611",
+            "status": "VERIFIED",
+            "title": "Stress testing ΛCDM with high-redshift galaxy candidates",
+            "all_titles": [
+              "Stress testing ΛCDM with high-redshift galaxy candidates",
+              "Stress Testing $\\Lambda$CDM with High-redshift Galaxy Candidates"
+            ],
+            "first_author": "Boylan-Kolchin, Michael",
+            "n_authors": 1,
+            "authors": [
+              "Boylan-Kolchin, Michael"
+            ],
+            "journal": "Nature Astron. 7 (2023) 731",
+            "year": 2023,
+            "inspire_id": 2130302
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2208.01611",
+            "status": "VERIFIED",
+            "title": "Stress testing ΛCDM with high-redshift galaxy candidates",
+            "all_titles": [
+              "Stress testing ΛCDM with high-redshift galaxy candidates",
+              "Stress Testing $\\Lambda$CDM with High-redshift Galaxy Candidates"
+            ],
+            "first_author": "Boylan-Kolchin, Michael",
+            "n_authors": 1,
+            "authors": [
+              "Boylan-Kolchin, Michael"
+            ],
+            "journal": "Nature Astron. 7 (2023) 731",
+            "year": 2023,
+            "inspire_id": 2130302
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 46,
+      "source_line": 1059,
+      "citation": "G. Sun, S. R. Furlanetto et al., \"Bursty star formation naturally explains the abundance of bright galaxies at cosmic dawn,\" Astrophys. J. Lett. 955 (2023) L35, arXiv:2307.15305.",
+      "title": "Bursty star formation naturally explains the abundance of bright galaxies at cosmic dawn",
+      "arxiv": "2307.15305",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2307.15305",
+          "metadata": {
+            "arxiv": "2307.15305",
+            "status": "VERIFIED",
+            "title": "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn",
+            "all_titles": [
+              "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn",
+              "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn"
+            ],
+            "first_author": "Sun, Guochao",
+            "n_authors": 6,
+            "authors": [
+              "Sun, Guochao",
+              "Faucher-Giguère, Claude-André",
+              "Hayward, Christopher C.",
+              "Shen, Xuejian",
+              "Wetzel, Andrew",
+              "Cochrane, Rachel K."
+            ],
+            "journal": "Astrophys.J.Lett. 955 (2023) L35",
+            "year": 2023,
+            "inspire_id": 2683338
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2307.15305",
+            "status": "VERIFIED",
+            "title": "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn",
+            "all_titles": [
+              "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn",
+              "Bursty Star Formation Naturally Explains the Abundance of Bright Galaxies at Cosmic Dawn"
+            ],
+            "first_author": "Sun, Guochao",
+            "n_authors": 6,
+            "authors": [
+              "Sun, Guochao",
+              "Faucher-Giguère, Claude-André",
+              "Hayward, Christopher C.",
+              "Shen, Xuejian",
+              "Wetzel, Andrew",
+              "Cochrane, Rachel K."
+            ],
+            "journal": "Astrophys.J.Lett. 955 (2023) L35",
+            "year": 2023,
+            "inspire_id": 2683338
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 47,
+      "source_line": 1061,
+      "citation": "D. D. Kocevski et al., \"The rise of faint, red active galactic nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields,\" Astrophys. J. 986 (2025) 126, arXiv:2404.03576.",
+      "title": "The rise of faint, red active galactic nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields",
+      "arxiv": "2404.03576",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2404.03576",
+          "metadata": {
+            "arxiv": "2404.03576",
+            "status": "VERIFIED",
+            "title": "The Rise of Faint, Red Active Galactic Nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields",
+            "all_titles": [
+              "The Rise of Faint, Red Active Galactic Nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields",
+              "The Rise of Faint, Red AGN at $z>4$: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields"
+            ],
+            "first_author": "Kocevski, Dale D.",
+            "n_authors": 58,
+            "authors": [
+              "Kocevski, Dale D.",
+              "Finkelstein, Steven L.",
+              "Barro, Guillermo",
+              "Taylor, J. Anthony",
+              "Calabrò, Antonello",
+              "Laloux, Brivael",
+              "Buchner, Johannes",
+              "Trump, Jonathan R."
+            ],
+            "journal": "Astrophys.J. 986 (2025) 126",
+            "year": 2025,
+            "inspire_id": 3063166
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2404.03576",
+            "status": "VERIFIED",
+            "title": "The Rise of Faint, Red Active Galactic Nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields",
+            "all_titles": [
+              "The Rise of Faint, Red Active Galactic Nuclei at z > 4: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields",
+              "The Rise of Faint, Red AGN at $z>4$: A Sample of Little Red Dots in the JWST Extragalactic Legacy Fields"
+            ],
+            "first_author": "Kocevski, Dale D.",
+            "n_authors": 58,
+            "authors": [
+              "Kocevski, Dale D.",
+              "Finkelstein, Steven L.",
+              "Barro, Guillermo",
+              "Taylor, J. Anthony",
+              "Calabrò, Antonello",
+              "Laloux, Brivael",
+              "Buchner, Johannes",
+              "Trump, Jonathan R."
+            ],
+            "journal": "Astrophys.J. 986 (2025) 126",
+            "year": 2025,
+            "inspire_id": 3063166
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 48,
+      "source_line": 1063,
+      "citation": "E. Di Valentino et al., \"The CosmoVerse white paper: Addressing observational tensions in cosmology with systematics and fundamental physics,\" Phys. Dark Univ. 49 (2025) 101965, arXiv:2504.01669.",
+      "title": "The CosmoVerse white paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+      "arxiv": "2504.01669",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2504.01669",
+          "metadata": {
+            "arxiv": "2504.01669",
+            "status": "VERIFIED",
+            "title": "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+            "all_titles": [
+              "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+              "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+              "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics"
+            ],
+            "first_author": "Di Valentino, Eleonora",
+            "n_authors": 543,
+            "authors": [
+              "Di Valentino, Eleonora",
+              "Levi Said, Jackson",
+              "Riess, Adam",
+              "Pollo, Agnieszka",
+              "Poulin, Vivian",
+              "Gómez-Valent, Adrià",
+              "Weltman, Amanda",
+              "Palmese, Antonella"
+            ],
+            "journal": "Phys.Dark Univ. 49 (2025) 101965",
+            "year": 2025,
+            "inspire_id": 2907383
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2504.01669",
+            "status": "VERIFIED",
+            "title": "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+            "all_titles": [
+              "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+              "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics",
+              "The CosmoVerse White Paper: Addressing observational tensions in cosmology with systematics and fundamental physics"
+            ],
+            "first_author": "Di Valentino, Eleonora",
+            "n_authors": 543,
+            "authors": [
+              "Di Valentino, Eleonora",
+              "Levi Said, Jackson",
+              "Riess, Adam",
+              "Pollo, Agnieszka",
+              "Poulin, Vivian",
+              "Gómez-Valent, Adrià",
+              "Weltman, Amanda",
+              "Palmese, Antonella"
+            ],
+            "journal": "Phys.Dark Univ. 49 (2025) 101965",
+            "year": 2025,
+            "inspire_id": 2907383
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 49,
+      "source_line": 1065,
+      "citation": "S. Giombi, I. R. Klebanov, \"Interpolating between *a* and F,\" JHEP 03 (2015) 117, arXiv:1409.1937.",
+      "title": "Interpolating between *a* and F",
+      "arxiv": "1409.1937",
+      "bibliographic_form": "arxiv_listed",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 50,
+      "source_line": 1067,
+      "citation": "E. Camphuis et al. (SPT-3G Collaboration), \"SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field,\" Phys. Rev. D 113 (2026) 083504, arXiv:2506.20707.",
+      "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+      "arxiv": "2506.20707",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2506.20707",
+          "metadata": {
+            "arxiv": "2506.20707",
+            "status": "VERIFIED",
+            "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+            "all_titles": [
+              "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+              "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G Main field"
+            ],
+            "first_author": "Camphuis, E.",
+            "n_authors": 97,
+            "authors": [
+              "Camphuis, E.",
+              "Quan, W.",
+              "Balkenhol, L.",
+              "Khalife, A.R.",
+              "Ge, F.",
+              "Guidi, F.",
+              "Huang, N.",
+              "Lynch, G.P."
+            ],
+            "journal": "Phys.Rev.D 113 (2026) 083504",
+            "year": 2026,
+            "inspire_id": 2939202
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2506.20707",
+            "status": "VERIFIED",
+            "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+            "all_titles": [
+              "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+              "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G Main field"
+            ],
+            "first_author": "Camphuis, E.",
+            "n_authors": 97,
+            "authors": [
+              "Camphuis, E.",
+              "Quan, W.",
+              "Balkenhol, L.",
+              "Khalife, A.R.",
+              "Ge, F.",
+              "Guidi, F.",
+              "Huang, N.",
+              "Lynch, G.P."
+            ],
+            "journal": "Phys.Rev.D 113 (2026) 083504",
+            "year": 2026,
+            "inspire_id": 2939202
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 51,
+      "source_line": 1069,
+      "citation": "L. Boyle, N. Turok, \"Cancelling the vacuum energy and Weyl anomaly in the Standard Model with dimension-zero scalar fields,\" arXiv:2110.06258.",
+      "title": "Cancelling the vacuum energy and Weyl anomaly in the Standard Model with dimension-zero scalar fields",
+      "arxiv": "2110.06258",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2110.06258",
+          "metadata": {
+            "arxiv": "2110.06258",
+            "status": "VERIFIED",
+            "title": "Cancelling the vacuum energy and Weyl anomaly in the standard model with dimension-zero scalar fields",
+            "all_titles": [
+              "Cancelling the vacuum energy and Weyl anomaly in the standard model with dimension-zero scalar fields"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 2,
+            "authors": [
+              "Boyle, Latham",
+              "Turok, Neil"
+            ],
+            "journal": null,
+            "year": "2021",
+            "inspire_id": 1944227
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2110.06258",
+            "status": "VERIFIED",
+            "title": "Cancelling the vacuum energy and Weyl anomaly in the standard model with dimension-zero scalar fields",
+            "all_titles": [
+              "Cancelling the vacuum energy and Weyl anomaly in the standard model with dimension-zero scalar fields"
+            ],
+            "first_author": "Boyle, Latham",
+            "n_authors": 2,
+            "authors": [
+              "Boyle, Latham",
+              "Turok, Neil"
+            ],
+            "journal": null,
+            "year": "2021",
+            "inspire_id": 1944227
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 52,
+      "source_line": 1071,
+      "citation": "F. Niedermann, A. Padilla, \"Higher codimension de Sitter branes,\" Phys. Rev. D 112 (2025) L121505, arXiv:2506.19515.",
+      "title": "Higher codimension de Sitter branes",
+      "arxiv": "2506.19515",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified3.json",
+          "json_pointer": "/padilla_cr/0",
+          "metadata": {
+            "first_author": "Niedermann, Florian",
+            "year": 2025,
+            "title": "Higher codimension de Sitter branes",
+            "journal": "Physical Review D",
+            "volume": "112",
+            "pages": null,
+            "doi": "10.1103/9423-j3hl",
+            "type": "journal-article"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "Crossref historical lookup",
+          "historical_record": [
+            "Niedermann, Florian",
+            2025,
+            "Higher codimension de Sitter branes",
+            "Physical Review D",
+            "112",
+            null,
+            "10.1103/9423-j3hl",
+            "journal-article"
+          ],
+          "match_method": "normalized_exact_title"
+        },
+        {
+          "log_file": "refs_verified4.json",
+          "json_pointer": "/padilla_2025/4",
+          "metadata": {
+            "first_author": "Niedermann, Florian",
+            "year": 2025,
+            "title": "Higher codimension de Sitter branes",
+            "journal": "Phys.Rev.D 112 (2025) L121505",
+            "arxiv": "2506.19515"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Niedermann, Florian",
+            2025,
+            "Higher codimension de Sitter branes",
+            "Phys.Rev.D 112 (2025) L121505",
+            "2506.19515"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        },
+        {
+          "log_file": "refs_verified4.json",
+          "json_pointer": "/padilla_codim/0",
+          "metadata": {
+            "first_author": "Niedermann, Florian",
+            "year": 2025,
+            "title": "Higher codimension de Sitter branes",
+            "journal": "Phys.Rev.D 112 (2025) L121505",
+            "arxiv": "2506.19515"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": [
+            "Niedermann, Florian",
+            2025,
+            "Higher codimension de Sitter branes",
+            "Phys.Rev.D 112 (2025) L121505",
+            "2506.19515"
+          ],
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 53,
+      "source_line": 1073,
+      "citation": "D. J. Bartlett, W. J. Handley, A. N. Lasenby, \"Improved cosmological fits with quantized primordial power spectra,\" Phys. Rev. D 105 (2022) 083515, arXiv:2104.01938.",
+      "title": "Improved cosmological fits with quantized primordial power spectra",
+      "arxiv": "2104.01938",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/bartlett_handley/candidates/0",
+          "metadata": {
+            "title": "Improved cosmological fits with quantized primordial power spectra",
+            "first_author": "Bartlett, D.J.",
+            "n_authors": 3,
+            "journal": "Phys.Rev.D 105 (2022) 083515",
+            "year": 2022,
+            "arxiv": "2104.01938",
+            "doi": "10.1103/PhysRevD.105.083515",
+            "inspire_id": 1856153
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Improved cosmological fits with quantized primordial power spectra",
+            "first_author": "Bartlett, D.J.",
+            "n_authors": 3,
+            "journal": "Phys.Rev.D 105 (2022) 083515",
+            "year": 2022,
+            "arxiv": "2104.01938",
+            "doi": "10.1103/PhysRevD.105.083515",
+            "inspire_id": 1856153
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 54,
+      "source_line": 1075,
+      "citation": "M. Prathaban, W. Handley, \"Rescuing palindromic universes with improved recombination modeling,\" Phys. Rev. D 105 (2022) 123508, arXiv:2111.14588.",
+      "title": "Rescuing palindromic universes with improved recombination modeling",
+      "arxiv": "2111.14588",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/prathaban_handley/candidates/0",
+          "metadata": {
+            "title": "Rescuing palindromic universes with improved recombination modeling",
+            "first_author": "Prathaban, Metha",
+            "n_authors": 2,
+            "journal": "Phys.Rev.D 105 (2022) 123508",
+            "year": 2022,
+            "arxiv": "2111.14588",
+            "doi": "10.1103/PhysRevD.105.123508",
+            "inspire_id": 1979048
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Rescuing palindromic universes with improved recombination modeling",
+            "first_author": "Prathaban, Metha",
+            "n_authors": 2,
+            "journal": "Phys.Rev.D 105 (2022) 123508",
+            "year": 2022,
+            "arxiv": "2111.14588",
+            "doi": "10.1103/PhysRevD.105.123508",
+            "inspire_id": 1979048
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 55,
+      "source_line": 1077,
+      "citation": "A. N. Lasenby, W. J. Handley, D. J. Bartlett, C. S. Negreanu, \"Perturbations and the future conformal boundary,\" Phys. Rev. D 105 (2022) 083514, arXiv:2104.02521.",
+      "title": "Perturbations and the future conformal boundary",
+      "arxiv": "2104.02521",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified.json",
+          "json_pointer": "/2104.02521",
+          "metadata": {
+            "arxiv": "2104.02521",
+            "status": "VERIFIED",
+            "title": "Perturbations and the future conformal boundary",
+            "all_titles": [
+              "Perturbations and the future conformal boundary",
+              "Perturbations and the Future Conformal Boundary"
+            ],
+            "first_author": "Lasenby, A.N.",
+            "n_authors": 4,
+            "authors": [
+              "Lasenby, A.N.",
+              "Handley, W.J.",
+              "Bartlett, D.J.",
+              "Negreanu, C.S."
+            ],
+            "journal": "Phys.Rev.D 105 (2022) 083514",
+            "year": 2022,
+            "inspire_id": 1856370
+          },
+          "historical_status": "VERIFIED",
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "arxiv": "2104.02521",
+            "status": "VERIFIED",
+            "title": "Perturbations and the future conformal boundary",
+            "all_titles": [
+              "Perturbations and the future conformal boundary",
+              "Perturbations and the Future Conformal Boundary"
+            ],
+            "first_author": "Lasenby, A.N.",
+            "n_authors": 4,
+            "authors": [
+              "Lasenby, A.N.",
+              "Handley, W.J.",
+              "Bartlett, D.J.",
+              "Negreanu, C.S."
+            ],
+            "journal": "Phys.Rev.D 105 (2022) 083514",
+            "year": 2022,
+            "inspire_id": 1856370
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 56,
+      "source_line": 1079,
+      "citation": "J. S. Dowker, \"Casimir effect around a cone,\" Phys. Rev. D 36 (1987) 3095.",
+      "title": "Casimir effect around a cone",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified2.json",
+          "json_pointer": "/dowker_cone/candidates/0",
+          "metadata": {
+            "title": "Casimir Effect Around a Cone",
+            "first_author": "Dowker, J.S.",
+            "n_authors": 1,
+            "journal": "Phys.Rev.D 36 (1987) 3095",
+            "year": 1987,
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.36.3095",
+            "inspire_id": 245964
+          },
+          "historical_status": "CANDIDATES",
+          "recorded_catalogue": "INSPIRE-HEP historical candidate lookup",
+          "historical_record": {
+            "title": "Casimir Effect Around a Cone",
+            "first_author": "Dowker, J.S.",
+            "n_authors": 1,
+            "journal": "Phys.Rev.D 36 (1987) 3095",
+            "year": 1987,
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.36.3095",
+            "inspire_id": 245964
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 57,
+      "source_line": 1081,
+      "citation": "I. García-Etxebarria, M. Montero, \"Dai-Freed anomalies in particle physics,\" JHEP 08 (2019) 003, arXiv:1808.00009.",
+      "title": "Dai-Freed anomalies in particle physics",
+      "arxiv": "1808.00009",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/1808.00009/0",
+          "metadata": {
+            "first_author": "García-Etxebarria, Iñaki",
+            "n_authors": 2,
+            "year": 2019,
+            "title": "Dai-Freed anomalies in particle physics",
+            "journal": "JHEP 08 (2019) 003",
+            "arxiv": "1808.00009",
+            "doi": "10.1007/JHEP08(2019)003"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "García-Etxebarria, Iñaki",
+            "n_authors": 2,
+            "year": 2019,
+            "title": "Dai-Freed anomalies in particle physics",
+            "journal": "JHEP 08 (2019) 003",
+            "arxiv": "1808.00009",
+            "doi": "10.1007/JHEP08(2019)003"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 58,
+      "source_line": 1083,
+      "citation": "L. Boyle, M. Teuscher, N. Turok, \"The Big Bang as a mirror: a solution of the strong CP problem,\" arXiv:2208.10396.",
+      "title": "The Big Bang as a mirror: a solution of the strong CP problem",
+      "arxiv": "2208.10396",
+      "bibliographic_form": "arxiv_listed",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 59,
+      "source_line": 1085,
+      "citation": "J. McNamara, M. Reece, \"Reflections on parity breaking,\" arXiv:2212.00039.",
+      "title": "Reflections on parity breaking",
+      "arxiv": "2212.00039",
+      "bibliographic_form": "arxiv_listed",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 60,
+      "source_line": 1087,
+      "citation": "K. Yonekura, \"The absence of global anomalies of CP symmetry,\" JHEP 05 (2026) 250, arXiv:2602.11475.",
+      "title": "The absence of global anomalies of CP symmetry",
+      "arxiv": "2602.11475",
+      "bibliographic_form": "arxiv_listed",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 61,
+      "source_line": 1089,
+      "citation": "D. Marolf, I. A. Morrison, \"Group averaging for de Sitter free fields,\" Class. Quantum Grav. 26 (2009) 235003, arXiv:0810.5163.",
+      "title": "Group averaging for de Sitter free fields",
+      "arxiv": "0810.5163",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/0810.5163/0",
+          "metadata": {
+            "first_author": "Marolf, Donald",
+            "n_authors": 2,
+            "year": 2009,
+            "title": "Group Averaging for de Sitter free fields",
+            "journal": "Class.Quant.Grav. 26 (2009) 235003",
+            "arxiv": "0810.5163",
+            "doi": "10.1088/0264-9381/26/23/235003"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Marolf, Donald",
+            "n_authors": 2,
+            "year": 2009,
+            "title": "Group Averaging for de Sitter free fields",
+            "journal": "Class.Quant.Grav. 26 (2009) 235003",
+            "arxiv": "0810.5163",
+            "doi": "10.1088/0264-9381/26/23/235003"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 62,
+      "source_line": 1091,
+      "citation": "C. Gérard, M. Wrochna, \"IR-fixed Euclidean vacuum for linearized gravity on de Sitter space,\" arXiv:2405.00866.",
+      "title": "IR-fixed Euclidean vacuum for linearized gravity on de Sitter space",
+      "arxiv": "2405.00866",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/2405.00866/0",
+          "metadata": {
+            "first_author": "Gérard, Christian",
+            "n_authors": 2,
+            "year": "2024",
+            "title": "IR-fixed Euclidean vacuum for linearized gravity on de Sitter space",
+            "journal": null,
+            "arxiv": "2405.00866",
+            "doi": null
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Gérard, Christian",
+            "n_authors": 2,
+            "year": "2024",
+            "title": "IR-fixed Euclidean vacuum for linearized gravity on de Sitter space",
+            "journal": null,
+            "arxiv": "2405.00866",
+            "doi": null
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 63,
+      "source_line": 1093,
+      "citation": "C. Kiefer, \"Quantum cosmology and the emergence of a classical world,\" gr-qc/9308025.",
+      "title": "Quantum cosmology and the emergence of a classical world",
+      "arxiv": "gr-qc/9308025",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/gr-qc~19308025/0",
+          "metadata": {
+            "first_author": "Kiefer, Claus",
+            "n_authors": 1,
+            "year": "1993",
+            "title": "Quantum cosmology and the emergence of a classical world",
+            "journal": null,
+            "arxiv": "gr-qc/9308025",
+            "doi": null
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Kiefer, Claus",
+            "n_authors": 1,
+            "year": "1993",
+            "title": "Quantum cosmology and the emergence of a classical world",
+            "journal": null,
+            "arxiv": "gr-qc/9308025",
+            "doi": null
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 64,
+      "source_line": 1095,
+      "citation": "C. Kiefer, \"Decoherence in quantum electrodynamics and quantum gravity,\" Phys. Rev. D 46 (1992) 1658. *(INSPIRE record resolved by journal reference; the article itself was not fetchable during this work; see §4.1.)*",
+      "title": "Decoherence in quantum electrodynamics and quantum gravity",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/kiefer_decoherence_prd46/0",
+          "metadata": {
+            "first_author": "Kiefer, C.",
+            "n_authors": 1,
+            "year": 1992,
+            "title": "Decoherence in quantum electrodynamics and quantum gravity",
+            "journal": "Phys.Rev.D 46 (1992) 1658",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.46.1658"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Kiefer, C.",
+            "n_authors": 1,
+            "year": 1992,
+            "title": "Decoherence in quantum electrodynamics and quantum gravity",
+            "journal": "Phys.Rev.D 46 (1992) 1658",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.46.1658"
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "manuscript_reports_article_not_fetchable",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "The manuscript explicitly reports that the article itself was not fetchable. A matching journal/title metadata record does not remedy that source-access limit."
+      ]
+    },
+    {
+      "reference_number": 65,
+      "source_line": 1097,
+      "citation": "J. J. Halliwell, S. W. Hawking, \"The origin of structure in the universe,\" Phys. Rev. D 31 (1985) 1777.",
+      "title": "The origin of structure in the universe",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/halliwell_hawking/0",
+          "metadata": {
+            "first_author": "Halliwell, J.J.",
+            "n_authors": 2,
+            "year": 1985,
+            "title": "The Origin of Structure in the Universe",
+            "journal": "Phys.Rev.D 31 (1985) 1777",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.31.1777"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Halliwell, J.J.",
+            "n_authors": 2,
+            "year": 1985,
+            "title": "The Origin of Structure in the Universe",
+            "journal": "Phys.Rev.D 31 (1985) 1777",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.31.1777"
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 66,
+      "source_line": 1099,
+      "citation": "J. B. Hartle, S. W. Hawking, \"Wave function of the universe,\" Phys. Rev. D 28 (1983) 2960.",
+      "title": "Wave function of the universe",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/hartle_hawking/0",
+          "metadata": {
+            "first_author": "Hartle, J.B.",
+            "n_authors": 2,
+            "year": 1983,
+            "title": "Wave Function of the Universe",
+            "journal": "Phys.Rev.D 28 (1983) 2960",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.28.2960"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Hartle, J.B.",
+            "n_authors": 2,
+            "year": 1983,
+            "title": "Wave Function of the Universe",
+            "journal": "Phys.Rev.D 28 (1983) 2960",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.28.2960"
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 67,
+      "source_line": 1101,
+      "citation": "J. M. Weisberg, Y. Huang, \"Relativistic measurements from timing the binary pulsar PSR B1913+16,\" Astrophys. J. 829 (2016) 55, arXiv:1606.02744.",
+      "title": "Relativistic measurements from timing the binary pulsar PSR B1913+16",
+      "arxiv": "1606.02744",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/1606.02744/0",
+          "metadata": {
+            "first_author": "Weisberg, Joel M.",
+            "n_authors": 2,
+            "year": 2016,
+            "title": "Relativistic Measurements from Timing the Binary Pulsar PSR B1913+16",
+            "journal": "Astrophys.J. 829 (2016) 55",
+            "arxiv": "1606.02744",
+            "doi": "10.3847/0004-637X/829/1/55"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Weisberg, Joel M.",
+            "n_authors": 2,
+            "year": 2016,
+            "title": "Relativistic Measurements from Timing the Binary Pulsar PSR B1913+16",
+            "journal": "Astrophys.J. 829 (2016) 55",
+            "arxiv": "1606.02744",
+            "doi": "10.3847/0004-637X/829/1/55"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 68,
+      "source_line": 1103,
+      "citation": "C. Marletto, V. Vedral, \"Gravitationally induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity,\" Phys. Rev. Lett. 119 (2017) 240402, arXiv:1707.06036.",
+      "title": "Gravitationally induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity",
+      "arxiv": "1707.06036",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/1707.06036/0",
+          "metadata": {
+            "first_author": "Marletto, Chiara",
+            "n_authors": 2,
+            "year": 2017,
+            "title": "Gravitationally-induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity",
+            "journal": "Phys.Rev.Lett. 119 (2017) 240402",
+            "arxiv": "1707.06036",
+            "doi": "10.1103/PhysRevLett.119.240402"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Marletto, Chiara",
+            "n_authors": 2,
+            "year": 2017,
+            "title": "Gravitationally-induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity",
+            "journal": "Phys.Rev.Lett. 119 (2017) 240402",
+            "arxiv": "1707.06036",
+            "doi": "10.1103/PhysRevLett.119.240402"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 69,
+      "source_line": 1105,
+      "citation": "Ya. B. Zel'dovich, I. Yu. Kobzarev, L. B. Okun, \"Cosmological consequences of the spontaneous breakdown of discrete symmetry,\" Zh. Eksp. Teor. Fiz. 67 (1974) 3 [Sov. Phys. JETP 40 (1975) 1].",
+      "title": "Cosmological consequences of the spontaneous breakdown of discrete symmetry",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/kobzarev_okun_zeldovich/0",
+          "metadata": {
+            "first_author": "Zeldovich, Ya.B.",
+            "n_authors": 3,
+            "year": 1974,
+            "title": "Cosmological Consequences of the Spontaneous Breakdown of Discrete Symmetry",
+            "journal": "Zh.Eksp.Teor.Fiz. 67 (1974) 3",
+            "arxiv": null,
+            "doi": null
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Zeldovich, Ya.B.",
+            "n_authors": 3,
+            "year": 1974,
+            "title": "Cosmological Consequences of the Spontaneous Breakdown of Discrete Symmetry",
+            "journal": "Zh.Eksp.Teor.Fiz. 67 (1974) 3",
+            "arxiv": null,
+            "doi": null
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 70,
+      "source_line": 1107,
+      "citation": "B. Allen, \"Vacuum states in de Sitter space,\" Phys. Rev. D 32 (1985) 3136.",
+      "title": "Vacuum states in de Sitter space",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/allen_dS_vacuum/0",
+          "metadata": {
+            "first_author": "Allen, Bruce",
+            "n_authors": 1,
+            "year": 1985,
+            "title": "Vacuum States in de Sitter Space",
+            "journal": "Phys.Rev.D 32 (1985) 3136",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.32.3136"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Allen, Bruce",
+            "n_authors": 1,
+            "year": 1985,
+            "title": "Vacuum States in de Sitter Space",
+            "journal": "Phys.Rev.D 32 (1985) 3136",
+            "arxiv": null,
+            "doi": "10.1103/PhysRevD.32.3136"
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 71,
+      "source_line": 1109,
+      "citation": "J. Schwinger, \"Brownian motion of a quantum oscillator,\" J. Math. Phys. 2 (1961) 407. *(Journal only; no arXiv record.)*",
+      "title": "Brownian motion of a quantum oscillator",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/schwinger_1961/0",
+          "metadata": {
+            "first_author": "Schwinger, Julian S.",
+            "n_authors": 1,
+            "year": 1961,
+            "title": "Brownian motion of a quantum oscillator",
+            "journal": "J.Math.Phys. 2 (1961) 407",
+            "arxiv": null,
+            "doi": "10.1063/1.1703727"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Schwinger, Julian S.",
+            "n_authors": 1,
+            "year": 1961,
+            "title": "Brownian motion of a quantum oscillator",
+            "journal": "J.Math.Phys. 2 (1961) 407",
+            "arxiv": null,
+            "doi": "10.1063/1.1703727"
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Manuscript labels this journal only, with no arXiv record. Historical title/journal/DOI metadata exists; journal-only status is not a missing-reference finding."
+      ]
+    },
+    {
+      "reference_number": 72,
+      "source_line": 1111,
+      "citation": "L. V. Keldysh, \"Diagram technique for nonequilibrium processes,\" Zh. Eksp. Teor. Fiz. 47 (1964) 1515 [Sov. Phys. JETP 20 (1965) 1018]. *(Journal only; no arXiv record.)*",
+      "title": "Diagram technique for nonequilibrium processes",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/keldysh_1964/0",
+          "metadata": {
+            "first_author": "Keldysh, L.V.",
+            "n_authors": 1,
+            "year": 1965,
+            "title": "Diagram Technique for Nonequilibrium Processes",
+            "journal": "Sov.Phys.JETP 20 (1965) 1018",
+            "arxiv": null,
+            "doi": "10.1142/9789811279461_0007"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Keldysh, L.V.",
+            "n_authors": 1,
+            "year": 1965,
+            "title": "Diagram Technique for Nonequilibrium Processes",
+            "journal": "Sov.Phys.JETP 20 (1965) 1018",
+            "arxiv": null,
+            "doi": "10.1142/9789811279461_0007"
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Manuscript labels this journal only, with no arXiv record. Historical title and translated-journal metadata match. Logged DOI 10.1142/9789811279461_0007 has book-chapter form and is not established here as a DOI for the original 1964/1965 journal article; it is retained as historical data only."
+      ]
+    },
+    {
+      "reference_number": 73,
+      "source_line": 1113,
+      "citation": "A. J. Niemi, G. W. Semenoff, \"Finite temperature quantum field theory in Minkowski space,\" Annals Phys. 152 (1984) 105. *(Journal only; no arXiv record, and not read at source.)*",
+      "title": "Finite temperature quantum field theory in Minkowski space",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "historical_title_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/by_title/niemi_semenoff_1984/0",
+          "metadata": {
+            "first_author": "Niemi, A.J.",
+            "n_authors": 2,
+            "year": 1984,
+            "title": "Finite Temperature Quantum Field Theory in Minkowski Space",
+            "journal": "Annals Phys. 152 (1984) 105",
+            "arxiv": null,
+            "doi": "10.1016/0003-4916(84)90082-4"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Niemi, A.J.",
+            "n_authors": 2,
+            "year": 1984,
+            "title": "Finite Temperature Quantum Field Theory in Minkowski Space",
+            "journal": "Annals Phys. 152 (1984) 105",
+            "arxiv": null,
+            "doi": "10.1016/0003-4916(84)90082-4"
+          },
+          "match_method": "normalized_exact_title"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "manuscript_explicitly_reports_not_read_at_source",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Manuscript explicitly labels this journal only and not read at source. Historical title/journal/DOI metadata does not establish source reading or validate a claim."
+      ]
+    },
+    {
+      "reference_number": 74,
+      "source_line": 1115,
+      "citation": "C. P. Herzog, D. T. Son, \"Schwinger–Keldysh propagators from AdS/CFT correspondence,\" JHEP 03 (2003) 046, hep-th/0212072.",
+      "title": "Schwinger–Keldysh propagators from AdS/CFT correspondence",
+      "arxiv": "hep-th/0212072",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/hep-th~10212072/0",
+          "metadata": {
+            "first_author": "Herzog, C.P.",
+            "n_authors": 2,
+            "year": 2003,
+            "title": "Schwinger-Keldysh propagators from AdS/CFT correspondence",
+            "journal": "JHEP 03 (2003) 046",
+            "arxiv": "hep-th/0212072",
+            "doi": "10.1088/1126-6708/2003/03/046"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Herzog, C.P.",
+            "n_authors": 2,
+            "year": 2003,
+            "title": "Schwinger-Keldysh propagators from AdS/CFT correspondence",
+            "journal": "JHEP 03 (2003) 046",
+            "arxiv": "hep-th/0212072",
+            "doi": "10.1088/1126-6708/2003/03/046"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 75,
+      "source_line": 1117,
+      "citation": "K. Choi, D. B. Kaplan, A. E. Nelson, \"Is CP a gauge symmetry?,\" Nucl. Phys. B 391 (1993) 515, hep-ph/9205202.",
+      "title": "Is CP a gauge symmetry?",
+      "arxiv": "hep-ph/9205202",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/hep-ph~19205202/0",
+          "metadata": {
+            "first_author": "Choi, Ki-woon",
+            "n_authors": 3,
+            "year": 1993,
+            "title": "Is CP a gauge symmetry?",
+            "journal": "Nucl.Phys.B 391 (1993) 515",
+            "arxiv": "hep-ph/9205202",
+            "doi": "10.1016/0550-3213(93)90082-Z"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Choi, Ki-woon",
+            "n_authors": 3,
+            "year": 1993,
+            "title": "Is CP a gauge symmetry?",
+            "journal": "Nucl.Phys.B 391 (1993) 515",
+            "arxiv": "hep-ph/9205202",
+            "doi": "10.1016/0550-3213(93)90082-Z"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 76,
+      "source_line": 1119,
+      "citation": "A. Valenti, L. Vecchi, \"The CKM phase and θ̄ in Nelson–Barr models,\" JHEP 07 (2021) 203, arXiv:2105.09122.",
+      "title": "The CKM phase and θ̄ in Nelson–Barr models",
+      "arxiv": "2105.09122",
+      "bibliographic_form": "arxiv_listed",
+      "status": "historical_arxiv_metadata_match",
+      "historical_matches": [
+        {
+          "log_file": "refs_verified5.json",
+          "json_pointer": "/arxiv/2105.09122/0",
+          "metadata": {
+            "first_author": "Valenti, Alessandro",
+            "n_authors": 2,
+            "year": 2021,
+            "title": "The CKM phase and $ \\overline{\\theta} $ in Nelson-Barr models",
+            "journal": "JHEP 07 (2021) 203",
+            "arxiv": "2105.09122",
+            "doi": "10.1007/JHEP07(2021)203"
+          },
+          "historical_status": null,
+          "recorded_catalogue": "INSPIRE-HEP historical lookup",
+          "historical_record": {
+            "first_author": "Valenti, Alessandro",
+            "n_authors": 2,
+            "year": 2021,
+            "title": "The CKM phase and $ \\overline{\\theta} $ in Nelson-Barr models",
+            "journal": "JHEP 07 (2021) 203",
+            "arxiv": "2105.09122",
+            "doi": "10.1007/JHEP07(2021)203"
+          },
+          "match_method": "exact_arxiv_identifier"
+        }
+      ],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": []
+    },
+    {
+      "reference_number": 77,
+      "source_line": 1121,
+      "citation": "P. Betzios, N. Gaddam, O. Papadoulaki, \"Black hole S-matrix for a scalar field,\" arXiv:2012.09834.",
+      "title": "Black hole S-matrix for a scalar field",
+      "arxiv": "2012.09834",
+      "bibliographic_form": "arxiv_listed",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 78,
+      "source_line": 1123,
+      "citation": "LIGO, Virgo and KAGRA Collaborations, \"Tests of general relativity with GWTC-3,\"\\ arXiv:2112.06861.",
+      "title": "Tests of general relativity with GWTC-3",
+      "arxiv": "2112.06861",
+      "bibliographic_form": "arxiv_listed",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 79,
+      "source_line": 1125,
+      "citation": "KM3NeT Collaboration, \"Observation of an ultra-high-energy cosmic neutrino with KM3NeT,\" Nature 638 (2025) 376; Erratum Nature 640 (2025) E3. Muon energy 120 (+110, −60) PeV; median neutrino energy 220 PeV, 68% interval 110–790 PeV. *(Published without an arXiv eprint.)*",
+      "title": "Observation of an ultra-high-energy cosmic neutrino with KM3NeT",
+      "arxiv": null,
+      "bibliographic_form": "journal_only_in_manuscript",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Manuscript labels the Nature article as published without an arXiv eprint. No matching historical record was found for the article or its erratum; the quoted event energies are not validated by this index.",
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 80,
+      "source_line": 1127,
+      "citation": "S. Nadal-Gisbert, J. Navarro-Salas, S. Pla, \"Low Energy States and CPT invariance at the Big Bang,\" Phys. Rev. D 107 (2023) 085018, arXiv:2302.08812.",
+      "title": "Low Energy States and CPT invariance at the Big Bang",
+      "arxiv": "2302.08812",
+      "bibliographic_form": "arxiv_listed",
+      "status": "no_matching_historical_record",
+      "historical_matches": [],
+      "current_primary_metadata_check": null,
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "No match by the current arXiv identifier or normalized title in the five supplied historical logs. This is a documentation gap, not a determination that the source is invalid."
+      ]
+    },
+    {
+      "reference_number": 81,
+      "source_line": 1129,
+      "citation": "A. Atre, T. Han, S. Pascoli, B. Zhang, \"The Search for Heavy Majorana Neutrinos,\" JHEP 05 (2009) 030, arXiv:0901.3589.",
+      "title": "The Search for Heavy Majorana Neutrinos",
+      "arxiv": "0901.3589",
+      "bibliographic_form": "arxiv_listed",
+      "status": "current_primary_metadata_check",
+      "historical_matches": [],
+      "current_primary_metadata_check": {
+        "arxiv": "0901.3589",
+        "url": "https://arxiv.org/abs/0901.3589",
+        "title": "The Search for Heavy Majorana Neutrinos",
+        "authors": [
+          "A. Atre",
+          "T. Han",
+          "S. Pascoli",
+          "B. Zhang"
+        ],
+        "journal": "JHEP 05 (2009) 030",
+        "checked_date": "2026-09-18",
+        "provenance": "Primary arXiv abstract-page metadata check supplied by parent in current task instruction"
+      },
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Not present in the supplied historical logs. Primary arXiv abstract-page metadata was checked in the current parent session, as explicitly supplied for this indexing task; this records that metadata receipt, not a new source-read or claim-validation audit."
+      ]
+    },
+    {
+      "reference_number": 82,
+      "source_line": 1131,
+      "citation": "P. Ciafaloni et al., \"Weak Corrections are Relevant for Dark Matter Indirect Detection,\" JCAP 03 (2011) 019, arXiv:1009.0224.",
+      "title": "Weak Corrections are Relevant for Dark Matter Indirect Detection",
+      "arxiv": "1009.0224",
+      "bibliographic_form": "arxiv_listed",
+      "status": "current_primary_metadata_check",
+      "historical_matches": [],
+      "current_primary_metadata_check": {
+        "arxiv": "1009.0224",
+        "url": "https://arxiv.org/abs/1009.0224",
+        "title": "Weak Corrections are Relevant for Dark Matter Indirect Detection",
+        "authors": "P. Ciafaloni et al.",
+        "journal": "JCAP 03 (2011) 019",
+        "checked_date": "2026-09-18",
+        "provenance": "Primary arXiv abstract-page metadata check supplied by parent in current task instruction"
+      },
+      "source_read_status": "not_established_by_metadata_logs_or_this_index",
+      "claim_validation_status": "not_assessed_by_this_index",
+      "notes": [
+        "Not present in the supplied historical logs. Primary arXiv abstract-page metadata was checked in the current parent session, as explicitly supplied for this indexing task; this records that metadata receipt, not a new source-read or claim-validation audit."
+      ]
+    }
+  ],
+  "current_primary_check_reference_numbers": [
+    2,
+    12,
+    81,
+    82
+  ],
+  "current_primary_lookup_count": 5
+}

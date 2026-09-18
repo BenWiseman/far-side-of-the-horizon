@@ -1,0 +1,50 @@
+@media print {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+
+  /* Treat each publication figure and its caption as one object. */
+  div.float {
+    break-inside: avoid-page;
+    page-break-inside: avoid;
+  }
+
+  /* Figure 5 has a deliberately long evidentiary caption. Match the 86.5%
+     LaTeX scale, centre it, and use conventional caption typography so the
+     complete figure remains readable on one letter-size page. */
+  #fig5 > p {
+    margin: 0.15rem 0 0.35rem;
+    text-align: center;
+  }
+
+  #fig5 > p > img {
+    width: 86.5%;
+    height: auto;
+  }
+
+  #fig5 .figcaption {
+    font-size: 9pt;
+    line-height: 1.24;
+  }
+}
+
+/* Pandoc's HTML figure wrapper does not automatically print numeric labels.
+   Keep the browser reading copy aligned with the numbered submission PDF. */
+#fig1 .figcaption > p::before { content: "Figure 1: "; font-weight: 700; }
+#fig2 .figcaption > p::before { content: "Figure 2: "; font-weight: 700; }
+#fig3 .figcaption > p::before { content: "Figure 3: "; font-weight: 700; }
+#fig4 .figcaption > p::before { content: "Figure 4: "; font-weight: 700; }
+#fig5 .figcaption > p::before { content: "Figure 5: "; font-weight: 700; }
+
+/* Bare-URL links already show their address; do not print it twice. */
+@media print {
+  a.uri:after { content: "" !important; }
+}
