@@ -261,17 +261,17 @@ Running bmv_phase.R ...
 --------------------------------------------------------------------------------
 phase closest pair (200 um) = 0.791 rad ; farthest (700 um) = 0.226 rad ; mixed (450 um) = 0.352 rad
 entangling combination Delta_phi = 0.314 rad over tau = 2.5 s
-compare: the fold's which-path decoherence exponent for the same protocol is 8e-59 (graviton_whichpath.R)
+compare: the standard graviton-emission which-path decoherence exponent for the same protocol is 8e-59 (graviton_whichpath.R)
 
 checks:
-  Delta_phi, Bose design (paper sec 5: '0.3 rad')            expected=    0.31         reproduced=0.3139345        err=1.269%       tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 1.269% relative]]
+  Delta_phi, Bose design (archived fixed-input benchmark: 0.31 rad) expected=    0.31         reproduced=0.3139345        err=1.269%       tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: FAIL, 1.269% relative]]
       note: G m^2 tau/hbar [1/(d-Dx) + 1/(d+Dx) - 2/d]
-RESULT|Delta_phi, Bose design (paper sec 5: '0.3 rad')|    0.31|0.3139345|1.269%|rel<=2%|PASS|FAIL
-  closest-pair phase (paper: '0.8 rad')                      expected=    0.79         reproduced=0.7911149        err=0.1411%      tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1411% relative]]
-RESULT|closest-pair phase (paper: '0.8 rad')|    0.79|0.7911149|0.1411%|rel<=2%|PASS|PASS
-  classical-channel ceiling exp(-Delta_phi), two-branch KTM model (paper sec 5: '0.73') expected=    0.73         reproduced=0.7305669        err=0.07766%     tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.07766% relative]]
+RESULT|Delta_phi, Bose design (archived fixed-input benchmark: 0.31 rad)|    0.31|0.3139345|1.269%|rel<=2%|PASS|FAIL
+  closest-pair phase (archived fixed-input benchmark: 0.79 rad) expected=    0.79         reproduced=0.7911149        err=0.1411%      tol=rel<=2%      [PASS]  [[vs. plain 0.5% default: PASS, 0.1411% relative]]
+RESULT|closest-pair phase (archived fixed-input benchmark: 0.79 rad)|    0.79|0.7911149|0.1411%|rel<=2%|PASS|PASS
+  classical-channel ceiling exp(-Delta_phi), two-branch KTM model (archived fixed-input benchmark: 0.73) expected=    0.73         reproduced=0.7305669        err=0.07766%     tol=rel<=1%      [PASS]  [[vs. plain 0.5% default: PASS, 0.07766% relative]]
       note: exp(-0.3139) = 0.7306; KTM minimum-noise point
-RESULT|classical-channel ceiling exp(-Delta_phi), two-branch KTM model (paper sec 5: '0.73')|    0.73|0.7305669|0.07766%|rel<=1%|PASS|PASS
+RESULT|classical-channel ceiling exp(-Delta_phi), two-branch KTM model (archived fixed-input benchmark: 0.73)|    0.73|0.7305669|0.07766%|rel<=1%|PASS|PASS
 
 --------------------------------------------------------------------------------
 Running tilt_tensions.R ...
@@ -550,9 +550,9 @@ script's header comment and README.md for why each tolerance was chosen)
   [PASS] break-even n, framework vs LCDM, published (paper: '1300') expected=    1340       reproduced=1339.431      
   [PASS] break-even n, w0wa vs LCDM, DESI+CMB+Pantheon+ (paper: '210') expected=     211       reproduced=210.6083      
   [PASS] break-even n, w0wa vs LCDM, DESI+CMB+DESY5 (paper: '36000') expected=   36316       reproduced= 36315.5      
-  [PASS] Delta_phi, Bose design (paper sec 5: '0.3 rad')            expected=    0.31       reproduced=0.3139345     
-  [PASS] closest-pair phase (paper: '0.8 rad')                      expected=    0.79       reproduced=0.7911149     
-  [PASS] classical-channel ceiling exp(-Delta_phi), two-branch KTM model (paper sec 5: '0.73') expected=    0.73       reproduced=0.7305669     
+  [PASS] Delta_phi, Bose design (archived fixed-input benchmark: 0.31 rad) expected=    0.31       reproduced=0.3139345     
+  [PASS] closest-pair phase (archived fixed-input benchmark: 0.79 rad) expected=    0.79       reproduced=0.7911149     
+  [PASS] classical-channel ceiling exp(-Delta_phi), two-branch KTM model (archived fixed-input benchmark: 0.73) expected=    0.73       reproduced=0.7305669     
   [PASS] n_s prediction                                             expected=0.957888       reproduced=0.9578876     
   [PASS] tilt tension, Planck 2018 TT,TE,EE+lowE+lensing [sigma]    expected=    1.67       reproduced=1.669619      
   [PASS] tilt tension, ACT DR6 alone [sigma]                        expected=    1.13       reproduced= 1.13148      
@@ -631,7 +631,7 @@ figures or explicitly labels the number ORDER OF MAGNITUDE (see README.md):
   - Delta AIC framework vs LCDM (paper: 'a tie, +1') (1.2% vs its chosen tol rel<=2%)
   - Delta BIC framework vs LCDM (paper: '-4.4') (0.8493% vs its chosen tol rel<=2%)
   - Delta BIC w0waCDM vs LCDM (paper: '+5.6') (0.5225% vs its chosen tol rel<=2%)
-  - Delta_phi, Bose design (paper sec 5: '0.3 rad') (1.269% vs its chosen tol rel<=2%)
+  - Delta_phi, Bose design (archived fixed-input benchmark: 0.31 rad) (1.269% vs its chosen tol rel<=2%)
   - tilt tension, SPT-3G D1 alone [sigma] (0.6118% vs its chosen tol rel<=2%)
   - Im[exp(+i pi*48/8)] (7.35e-16 (Inf% rel) vs its chosen tol abs<=1e-10)
 

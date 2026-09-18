@@ -5,11 +5,11 @@ authors:
   - family-names: Wiseman
     given-names: B. H.
 type: software
-version: 3.0.6
+version: 3.0.7
 date-released: '2026-09-18'
 license: MIT
 repository-code: 'https://github.com/BenWiseman/far-side-of-the-horizon'
-url: 'https://github.com/BenWiseman/far-side-of-the-horizon/releases/tag/v3.0.6'
+url: 'https://github.com/BenWiseman/far-side-of-the-horizon/releases/tag/v3.0.7'
 preferred-citation:
   type: unpublished
   title: 'The Far Side of the Horizon: a geometric fold for CPT-related copies of spacetime'

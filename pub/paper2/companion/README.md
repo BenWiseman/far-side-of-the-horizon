@@ -123,9 +123,9 @@ to print PASS.
 | 12 | BIC break-even n, framework vs ΛCDM, DESI+CMB (Δχ² = 7.2, Elbers Tab. 4) | `aic_table.R` | THEORY_COMPARE note, verbatim | 1340 | 1339 | 1% rel | PASS | Yes |
 | 12 | BIC break-even n, w₀wₐ vs ΛCDM, DESI+CMB+Pantheon+ (−10.7) | `aic_table.R` | DESI DR2 Tab. 6, verbatim | 211 | 210.6 | 1% rel | PASS | Yes |
 | 12 | BIC break-even n, w₀wₐ vs ΛCDM, DESI+CMB+DESY5 (−21.0) | `aic_table.R` | ibid. | 36316 | 36316 | 1% rel | PASS | Yes |
-| 13 | Δφ entangling phase, Bose design, τ = 2.5 s | `bmv_phase.R` | Paper 2 §5; design values from IMPOSED_FOLD.md (arXiv:1707.06050) | 0.31 rad | 0.314 rad | 2% rel | PASS | **No** (1.3%) |
+| 13 | Δφ entangling phase, Bose design, τ = 2.5 s | `bmv_phase.R` | archived fixed-input benchmark; design values from IMPOSED_FOLD.md (arXiv:1707.06050) | 0.31 rad | 0.314 rad | 2% rel | PASS | **No** (1.3%) |
 | 13 | closest-pair phase | `bmv_phase.R` | ibid. | 0.79 rad | 0.791 rad | 2% rel | PASS | Yes |
-| 13 | classical-channel ceiling e^(−Δφ), two-branch KTM model | `bmv_phase.R` | Paper 2 §5 laboratory paragraph (KTM minimum-noise point; spatial channels decohere more) | 0.73 | 0.7306 | 1% rel | PASS | Yes |
+| 13 | classical-channel ceiling e^(−Δφ), two-branch KTM model | `bmv_phase.R` | archived fixed-input benchmark (KTM minimum-noise point; spatial channels decohere more) | 0.73 | 0.7306 | 1% rel | PASS | Yes |
 | 14 | n_s = 1 − 7α₃/π and eight tilt tensions | `tilt_tensions.R` | Paper 2 §5.2 table (inputs quoted there) | 0.957888; 1.67, 1.13, −0.63, 3.42, 3.03, 4.83, 5.77, 5.25 σ | same to 2 decimals | 2% rel | PASS ×9 | 8/9 yes; SPT-3G D1 alone misses by 0.6118% |
 | 15 | A_I, A_0 (both ±H³/12π², two contours), even port 1 + even/odd = 1, odd port H³/6π², S_I at two ω, S_even → Hω²/24, S_odd(0), ρ(ω) at ω = 1, 2, 3, flat ρ = ω³/12π | `two_port_noise.R` | Paper 2 §2.10 second paragraph; `calc/tangents/h15_two_port/output.txt`; an independent check | closed forms | quadrature and contour values | 0.5% rel (even port 1e-9) | PASS ×13 | Yes (all) |
 | 5 | CP-wall Λ* threshold | `cp_wall.R` | `beyond/gut/calc_cpwall/cp_wall_efolds.py` | 29.5 MeV | 29.465 MeV | 0.5% rel | PASS | Yes |
@@ -182,7 +182,7 @@ output):
 | `aic_table.R`: ΔAIC framework vs ΛCDM | 1.200% | rounded AIC comparison; script uses 2% relative tolerance |
 | `aic_table.R`: ΔBIC framework vs ΛCDM | 0.8493% | rounded BIC comparison; script uses 2% relative tolerance |
 | `aic_table.R`: ΔBIC w₀wₐCDM vs ΛCDM | 0.5225% | rounded BIC comparison; script uses 2% relative tolerance |
-| `bmv_phase.R`: Δφ, Bose design | 1.269% | paper quotes ≈0.3 rad; script compares 0.31 and uses 2% relative tolerance |
+| `bmv_phase.R`: Δφ, Bose design | 1.269% | archived benchmark ≈0.3 rad; script compares 0.31 and uses 2% relative tolerance |
 | `tilt_tensions.R`: SPT-3G D1-alone tilt tension | 0.6118% | table rounds the tension to −0.63σ; script uses 2% relative tolerance |
 | `eta_rp4.R`: Im[exp(+iπ·48/8)] | undefined (expected=0) | see note ** above; passes to machine epsilon on an absolute test |
 
@@ -199,8 +199,8 @@ The runner, not this hand-maintained table, is authoritative after any script ed
 - **Item 2 (clock weights) — the PTA number is 21% off, not a rounding artefact of my
   arithmetic.** `w ∝ f⁻⁶`, and the source's "3 nHz" is explicitly a nominal/representative
   PTA frequency, not a precision-quoted one (the source itself only gives `w` to 1
-  significant figure, "2×10⁻⁶⁰"). A frequency of 2.98 nHz instead of 3.00 nHz reproduces
-  `2×10⁻⁶⁰` almost exactly; the formula is not in question, only the precision of the
+  significant figure, "2×10⁻⁶⁰"). A frequency of about 3.10 nHz instead of 3.00 nHz reproduces
+  `2×10⁻⁶⁰` (a 3% shift in f moves w by about 21%); the formula is not in question, only the precision of the
   input frequency label is. This is reported as a `PASS` under a same-order-of-magnitude
   (factor ≤1.5) test and the 21% figure is printed, not hidden.
 - **Item 4 (dm_bounds) — the source's own formula for `b_90` is dimensionally

@@ -1145,7 +1145,7 @@ tools, large language models among them.
 ## Code and data availability
 
 The V3 release accompanying this paper is public at
-<https://github.com/BenWiseman/far-side-of-the-horizon> (tag `v3.0.6`). It contains the
+<https://github.com/BenWiseman/far-side-of-the-horizon> (tag `v3.0.7`). It contains the
 manuscript and supplement sources, figure assets and drawing code, fifteen base-R arithmetic
 scripts, reference-lookup records, and the selected Python working calculations listed in its
 README, with a SHA-256 manifest. It is not the complete private development history. The
